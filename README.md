@@ -14,7 +14,7 @@ Run `pnpm cz` to help prepare a commit message.
 Use the following command to tag a new version.
 
 ```
-nx run workspace:version --post-targets zustand-rx:deploy --release-as=prelease --preid=beta --dry-run
+nx run workspace:version --post-targets zustand-rx:build,zustand-rx:deploy --release-as=prelease --preid=beta --dry-run
 ```
 
 - https://github.com/jscutlery/semver
