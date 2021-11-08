@@ -2,11 +2,18 @@
 
 This is a tool to subscribe to a Zustand store as an RxJS observable.
 
+# Compatible versions
+
+It has been tested with RxJS v7.x and Zustand v3.x, though other versions may work too.
+
 ## Install
 
-```
-npm install zustand zustand-rx
-yarn add zustand zustand-rx
+```sh
+npm install zustand-rx zustand rxjs
+
+# or
+
+yarn add zustand-rx zustand rxjs
 ```
 
 ## Usage
@@ -31,10 +38,10 @@ const bears$ = toStream(store, (state) => state.bears, {
 });
 ```
 
-Using `fireImmediately` is similar to a BehaviorSubject.
+Using `fireImmediately` is similar to a `BehaviorSubject`.
 
 For UI integrations, for example, using Angular with AsyncPipe, you probably
 want to set `fireImmediately` to true.
 
-You can also provide an `equalityFn`, this works the same as Zustand's equality
+You can also provide an `equalityFn`. This works the same as Zustand's equality
 function.
