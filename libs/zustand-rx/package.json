@@ -1,0 +1,13 @@
+{
+  "name": "zustand-rx",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    "import": "./zustand-rx.esm.js",
+    "require": "./zustand-rx.cjs.js"
+  },
+  "peerDependencies": {
+    "rxjs": "*",
+    "zustand": "*"
+  }
+}

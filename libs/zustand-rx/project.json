@@ -1,0 +1,53 @@
+{
+  "root": "libs/zustand-rx",
+  "sourceRoot": "libs/zustand-rx/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "commands": [
+          "nx build-base zustand-rx",
+          "pnpm dot-json dist/libs/zustand-rx/package.json main \"./zustand-rx.cjs.js\""
+        ],
+        "parallel": false
+      }
+    },
+    "build-base": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/zustand-rx",
+        "tsConfig": "libs/zustand-rx/tsconfig.lib.json",
+        "project": "libs/zustand-rx/package.json",
+        "entryFile": "libs/zustand-rx/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "format": ["esm", "cjs"],
+        "assets": [
+          {
+            "glob": "libs/zustand-rx/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/zustand-rx/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/zustand-rx"],
+      "options": {
+        "jestConfig": "libs/zustand-rx/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
