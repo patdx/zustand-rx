@@ -1,0 +1,20 @@
+{
+  "name": "zustand-rx",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "import": "./zustand-rx.esm.js",
+    "require": "./zustand-rx.cjs.js"
+  },
+  "homepage": "https://github.com/patdx/zustand-rx/tree/main/libs/zustand-rx#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patdx/zustand-rx.git",
+    "directory": "libs/zustand-rx"
+  },
+  "peerDependencies": {
+    "rxjs": "*",
+    "zustand": "*"
+  }
+}

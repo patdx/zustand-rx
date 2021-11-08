@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "projects": {
+    "workspace": {
+      "root": ".",
+      "targets": {
+        "version": {
+          "executor": "@jscutlery/semver:version",
+          "options": {
+            "syncVersions": true
+          }
+        }
+      }
+    },
+    "zustand-rx": "libs/zustand-rx",
+    "zustand-rx-react": "apps/zustand-rx-react",
+    "zustand-rx-react-e2e": "apps/zustand-rx-react-e2e"
+  }
+}
