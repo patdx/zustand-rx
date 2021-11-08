@@ -2,19 +2,19 @@
   "name": "zustand-rx",
   "version": "1.0.0",
   "license": "MIT",
-  "type": "module",
-  "exports": {
-    "import": "./zustand-rx.mjs",
-    "require": "./zustand-rx.cjs"
-  },
   "homepage": "https://github.com/patdx/zustand-rx/tree/main/libs/zustand-rx#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/patdx/zustand-rx.git",
     "directory": "libs/zustand-rx"
   },
+  "type": "module",
   "peerDependencies": {
     "rxjs": "*",
     "zustand": "*"
+  },
+  "exports": {
+    "import": "./zustand-rx.mjs",
+    "require": "./zustand-rx.cjs"
   }
 }
