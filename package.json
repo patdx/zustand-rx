@@ -57,7 +57,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "dot-json": "^1.2.2",
     "eslint": "7.32.0",
-    "eslint-config-prettier": "8.1.0",
+    "eslint-config-prettier": "8.3.0",
     "eslint-plugin-cypress": "^2.10.3",
     "eslint-plugin-import": "2.25.2",
     "eslint-plugin-jsx-a11y": "6.4.1",
