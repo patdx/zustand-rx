@@ -33,4 +33,4 @@ const bears$ = toStream(store, (state) => state.bears, {
 
 Using `fireImmediately` is similar to a BehaviorSubject. For UI integrations. fpr example, using Angular with AsyncPipe, you probably want to set `fireImmediately` to true.
 
-You can also see
+You can also provide an `equalityFn`, this works the same as Zustand's equality function.
