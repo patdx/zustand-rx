@@ -10,7 +10,7 @@ This is the workspace readme. For more info about `zustand-rx` please go to the
 Use the following command to tag a new version.
 
 ```
-nx run workspace:version --postTargets build
+nx run workspace:version --post-targets zustand-rx:build --release-as=prelease --preid=beta --dry-run
 ```
 
 - https://github.com/jscutlery/semver
