@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "zustand-rx-react": "apps/zustand-rx-react",
+    "zustand-rx-react-e2e": "apps/zustand-rx-react-e2e"
+  }
+}
