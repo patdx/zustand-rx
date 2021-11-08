@@ -43,7 +43,7 @@ specifiers:
   prettier-package-json: ^2.6.0
   react: 17.0.2
   react-dom: 17.0.2
-  regenerator-runtime: 0.13.7
+  regenerator-runtime: 0.13.9
   rxjs: ^7.4.0
   shx: ^0.3.3
   ts-jest: 27.0.5
@@ -56,7 +56,7 @@ dependencies:
   observable-hooks: 4.1.0_aa2d6774eba8d3168b1dcae97738656d
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
-  regenerator-runtime: 0.13.7
+  regenerator-runtime: 0.13.9
   rxjs: 7.4.0
   tslib: 2.3.1
   zustand: 3.6.4_react@17.0.2
@@ -10069,13 +10069,8 @@ packages:
     resolution: {integrity: sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==}
     dev: true
 
-  /regenerator-runtime/0.13.7:
-    resolution: {integrity: sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==}
-    dev: false
-
   /regenerator-runtime/0.13.9:
     resolution: {integrity: sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==}
-    dev: true
 
   /regenerator-transform/0.14.5:
     resolution: {integrity: sha512-eOf6vka5IO151Jfsw2NO9WpGX58W6wWmefK3I1zEGr0lOD0u8rwPaNqQL1aRxUaxLeKO3ArNh3VYg1KbaD+FFw==}
