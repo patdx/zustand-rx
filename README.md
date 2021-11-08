@@ -20,3 +20,7 @@ nx run workspace:version --post-targets zustand-rx:deploy --release-as=major --d
 
 - https://github.com/jscutlery/semver
 - https://github.com/bikecoders/ngx-deploy-npm
+
+# Other links
+
+- https://github.com/pmndrs/zustand/discussions/285#discussioncomment-1608258
