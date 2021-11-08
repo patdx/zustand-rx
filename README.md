@@ -5,6 +5,10 @@ This is a tool to subscribe to a Zustand store as an RxJS observable.
 This is the workspace readme. For more info about `zustand-rx` please go to the
 [package readme](./libs/zustand-rx/README.md).
 
+# Commits
+
+Run `pnpm cz` to help prepare a commit message.
+
 # Releases
 
 Use the following command to tag a new version.

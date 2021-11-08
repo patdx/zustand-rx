@@ -42,6 +42,7 @@ specifiers:
   react-dom: 17.0.2
   regenerator-runtime: 0.13.7
   rxjs: ^7.4.0
+  shx: ^0.3.3
   ts-jest: 27.0.5
   tslib: ^2.0.0
   typescript: ~4.3.5
@@ -93,6 +94,7 @@ devDependencies:
   jest: 27.2.3
   ngx-deploy-npm: 3.0.5
   prettier: 2.4.1
+  shx: 0.3.3
   ts-jest: 27.0.5_17065f51d4e29ee36c3fe49652512c4b
   typescript: 4.3.5
 
@@ -6672,6 +6674,11 @@ packages:
       side-channel: 1.0.4
     dev: true
 
+  /interpret/1.4.0:
+    resolution: {integrity: sha512-agE4QfB2Lkp9uICn7BAqoscw4SZP9kTE2hxiFI3jBPmXJfdqiahTbUuKGsMoN2GtqL9AxhYioAcVvgsb1HvRbA==}
+    engines: {node: '>= 0.10'}
+    dev: true
+
   /ip-regex/4.3.0:
     resolution: {integrity: sha512-B9ZWJxHHOHUhUjCPrMpLD4xEq35bUTClHM1S6CBU5ixQnkZmwipwgc96vAd7AAGM9TGHvJR+Uss+/Ak6UphK+Q==}
     engines: {node: '>=8'}
@@ -9860,6 +9867,13 @@ packages:
       picomatch: 2.3.0
     dev: true
 
+  /rechoir/0.6.2:
+    resolution: {integrity: sha1-hSBLVNuoLVdC4oyWdW70OvUOM4Q=}
+    engines: {node: '>= 0.10'}
+    dependencies:
+      resolve: 1.20.0
+    dev: true
+
   /redent/3.0.0:
     resolution: {integrity: sha512-6tDA8g98We0zd0GvVeMT9arEOnTw9qM03L9cJXaCjrip1OO764RDBLBfrB4cwzNGDj5OA5ioymC9GkizgWJDUg==}
     engines: {node: '>=8'}
@@ -10363,6 +10377,25 @@ packages:
 
   /shell-quote/1.7.3:
     resolution: {integrity: sha512-Vpfqwm4EnqGdlsBFNmHhxhElJYrdfcxPThu+ryKS5J8L/fhAwLazFZtq+S+TWZ9ANj2piSQLGj6NQg+lKPmxrw==}
+    dev: true
+
+  /shelljs/0.8.4:
+    resolution: {integrity: sha512-7gk3UZ9kOfPLIAbslLzyWeGiEqx9e3rxwZM0KE6EL8GlGwjym9Mrlx5/p33bWTu9YG6vcS4MBxYZDHYr5lr8BQ==}
+    engines: {node: '>=4'}
+    hasBin: true
+    dependencies:
+      glob: 7.2.0
+      interpret: 1.4.0
+      rechoir: 0.6.2
+    dev: true
+
+  /shx/0.3.3:
+    resolution: {integrity: sha512-nZJ3HFWVoTSyyB+evEKjJ1STiixGztlqwKLTUNV5KqMWtGey9fTd4KU1gdZ1X9BV6215pswQ/Jew9NsuS/fNDA==}
+    engines: {node: '>=6'}
+    hasBin: true
+    dependencies:
+      minimist: 1.2.5
+      shelljs: 0.8.4
     dev: true
 
   /side-channel/1.0.4:
