@@ -20,15 +20,22 @@
     },
     "build-base": {
       "executor": "@nrwl/web:package",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/libs/zustand-rx",
         "tsConfig": "libs/zustand-rx/tsconfig.lib.json",
         "project": "libs/zustand-rx/package.json",
         "entryFile": "libs/zustand-rx/src/index.ts",
-        "external": ["react/jsx-runtime"],
+        "external": [
+          "react/jsx-runtime"
+        ],
         "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
-        "format": ["esm", "cjs"],
+        "format": [
+          "esm",
+          "cjs"
+        ],
         "assets": [
           {
             "glob": "libs/zustand-rx/README.md",
@@ -45,14 +52,20 @@
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["libs/zustand-rx/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": [
+          "libs/zustand-rx/**/*.{ts,tsx,js,jsx}"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/zustand-rx"],
+      "outputs": [
+        "coverage/libs/zustand-rx"
+      ],
       "options": {
         "jestConfig": "libs/zustand-rx/jest.config.js",
         "passWithNoTests": true

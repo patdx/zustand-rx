@@ -1,4 +1,12 @@
 {
   "singleQuote": true,
-  "proseWrap": "always"
+  "proseWrap": "always",
+  "overrides": [
+    {
+      "files": ["project.json"],
+      "options": {
+        "parser": "json-stringify"
+      }
+    }
+  ]
 }

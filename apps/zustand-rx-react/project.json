@@ -5,7 +5,9 @@
   "targets": {
     "build": {
       "executor": "@nrwl/web:build",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "defaultConfiguration": "production",
       "options": {
         "outputPath": "dist/apps/zustand-rx-react",
@@ -18,7 +20,9 @@
           "apps/zustand-rx-react/src/favicon.ico",
           "apps/zustand-rx-react/src/assets"
         ],
-        "styles": ["apps/zustand-rx-react/src/styles.css"],
+        "styles": [
+          "apps/zustand-rx-react/src/styles.css"
+        ],
         "scripts": [],
         "webpackConfig": "@nrwl/react/plugins/webpack"
       },
@@ -54,14 +58,20 @@
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["apps/zustand-rx-react/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": [
+          "apps/zustand-rx-react/**/*.{ts,tsx,js,jsx}"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/zustand-rx-react"],
+      "outputs": [
+        "coverage/apps/zustand-rx-react"
+      ],
       "options": {
         "jestConfig": "apps/zustand-rx-react/jest.config.js",
         "passWithNoTests": true

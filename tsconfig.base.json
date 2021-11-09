@@ -16,7 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "zustand-rx": ["libs/zustand-rx/src/index.ts"]
-    }
+    },
+    "strict": true,
+    "importsNotUsedAsValues": "error"
   },
   "exclude": ["node_modules", "tmp"]
 }
