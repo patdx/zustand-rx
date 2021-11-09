@@ -1,6 +1,6 @@
 module.exports = {
   title: 'zustand-rx',
-  tagline: 'The tagline of my site',
+  // tagline: 'The tagline of my site',
   url: 'https://zustand-rx.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -41,7 +41,7 @@ module.exports = {
         // },
         // { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/patdx/zustand-rx',
           label: 'GitHub',
           position: 'right',
         },
@@ -106,7 +106,7 @@ module.exports = {
           // sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/patdx/zustand-rx/tree/main/apps/docs-app',
         },
         // blog: {
         //   showReadingTime: true,
