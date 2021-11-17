@@ -39,7 +39,7 @@
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-angular": "^15.0.0",
-    "@commitlint/config-conventional": "^14.1.0",
+    "@commitlint/config-conventional": "^15.0.0",
     "@jscutlery/semver": "^2.13.0",
     "@nrwl/cli": "13.1.4",
     "@nrwl/eslint-plugin-nx": "13.1.4",
