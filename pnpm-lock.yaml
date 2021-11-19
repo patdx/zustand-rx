@@ -37,7 +37,7 @@ specifiers:
   eslint-plugin-cypress: ^2.10.3
   eslint-plugin-import: 2.25.3
   eslint-plugin-jsx-a11y: 6.5.1
-  eslint-plugin-react: 7.27.0
+  eslint-plugin-react: 7.27.1
   eslint-plugin-react-hooks: 4.3.0
   husky: ^7.0.4
   jest: 27.3.1
@@ -108,7 +108,7 @@ devDependencies:
   eslint-plugin-cypress: 2.12.1_eslint@7.32.0
   eslint-plugin-import: 2.25.3_eslint@7.32.0
   eslint-plugin-jsx-a11y: 6.5.1_eslint@7.32.0
-  eslint-plugin-react: 7.27.0_eslint@7.32.0
+  eslint-plugin-react: 7.27.1_eslint@7.32.0
   eslint-plugin-react-hooks: 4.3.0_eslint@7.32.0
   husky: 7.0.4
   jest: 27.3.1
@@ -3098,7 +3098,7 @@ packages:
       chalk: 4.1.0
       eslint-plugin-import: 2.25.3_eslint@7.32.0
       eslint-plugin-jsx-a11y: 6.5.1_eslint@7.32.0
-      eslint-plugin-react: 7.27.0_eslint@7.32.0
+      eslint-plugin-react: 7.27.1_eslint@7.32.0
       eslint-plugin-react-hooks: 4.3.0_eslint@7.32.0
       react-refresh: 0.10.0
       semver: 7.3.4
@@ -6929,8 +6929,8 @@ packages:
       eslint: 7.32.0
     dev: true
 
-  /eslint-plugin-react/7.27.0_eslint@7.32.0:
-    resolution: {integrity: sha512-0Ut+CkzpppgFtoIhdzi2LpdpxxBvgFf99eFqWxJnUrO7mMe0eOiNpou6rvNYeVVV6lWZvTah0BFne7k5xHjARg==}
+  /eslint-plugin-react/7.27.1_eslint@7.32.0:
+    resolution: {integrity: sha512-meyunDjMMYeWr/4EBLTV1op3iSG3mjT/pz5gti38UzfM4OPpNc2m0t2xvKCOMU5D6FSdd34BIMFOvQbW+i8GAA==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
