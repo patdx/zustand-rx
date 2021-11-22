@@ -11,7 +11,7 @@ specifiers:
   '@nrwl/cli': 13.2.2
   '@nrwl/eslint-plugin-nx': 13.2.2
   '@nrwl/jest': 13.2.1
-  '@nrwl/linter': 13.2.1
+  '@nrwl/linter': 13.2.2
   '@nrwl/react': 13.2.1
   '@nrwl/tao': 13.2.1
   '@nrwl/web': 13.2.1
@@ -84,7 +84,7 @@ devDependencies:
   '@nrwl/cli': 13.2.2
   '@nrwl/eslint-plugin-nx': 13.2.2_3493764fbffdd4e3f545e7a013a1bc52
   '@nrwl/jest': 13.2.1
-  '@nrwl/linter': 13.2.1
+  '@nrwl/linter': 13.2.2
   '@nrwl/react': 13.2.1_06efd07f324a49e051600f8db609bbf4
   '@nrwl/tao': 13.2.1
   '@nrwl/web': 13.2.1_prettier@2.4.1+typescript@4.5.2
@@ -3065,6 +3065,29 @@ packages:
       - utf-8-validate
     dev: true
 
+  /@nrwl/jest/13.2.2:
+    resolution: {integrity: sha512-2fPwx0pSm557TrOPdaT4jcJH6JZor7+gCx3mW6BAVmAr5IZmKEbnLI9M3eWV0KhcIOt4teZXqJQ4YrrQ8Eb/Tw==}
+    dependencies:
+      '@jest/reporters': 27.2.2
+      '@jest/test-result': 27.2.2
+      '@nrwl/devkit': 13.2.2
+      chalk: 4.1.0
+      identity-obj-proxy: 3.0.0
+      jest-config: 27.2.2
+      jest-resolve: 27.2.2
+      jest-util: 27.2.0
+      resolve.exports: 1.1.0
+      rxjs: 6.6.7
+      tslib: 2.3.1
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - node-notifier
+      - supports-color
+      - ts-node
+      - utf-8-validate
+    dev: true
+
   /@nrwl/jest/13.2.2_ts-node@9.1.1:
     resolution: {integrity: sha512-2fPwx0pSm557TrOPdaT4jcJH6JZor7+gCx3mW6BAVmAr5IZmKEbnLI9M3eWV0KhcIOt4teZXqJQ4YrrQ8Eb/Tw==}
     dependencies:
@@ -3112,6 +3135,25 @@ packages:
     dependencies:
       '@nrwl/devkit': 13.2.1
       '@nrwl/jest': 13.2.1_ts-node@9.1.1
+      eslint: 7.32.0
+      glob: 7.1.4
+      minimatch: 3.0.4
+      tmp: 0.2.1
+      tslib: 2.3.1
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - node-notifier
+      - supports-color
+      - ts-node
+      - utf-8-validate
+    dev: true
+
+  /@nrwl/linter/13.2.2:
+    resolution: {integrity: sha512-WLEvlEDUZIVZuGfjgNahIBRO9P5rWoj6qcDk6mutpz3Fx/EYFSdH8thsJz6K+MMWk1gBZprwbXt8PiBdDrwIdQ==}
+    dependencies:
+      '@nrwl/devkit': 13.2.2
+      '@nrwl/jest': 13.2.2
       eslint: 7.32.0
       glob: 7.1.4
       minimatch: 3.0.4
