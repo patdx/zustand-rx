@@ -12,7 +12,7 @@ specifiers:
   '@nrwl/eslint-plugin-nx': 13.2.4
   '@nrwl/jest': 13.2.4
   '@nrwl/linter': 13.2.4
-  '@nrwl/react': 13.2.3
+  '@nrwl/react': 13.2.4
   '@nrwl/tao': 13.2.3
   '@nrwl/web': 13.2.3
   '@nrwl/workspace': 13.2.3
@@ -85,7 +85,7 @@ devDependencies:
   '@nrwl/eslint-plugin-nx': 13.2.4_e3592870b667eb678369f58a8e648171
   '@nrwl/jest': 13.2.4
   '@nrwl/linter': 13.2.4
-  '@nrwl/react': 13.2.3_06efd07f324a49e051600f8db609bbf4
+  '@nrwl/react': 13.2.4_06efd07f324a49e051600f8db609bbf4
   '@nrwl/tao': 13.2.3
   '@nrwl/web': 13.2.3_prettier@2.4.1+typescript@4.5.2
   '@nrwl/workspace': 13.2.3_prettier@2.4.1
@@ -2887,7 +2887,7 @@ packages:
       yargs-parser: 20.0.0
     dev: true
 
-  /@nrwl/cypress/13.2.3_bd395d89920c16f184e138983bc64341:
+  /@nrwl/cypress/13.2.3_dc7c52de44039c52ad20eb5b26a41301:
     resolution: {integrity: sha512-gp6yluBx37CV/ROHDusri2ew6dR+jFMRGZXmL4Jp+TaFc6ewAI+aQDHUI6py6tvNNtZ+8P/x1hPiaPikn8w5vQ==}
     peerDependencies:
       cypress: '>= 3 < 9'
@@ -2895,10 +2895,10 @@ packages:
       cypress:
         optional: true
     dependencies:
-      '@cypress/webpack-preprocessor': 5.9.1_974d2407c364fd2eacd9d3516f492113
+      '@cypress/webpack-preprocessor': 5.9.1_86c34e9eb95a569e9e6d5e398b5790a3
       '@nrwl/devkit': 13.2.3
-      '@nrwl/linter': 13.2.3
-      '@nrwl/workspace': 13.2.3_prettier@2.4.1
+      '@nrwl/linter': 13.2.3_ts-node@9.1.1
+      '@nrwl/workspace': 13.2.3_prettier@2.4.1+ts-node@9.1.1
       chalk: 4.1.0
       enhanced-resolve: 5.8.3
       fork-ts-checker-webpack-plugin: 6.2.10
@@ -2924,8 +2924,45 @@ packages:
       - webpack
     dev: true
 
-  /@nrwl/cypress/13.2.3_dc7c52de44039c52ad20eb5b26a41301:
-    resolution: {integrity: sha512-gp6yluBx37CV/ROHDusri2ew6dR+jFMRGZXmL4Jp+TaFc6ewAI+aQDHUI6py6tvNNtZ+8P/x1hPiaPikn8w5vQ==}
+  /@nrwl/cypress/13.2.4_bd395d89920c16f184e138983bc64341:
+    resolution: {integrity: sha512-WX9654iCg8p47l0ykKgWGpaapKXYRGddz76LNFHMcgnPGdZzKvDooICy0/BIr7t42PSsSIYu0jiq1f3RNCch+A==}
+    peerDependencies:
+      cypress: '>= 3 < 9'
+    peerDependenciesMeta:
+      cypress:
+        optional: true
+    dependencies:
+      '@cypress/webpack-preprocessor': 5.9.1_974d2407c364fd2eacd9d3516f492113
+      '@nrwl/devkit': 13.2.4
+      '@nrwl/linter': 13.2.4
+      '@nrwl/workspace': 13.2.4_prettier@2.4.1
+      chalk: 4.1.0
+      enhanced-resolve: 5.8.3
+      fork-ts-checker-webpack-plugin: 6.2.10
+      rxjs: 6.6.7
+      ts-loader: 9.2.6_typescript@4.5.2+webpack@5.62.1
+      tsconfig-paths: 3.11.0
+      tsconfig-paths-webpack-plugin: 3.4.1
+      tslib: 2.3.1
+      webpack-node-externals: 3.0.0
+      yargs-parser: 20.0.0
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@babel/preset-env'
+      - babel-loader
+      - bufferutil
+      - canvas
+      - node-notifier
+      - prettier
+      - supports-color
+      - ts-node
+      - typescript
+      - utf-8-validate
+      - webpack
+    dev: true
+
+  /@nrwl/cypress/13.2.4_dc7c52de44039c52ad20eb5b26a41301:
+    resolution: {integrity: sha512-WX9654iCg8p47l0ykKgWGpaapKXYRGddz76LNFHMcgnPGdZzKvDooICy0/BIr7t42PSsSIYu0jiq1f3RNCch+A==}
     peerDependencies:
       cypress: '>= 3 < 9'
     peerDependenciesMeta:
@@ -2933,9 +2970,9 @@ packages:
         optional: true
     dependencies:
       '@cypress/webpack-preprocessor': 5.9.1_86c34e9eb95a569e9e6d5e398b5790a3
-      '@nrwl/devkit': 13.2.3
-      '@nrwl/linter': 13.2.3_ts-node@9.1.1
-      '@nrwl/workspace': 13.2.3_prettier@2.4.1+ts-node@9.1.1
+      '@nrwl/devkit': 13.2.4
+      '@nrwl/linter': 13.2.4_ts-node@9.1.1
+      '@nrwl/workspace': 13.2.4_prettier@2.4.1+ts-node@9.1.1
       chalk: 4.1.0
       enhanced-resolve: 5.8.3
       fork-ts-checker-webpack-plugin: 6.2.10
@@ -3187,18 +3224,18 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@nrwl/react/13.2.3_06efd07f324a49e051600f8db609bbf4:
-    resolution: {integrity: sha512-sGLLJ1opQzBNTRvs+tcC+HZofO6QnVe8aQvRKvjC71Bf2u0KeJDFkARIw0/CQKKqgfuGP0mM8Da/BnO6sAfitw==}
+  /@nrwl/react/13.2.4_06efd07f324a49e051600f8db609bbf4:
+    resolution: {integrity: sha512-VgBt1+ZaV+lp47XTa9tYfYVYWQE4GPSX/FIC1IshBVwYercfJYW6ylkB/Lhc2qftCll3lYucSVKj43SRYVSVng==}
     dependencies:
       '@babel/core': 7.16.0
       '@babel/preset-react': 7.16.0_@babel+core@7.16.0
-      '@nrwl/cypress': 13.2.3_bd395d89920c16f184e138983bc64341
-      '@nrwl/devkit': 13.2.3
-      '@nrwl/jest': 13.2.3
-      '@nrwl/linter': 13.2.3
-      '@nrwl/storybook': 13.2.3_bd395d89920c16f184e138983bc64341
-      '@nrwl/web': 13.2.3_prettier@2.4.1+typescript@4.5.2
-      '@nrwl/workspace': 13.2.3_prettier@2.4.1
+      '@nrwl/cypress': 13.2.4_bd395d89920c16f184e138983bc64341
+      '@nrwl/devkit': 13.2.4
+      '@nrwl/jest': 13.2.4
+      '@nrwl/linter': 13.2.4
+      '@nrwl/storybook': 13.2.4_bd395d89920c16f184e138983bc64341
+      '@nrwl/web': 13.2.4_prettier@2.4.1+typescript@4.5.2
+      '@nrwl/workspace': 13.2.4_prettier@2.4.1
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.1_5d63fac4e37a8465b041e9c8a66bb17d
       '@storybook/node-logger': 6.1.20
       '@svgr/webpack': 5.5.0
@@ -3245,13 +3282,13 @@ packages:
       - webpack-plugin-serve
     dev: true
 
-  /@nrwl/storybook/13.2.3_bd395d89920c16f184e138983bc64341:
-    resolution: {integrity: sha512-+stufDpXPoiT5vf2jNOLC2YRfPyebbltrPMQ0n8YxqpzN91XHj9ieYmErJ6t2AgEutcDpvfbZkVEYKqPNNn3hw==}
+  /@nrwl/storybook/13.2.4_bd395d89920c16f184e138983bc64341:
+    resolution: {integrity: sha512-xPhNE8r9XRl5RHBZ9nx5eWiW4QnBmDyVBl7Ou+R9IHFJCzknpWhrCpMKbw8pJi01VVj8b9wZP7NHMRF8N3gaMQ==}
     dependencies:
-      '@nrwl/cypress': 13.2.3_bd395d89920c16f184e138983bc64341
-      '@nrwl/devkit': 13.2.3
-      '@nrwl/linter': 13.2.3
-      '@nrwl/workspace': 13.2.3_prettier@2.4.1
+      '@nrwl/cypress': 13.2.4_bd395d89920c16f184e138983bc64341
+      '@nrwl/devkit': 13.2.4
+      '@nrwl/linter': 13.2.4
+      '@nrwl/workspace': 13.2.4_prettier@2.4.1
       core-js: 3.19.1
       semver: 7.3.4
       ts-loader: 9.2.6_typescript@4.5.2+webpack@5.62.1
@@ -3436,6 +3473,119 @@ packages:
       - webpack-plugin-serve
     dev: true
 
+  /@nrwl/web/13.2.4_prettier@2.4.1+typescript@4.5.2:
+    resolution: {integrity: sha512-3JN2INZshSNkfaaEjzYvCQU1zv/rv+NGx0yX5lalBZlkRXHz+XZXsvmMW8bbUVilc8JOL0nYfTo0a65w6YLEvw==}
+    dependencies:
+      '@babel/core': 7.16.0
+      '@babel/plugin-proposal-class-properties': 7.16.0_@babel+core@7.16.0
+      '@babel/plugin-proposal-decorators': 7.16.0_@babel+core@7.16.0
+      '@babel/plugin-transform-regenerator': 7.16.0_@babel+core@7.16.0
+      '@babel/plugin-transform-runtime': 7.16.0_@babel+core@7.16.0
+      '@babel/preset-env': 7.16.0_@babel+core@7.16.0
+      '@babel/preset-typescript': 7.16.0_@babel+core@7.16.0
+      '@babel/runtime': 7.16.3
+      '@nrwl/cypress': 13.2.4_dc7c52de44039c52ad20eb5b26a41301
+      '@nrwl/devkit': 13.2.4
+      '@nrwl/jest': 13.2.4_ts-node@9.1.1
+      '@nrwl/linter': 13.2.4_ts-node@9.1.1
+      '@nrwl/workspace': 13.2.4_prettier@2.4.1+ts-node@9.1.1
+      '@pmmmwh/react-refresh-webpack-plugin': 0.5.1_63c545e8f8ae9f43207ae331003f9749
+      '@rollup/plugin-babel': 5.3.0_@babel+core@7.16.0+rollup@2.59.0
+      '@rollup/plugin-commonjs': 20.0.0_rollup@2.59.0
+      '@rollup/plugin-image': 2.1.1_rollup@2.59.0
+      '@rollup/plugin-json': 4.1.0_rollup@2.59.0
+      '@rollup/plugin-node-resolve': 13.0.6_rollup@2.59.0
+      autoprefixer: 10.4.0_postcss@8.3.0
+      babel-loader: 8.2.3_974d2407c364fd2eacd9d3516f492113
+      babel-plugin-const-enum: 1.2.0_@babel+core@7.16.0
+      babel-plugin-macros: 2.8.0
+      babel-plugin-transform-async-to-promises: 0.8.15
+      babel-plugin-transform-typescript-metadata: 0.3.2
+      browserslist: 4.17.6
+      bytes: 3.1.0
+      caniuse-lite: 1.0.30001278
+      chalk: 4.1.0
+      chokidar: 3.5.2
+      copy-webpack-plugin: 9.0.1_webpack@5.62.1
+      core-js: 3.19.1
+      css-loader: 6.5.1_webpack@5.62.1
+      css-minimizer-webpack-plugin: 3.1.2_webpack@5.62.1
+      enhanced-resolve: 5.8.3
+      file-loader: 6.2.0_webpack@5.62.1
+      fork-ts-checker-webpack-plugin: 6.2.10
+      fs-extra: 9.1.0
+      http-server: 0.12.3
+      identity-obj-proxy: 3.0.0
+      ignore: 5.1.9
+      less: 3.12.2
+      less-loader: 10.2.0_less@3.12.2+webpack@5.62.1
+      license-webpack-plugin: 2.3.15
+      loader-utils: 1.2.3
+      mini-css-extract-plugin: 2.4.4_webpack@5.62.1
+      open: 7.4.2
+      parse5: 4.0.0
+      parse5-html-rewriting-stream: 6.0.1
+      postcss: 8.3.0
+      postcss-import: 14.0.2_postcss@8.3.0
+      postcss-loader: 6.2.0_postcss@8.3.0+webpack@5.62.1
+      raw-loader: 4.0.2_webpack@5.62.1
+      react-refresh: 0.10.0
+      rimraf: 3.0.2
+      rollup: 2.59.0
+      rollup-plugin-copy: 3.4.0
+      rollup-plugin-peer-deps-external: 2.2.4_rollup@2.59.0
+      rollup-plugin-postcss: 4.0.1_postcss@8.3.0+ts-node@9.1.1
+      rollup-plugin-typescript2: 0.30.0_rollup@2.59.0+typescript@4.5.2
+      rxjs: 6.6.7
+      rxjs-for-await: 0.0.2_rxjs@6.6.7
+      sass: 1.43.4
+      sass-loader: 12.3.0_sass@1.43.4+webpack@5.62.1
+      semver: 7.3.4
+      source-map: 0.7.3
+      source-map-loader: 3.0.0_webpack@5.62.1
+      style-loader: 3.3.1_webpack@5.62.1
+      stylus: 0.55.0
+      stylus-loader: 6.2.0_stylus@0.55.0+webpack@5.62.1
+      terser: 4.3.8
+      terser-webpack-plugin: 5.2.4_webpack@5.62.1
+      ts-loader: 9.2.6_typescript@4.5.2+webpack@5.62.1
+      ts-node: 9.1.1_typescript@4.5.2
+      tsconfig-paths: 3.11.0
+      tsconfig-paths-webpack-plugin: 3.4.1
+      tslib: 2.3.1
+      webpack: 5.62.1
+      webpack-dev-server: 4.4.0_webpack@5.62.1
+      webpack-merge: 5.8.0
+      webpack-sources: 3.2.1
+      webpack-subresource-integrity: 1.5.2_webpack@5.62.1
+      worker-plugin: 3.2.0_webpack@5.62.1
+    transitivePeerDependencies:
+      - '@swc/core'
+      - '@types/babel__core'
+      - '@types/webpack'
+      - bufferutil
+      - canvas
+      - clean-css
+      - csso
+      - cypress
+      - debug
+      - esbuild
+      - fibers
+      - html-webpack-plugin
+      - node-notifier
+      - node-sass
+      - prettier
+      - sockjs-client
+      - supports-color
+      - type-fest
+      - typescript
+      - uglify-js
+      - utf-8-validate
+      - webpack-cli
+      - webpack-hot-middleware
+      - webpack-plugin-serve
+    dev: true
+
   /@nrwl/workspace/13.2.3_prettier@2.4.1:
     resolution: {integrity: sha512-dFB6XXDLP4Nmh/Sw8Euwdt7f0tg1O6JxJNvXV2BfWG1rK3dmhTz4Q+8fgxl7AxsrToVrXDAh16mPyfAzpqH4pw==}
     peerDependencies:
@@ -3491,6 +3641,49 @@ packages:
       '@nrwl/devkit': 13.2.3
       '@nrwl/jest': 13.2.3_ts-node@9.1.1
       '@nrwl/linter': 13.2.3_ts-node@9.1.1
+      '@parcel/watcher': 2.0.0-alpha.11
+      chalk: 4.1.0
+      chokidar: 3.5.2
+      cosmiconfig: 4.0.0
+      dotenv: 10.0.0
+      enquirer: 2.3.6
+      flat: 5.0.2
+      fs-extra: 9.1.0
+      glob: 7.1.4
+      ignore: 5.1.9
+      minimatch: 3.0.4
+      npm-run-all: 4.1.5
+      npm-run-path: 4.0.1
+      open: 7.4.2
+      prettier: 2.4.1
+      rxjs: 6.6.7
+      semver: 7.3.4
+      strip-ansi: 6.0.0
+      tmp: 0.2.1
+      tslib: 2.3.1
+      yargs: 15.4.1
+      yargs-parser: 20.0.0
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - node-notifier
+      - supports-color
+      - ts-node
+      - utf-8-validate
+    dev: true
+
+  /@nrwl/workspace/13.2.4_prettier@2.4.1:
+    resolution: {integrity: sha512-SLVqBMJiBv4tcCXlzwfQyQaDTG3YR3cBh8DQKb4j6h2yLTetB6ARUKxVqEAMyaTahRcec96mXs5sPngaGCHJfA==}
+    peerDependencies:
+      prettier: ^2.3.0
+    peerDependenciesMeta:
+      prettier:
+        optional: true
+    dependencies:
+      '@nrwl/cli': 13.2.4
+      '@nrwl/devkit': 13.2.4
+      '@nrwl/jest': 13.2.4
+      '@nrwl/linter': 13.2.4
       '@parcel/watcher': 2.0.0-alpha.11
       chalk: 4.1.0
       chokidar: 3.5.2
