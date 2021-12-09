@@ -10,7 +10,7 @@ specifiers:
   '@mdx-js/react': ^1.6.21
   '@nrwl/cli': 13.3.0
   '@nrwl/eslint-plugin-nx': 13.3.0
-  '@nrwl/jest': 13.2.4
+  '@nrwl/jest': 13.3.0
   '@nrwl/linter': 13.2.4
   '@nrwl/react': 13.2.4
   '@nrwl/tao': 13.2.4
@@ -83,7 +83,7 @@ devDependencies:
   '@jscutlery/semver': 2.13.0
   '@nrwl/cli': 13.3.0
   '@nrwl/eslint-plugin-nx': 13.3.0_f67614c7550d5ad60b1a306794c3eeab
-  '@nrwl/jest': 13.2.4
+  '@nrwl/jest': 13.3.0
   '@nrwl/linter': 13.2.4
   '@nrwl/react': 13.2.4_06efd07f324a49e051600f8db609bbf4
   '@nrwl/tao': 13.2.4
@@ -3094,6 +3094,29 @@ packages:
       - utf-8-validate
     dev: true
 
+  /@nrwl/jest/13.3.0:
+    resolution: {integrity: sha512-U1onvyI7kk8tC5GvpXT4aDUucXrw7uvKKima88uRJG2JBpkwOOYDD+n8NWEIMKUSQd8KMI1BBCfh+MP+rEgJ4A==}
+    dependencies:
+      '@jest/reporters': 27.2.2
+      '@jest/test-result': 27.2.2
+      '@nrwl/devkit': 13.3.0
+      chalk: 4.1.0
+      identity-obj-proxy: 3.0.0
+      jest-config: 27.2.2
+      jest-resolve: 27.2.2
+      jest-util: 27.2.0
+      resolve.exports: 1.1.0
+      rxjs: 6.6.7
+      tslib: 2.3.1
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - node-notifier
+      - supports-color
+      - ts-node
+      - utf-8-validate
+    dev: true
+
   /@nrwl/jest/13.3.0_ts-node@9.1.1:
     resolution: {integrity: sha512-U1onvyI7kk8tC5GvpXT4aDUucXrw7uvKKima88uRJG2JBpkwOOYDD+n8NWEIMKUSQd8KMI1BBCfh+MP+rEgJ4A==}
     dependencies:
@@ -4518,12 +4541,12 @@ packages:
       acorn-walk: 7.2.0
     dev: true
 
-  /acorn-import-assertions/1.8.0_acorn@8.5.0:
+  /acorn-import-assertions/1.8.0_acorn@8.6.0:
     resolution: {integrity: sha512-m7VZ3jwz4eK6A4Vtt8Ew1/mNbP24u0FhdyfA7fSvnJR6LMdfOYnmuIrrJAgrYfYJ10F/otaHTtrtrtmHdMNzEw==}
     peerDependencies:
       acorn: ^8
     dependencies:
-      acorn: 8.5.0
+      acorn: 8.6.0
 
   /acorn-jsx/5.3.2_acorn@6.4.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -4570,11 +4593,6 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
-
-  /acorn/8.5.0:
-    resolution: {integrity: sha512-yXbYeFy+jUuYd3/CDcg2NkIYE991XYX/bje7LmjJigUciaeO1JR4XxXgCIV1/Zc/dRuFEyw1L0pbA+qynJkW5Q==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
 
   /acorn/8.6.0:
     resolution: {integrity: sha512-U1riIR+lBSNi3IbxtaHOIKdH8sLFv3NYfNv8sg7ZsNhcfl4HF2++BfqqrNAxoCLQW1iiylOj76ecnaUxz+z9yw==}
@@ -14785,8 +14803,8 @@ packages:
       '@webassemblyjs/ast': 1.11.1
       '@webassemblyjs/wasm-edit': 1.11.1
       '@webassemblyjs/wasm-parser': 1.11.1
-      acorn: 8.5.0
-      acorn-import-assertions: 1.8.0_acorn@8.5.0
+      acorn: 8.6.0
+      acorn-import-assertions: 1.8.0_acorn@8.6.0
       browserslist: 4.17.6
       chrome-trace-event: 1.0.3
       enhanced-resolve: 5.8.3
