@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/jest': 13.3.1
   '@nrwl/linter': 13.3.1
   '@nrwl/react': 13.3.1
-  '@nrwl/tao': 13.3.0
+  '@nrwl/tao': 13.3.1
   '@nrwl/web': 13.3.0
   '@nrwl/workspace': 13.3.0
   '@nx-plus/docusaurus': ^12.2.0
@@ -86,7 +86,7 @@ devDependencies:
   '@nrwl/jest': 13.3.1
   '@nrwl/linter': 13.3.1_typescript@4.5.2
   '@nrwl/react': 13.3.1_9e3bd6116c27cfdfa459818f8c142407
-  '@nrwl/tao': 13.3.0
+  '@nrwl/tao': 13.3.1
   '@nrwl/web': 13.3.0_8742bc0cbc13a0c17755306a3b98d8fc
   '@nrwl/workspace': 13.3.0_8742bc0cbc13a0c17755306a3b98d8fc
   '@nx-plus/docusaurus': 12.2.0_@nrwl+workspace@13.3.0
