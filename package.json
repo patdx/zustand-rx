@@ -46,7 +46,7 @@
     "@nrwl/jest": "13.3.2",
     "@nrwl/linter": "13.3.2",
     "@nrwl/react": "13.3.2",
-    "@nrwl/tao": "13.3.1",
+    "@nrwl/tao": "13.3.2",
     "@nrwl/web": "13.3.1",
     "@nrwl/workspace": "13.3.1",
     "@nx-plus/docusaurus": "^12.2.0",
