@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/jest': 13.3.6
   '@nrwl/linter': 13.3.6
   '@nrwl/react': 13.3.6
-  '@nrwl/tao': 13.3.4
+  '@nrwl/tao': 13.3.6
   '@nrwl/web': 13.3.2
   '@nrwl/workspace': 13.3.2
   '@nx-plus/docusaurus': ^12.2.0
@@ -86,7 +86,7 @@ devDependencies:
   '@nrwl/jest': 13.3.6
   '@nrwl/linter': 13.3.6_typescript@4.5.2
   '@nrwl/react': 13.3.6_9e3bd6116c27cfdfa459818f8c142407
-  '@nrwl/tao': 13.3.4
+  '@nrwl/tao': 13.3.6
   '@nrwl/web': 13.3.2_8742bc0cbc13a0c17755306a3b98d8fc
   '@nrwl/workspace': 13.3.2_8742bc0cbc13a0c17755306a3b98d8fc
   '@nx-plus/docusaurus': 12.2.0_@nrwl+workspace@13.3.2
@@ -2903,18 +2903,6 @@ packages:
       yargs-parser: 20.0.0
     dev: true
 
-  /@nrwl/cli/13.3.4:
-    resolution: {integrity: sha512-x3IM9X/q5Yv54ZSr+GsIxa07GJt+hG7dOdjvAFBnixMWb3o4utOVrd6GusDrn2t0HhnCuzqLosFnk+gcOrL34w==}
-    hasBin: true
-    dependencies:
-      '@nrwl/tao': 13.3.4
-      chalk: 4.1.0
-      enquirer: 2.3.6
-      v8-compile-cache: 2.3.0
-      yargs: 15.4.1
-      yargs-parser: 20.0.0
-    dev: true
-
   /@nrwl/cli/13.3.6:
     resolution: {integrity: sha512-rTTadMSMM4GAf3ZwKXq+lasoPTF6n5RAF4ApzmB3MhXmKWIkjgF1oMY2ZBm/RS0x1aOsNDWdggDKJwMgnDZQgA==}
     hasBin: true
@@ -3391,25 +3379,6 @@ packages:
       ignore: 5.1.9
       jsonc-parser: 3.0.0
       nx: 13.3.2
-      rxjs: 6.6.7
-      rxjs-for-await: 0.0.2_rxjs@6.6.7
-      semver: 7.3.4
-      tmp: 0.2.1
-      tslib: 2.3.1
-      yargs-parser: 20.0.0
-    dev: true
-
-  /@nrwl/tao/13.3.4:
-    resolution: {integrity: sha512-ujwxGZcR3De8FSj8IjVSGmfZ2CQZfFzeV9QXU8DeiZ9J1ylWPwWpMIS3XVxZIpe7gR++XP4jbvFodKFQP7PzVQ==}
-    hasBin: true
-    dependencies:
-      chalk: 4.1.0
-      enquirer: 2.3.6
-      fast-glob: 3.2.7
-      fs-extra: 9.1.0
-      ignore: 5.1.9
-      jsonc-parser: 3.0.0
-      nx: 13.3.4
       rxjs: 6.6.7
       rxjs-for-await: 0.0.2_rxjs@6.6.7
       semver: 7.3.4
@@ -11000,13 +10969,6 @@ packages:
     hasBin: true
     dependencies:
       '@nrwl/cli': 13.3.2
-    dev: true
-
-  /nx/13.3.4:
-    resolution: {integrity: sha512-prWCa/8jKBWUiCWhAbRD3UftTvaD8MgUo98g557/EpPaC9LHPPWNOhXDyij21sedouyDVdQGhr8TW4pEHt2zeQ==}
-    hasBin: true
-    dependencies:
-      '@nrwl/cli': 13.3.4
     dev: true
 
   /nx/13.3.6:
