@@ -45,7 +45,7 @@
     "@nrwl/eslint-plugin-nx": "13.3.9",
     "@nrwl/jest": "13.3.9",
     "@nrwl/linter": "13.3.9",
-    "@nrwl/react": "13.3.8",
+    "@nrwl/react": "13.3.9",
     "@nrwl/tao": "13.3.7",
     "@nrwl/web": "13.3.7",
     "@nrwl/workspace": "13.3.7",
