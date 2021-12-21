@@ -47,7 +47,7 @@
     "@nrwl/linter": "13.3.12",
     "@nrwl/react": "13.3.12",
     "@nrwl/tao": "13.3.12",
-    "@nrwl/web": "13.3.11",
+    "@nrwl/web": "13.3.12",
     "@nrwl/workspace": "13.3.11",
     "@nx-plus/docusaurus": "^12.2.0",
     "@testing-library/react": "12.1.2",
