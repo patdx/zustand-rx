@@ -15,7 +15,7 @@ specifiers:
   '@nrwl/react': 13.4.1
   '@nrwl/tao': 13.4.1
   '@nrwl/web': 13.4.1
-  '@nrwl/workspace': 13.4.0
+  '@nrwl/workspace': 13.4.1
   '@nx-plus/docusaurus': ^12.2.0
   '@testing-library/react': 12.1.2
   '@testing-library/react-hooks': 7.0.2
@@ -88,8 +88,8 @@ devDependencies:
   '@nrwl/react': 13.4.1_06efd07f324a49e051600f8db609bbf4
   '@nrwl/tao': 13.4.1
   '@nrwl/web': 13.4.1_prettier@2.4.1+typescript@4.5.2
-  '@nrwl/workspace': 13.4.0_prettier@2.4.1+typescript@4.5.2
-  '@nx-plus/docusaurus': 12.2.0_@nrwl+workspace@13.4.0
+  '@nrwl/workspace': 13.4.1_prettier@2.4.1+typescript@4.5.2
+  '@nx-plus/docusaurus': 12.2.0_@nrwl+workspace@13.4.1
   '@testing-library/react': 12.1.2_react-dom@17.0.2+react@17.0.2
   '@testing-library/react-hooks': 7.0.2_react-dom@17.0.2+react@17.0.2
   '@types/jest': 27.0.3
@@ -2891,18 +2891,6 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
 
-  /@nrwl/cli/13.4.0:
-    resolution: {integrity: sha512-BNURpCHEW61vGmehazFVFHHMaUQEMYZtPfVSQZcBhZiqV6adbemzQdsLZyYLMblZKJa8MX56YOArBa69Z1mPRg==}
-    hasBin: true
-    dependencies:
-      '@nrwl/tao': 13.4.0
-      chalk: 4.1.0
-      enquirer: 2.3.6
-      v8-compile-cache: 2.3.0
-      yargs: 15.4.1
-      yargs-parser: 20.0.0
-    dev: true
-
   /@nrwl/cli/13.4.1:
     resolution: {integrity: sha512-U0ik9wrumTxg+l0f17xajOLgKPQH2hFFPiDlegOupef7mR3JBxrEzadkTXjRH7wXSOWBdzYyVYsfx+6UwS9Ilw==}
     hasBin: true
@@ -3000,17 +2988,6 @@ packages:
       tslib: 2.3.1
     dev: true
 
-  /@nrwl/devkit/13.4.0:
-    resolution: {integrity: sha512-KKqDY766Z5ryKYywtBbO2sVptMPgN71qFnI1v//hzPvbl0qOPx6iphUfaM0vIL8YX4NssZElrYj0//EE6cwfXQ==}
-    dependencies:
-      '@nrwl/tao': 13.4.0
-      ejs: 3.1.6
-      ignore: 5.1.9
-      rxjs: 6.6.7
-      semver: 7.3.4
-      tslib: 2.3.1
-    dev: true
-
   /@nrwl/devkit/13.4.1:
     resolution: {integrity: sha512-dk/moNFriAFnAFro9EQILJWkYQsgkRI1rIou2uCkbrhUHeFZ1nZECjBNdBj/hocz76O24xH7+A8HneacXlKZHg==}
     dependencies:
@@ -3044,29 +3021,6 @@ packages:
       - prettier
       - supports-color
       - typescript
-      - utf-8-validate
-    dev: true
-
-  /@nrwl/jest/13.4.0:
-    resolution: {integrity: sha512-FBaqWnnLYez/EbgGgHDzSuG0g694mgJWGIHSjFLLMJ3Oa6KAWFc9TnGz/M9Xs90FLwxGT/+8DwT0nD3Xo+lJaA==}
-    dependencies:
-      '@jest/reporters': 27.2.2
-      '@jest/test-result': 27.2.2
-      '@nrwl/devkit': 13.4.0
-      chalk: 4.1.0
-      identity-obj-proxy: 3.0.0
-      jest-config: 27.2.2
-      jest-resolve: 27.2.2
-      jest-util: 27.2.0
-      resolve.exports: 1.1.0
-      rxjs: 6.6.7
-      tslib: 2.3.1
-    transitivePeerDependencies:
-      - bufferutil
-      - canvas
-      - node-notifier
-      - supports-color
-      - ts-node
       - utf-8-validate
     dev: true
 
@@ -3158,27 +3112,6 @@ packages:
       - canvas
       - node-notifier
       - prettier
-      - supports-color
-      - ts-node
-      - typescript
-      - utf-8-validate
-    dev: true
-
-  /@nrwl/linter/13.4.0_typescript@4.5.2:
-    resolution: {integrity: sha512-RHR6PyrlQ8IKXc0JdJIqWjshI3zQzyT5ni4LafJe8+0FoSVh6Cy+pMYOUVBF5hSGzypyWf3Nfjzfr/jKQ8uAIw==}
-    dependencies:
-      '@nrwl/devkit': 13.4.0
-      '@nrwl/jest': 13.4.0
-      '@phenomnomnominal/tsquery': 4.1.1_typescript@4.5.2
-      eslint: 8.2.0
-      glob: 7.1.4
-      minimatch: 3.0.4
-      tmp: 0.2.1
-      tslib: 2.3.1
-    transitivePeerDependencies:
-      - bufferutil
-      - canvas
-      - node-notifier
       - supports-color
       - ts-node
       - typescript
@@ -3330,25 +3263,6 @@ packages:
       yargs-parser: 20.0.0
     dev: true
 
-  /@nrwl/tao/13.4.0:
-    resolution: {integrity: sha512-Z55zSGOj2D5eQ4BW7T+A0MQtsNglPoTcMYdafULfx+wU1vOP7y/Yr2g7evti5Chkho31EvsP9z1/JW+s3QJARA==}
-    hasBin: true
-    dependencies:
-      chalk: 4.1.0
-      enquirer: 2.3.6
-      fast-glob: 3.2.7
-      fs-extra: 9.1.0
-      ignore: 5.1.9
-      jsonc-parser: 3.0.0
-      nx: 13.4.0
-      rxjs: 6.6.7
-      rxjs-for-await: 0.0.2_rxjs@6.6.7
-      semver: 7.3.4
-      tmp: 0.2.1
-      tslib: 2.3.1
-      yargs-parser: 20.0.0
-    dev: true
-
   /@nrwl/tao/13.4.1:
     resolution: {integrity: sha512-bgVzHlKfY7TK0ZLlM9+yQxfw8+NGsfl1+612advLYI46NRYAOpY3yOPBWX+69M+W3SwdjKQDyTi57hHbgx1XBA==}
     hasBin: true
@@ -3482,50 +3396,6 @@ packages:
       - webpack-plugin-serve
     dev: true
 
-  /@nrwl/workspace/13.4.0_prettier@2.4.1+typescript@4.5.2:
-    resolution: {integrity: sha512-MaYLXPodXgBGFaED+LhpHzfmOrTMXNabEpmgP4g5d1mAlvBgYjDiEnkP99Uhk23uKKbHKlIRpZTMZwQ7JCoVpg==}
-    peerDependencies:
-      prettier: ^2.3.0
-    peerDependenciesMeta:
-      prettier:
-        optional: true
-    dependencies:
-      '@nrwl/cli': 13.4.0
-      '@nrwl/devkit': 13.4.0
-      '@nrwl/jest': 13.4.0
-      '@nrwl/linter': 13.4.0_typescript@4.5.2
-      '@parcel/watcher': 2.0.4
-      chalk: 4.1.0
-      chokidar: 3.5.2
-      cosmiconfig: 4.0.0
-      dotenv: 10.0.0
-      enquirer: 2.3.6
-      flat: 5.0.2
-      fs-extra: 9.1.0
-      glob: 7.1.4
-      ignore: 5.1.9
-      minimatch: 3.0.4
-      npm-run-all: 4.1.5
-      npm-run-path: 4.0.1
-      open: 7.4.2
-      prettier: 2.4.1
-      rxjs: 6.6.7
-      semver: 7.3.4
-      strip-ansi: 6.0.0
-      tmp: 0.2.1
-      tslib: 2.3.1
-      yargs: 15.4.1
-      yargs-parser: 20.0.0
-    transitivePeerDependencies:
-      - bufferutil
-      - canvas
-      - node-notifier
-      - supports-color
-      - ts-node
-      - typescript
-      - utf-8-validate
-    dev: true
-
   /@nrwl/workspace/13.4.1_707adb09f20d271d1bd78eccd618e18f:
     resolution: {integrity: sha512-u+/1jQL7fsISJePZlTkBxp27N+aL9BWIbITAaH+Jxazyjrpwy11ImcXbJIpMeYY8P1cpXM7XMw0sn8vz7LIuZQ==}
     peerDependencies:
@@ -3614,7 +3484,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@nx-plus/docusaurus/12.2.0_@nrwl+workspace@13.4.0:
+  /@nx-plus/docusaurus/12.2.0_@nrwl+workspace@13.4.1:
     resolution: {integrity: sha512-/GWFsEenqAprjDJgaZj13TWbjfK3A722JaKVuChjNT8Ze7JA5M9XOdpzMlDaaL4OuKcwfzPFgfgcoTSp9e4Vrw==}
     peerDependencies:
       '@nrwl/workspace': ^12.0.0
@@ -3622,7 +3492,7 @@ packages:
       '@angular-devkit/architect': 0.1201.0
       '@angular-devkit/core': 12.1.0
       '@angular-devkit/schematics': 12.1.0
-      '@nrwl/workspace': 13.4.0_prettier@2.4.1+typescript@4.5.2
+      '@nrwl/workspace': 13.4.1_prettier@2.4.1+typescript@4.5.2
       rxjs: 6.5.5
       typescript: 4.3.5
     dev: true
@@ -10675,13 +10545,6 @@ packages:
     hasBin: true
     dependencies:
       '@nrwl/cli': 13.4.1
-    dev: true
-
-  /nx/13.4.0:
-    resolution: {integrity: sha512-KWCNk6ufaFF5+CL1c8Ri02fQaWckg8YkNaSS3OWVZ5bwLZpMqX8iDN8+XYyIaVCEoBssRoF384ZdLluGqBd0YQ==}
-    hasBin: true
-    dependencies:
-      '@nrwl/cli': 13.4.0
     dev: true
 
   /nx/13.4.1:
