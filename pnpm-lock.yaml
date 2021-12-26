@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@commitlint/cli': ^16.0.0
-  '@commitlint/config-angular': ^15.0.0
+  '@commitlint/config-angular': ^16.0.0
   '@commitlint/config-conventional': ^15.0.0
   '@docusaurus/core': ^2.0.0-alpha.70
   '@docusaurus/preset-classic': ^2.0.0-alpha.70
@@ -78,7 +78,7 @@ dependencies:
 
 devDependencies:
   '@commitlint/cli': 16.0.0_@types+node@17.0.4
-  '@commitlint/config-angular': 15.0.0
+  '@commitlint/config-angular': 16.0.0
   '@commitlint/config-conventional': 15.0.0
   '@jscutlery/semver': 2.13.0
   '@nrwl/cli': 13.4.1
@@ -1652,16 +1652,16 @@ packages:
       - '@types/node'
     dev: true
 
-  /@commitlint/config-angular-type-enum/15.0.0:
-    resolution: {integrity: sha512-KBGoII2yo76KtbKbeCym5PxCt5CZvti7YbCEGOF5GiyZd/9AaJur/UhbzX3pcoLMgXd9u3Ru+qydm79TlRLuJA==}
+  /@commitlint/config-angular-type-enum/16.0.0:
+    resolution: {integrity: sha512-6Gn/Wh7tFiVHUK+bxiVMUZg6X7N6ArJLgaH39/23qK3/PkC0Y4FSJZf63YIS+EA/n5USHaBgBV88iduSTJU9rQ==}
     engines: {node: '>=v12'}
     dev: true
 
-  /@commitlint/config-angular/15.0.0:
-    resolution: {integrity: sha512-1gpyAZkGB+v9hTvw4G8AGU7vzq49/pANifShUsoyuSLAmHzxC3YgE+ZyqlVoB+T6gjE90NXjUQbLmNpi/7ZFYg==}
+  /@commitlint/config-angular/16.0.0:
+    resolution: {integrity: sha512-UmH3D/BjqhIueM29w9G8mR8wHI0ncUrNFqX6OgDhsIgLS1Sgf6L3ad+oasTWfJ+KjKl544cjoayyWY0eX3wrIg==}
     engines: {node: '>=v12'}
     dependencies:
-      '@commitlint/config-angular-type-enum': 15.0.0
+      '@commitlint/config-angular-type-enum': 16.0.0
     dev: true
 
   /@commitlint/config-conventional/15.0.0:
@@ -1686,12 +1686,6 @@ packages:
       '@commitlint/types': 16.0.0
       lodash: 4.17.21
     dev: true
-
-  /@commitlint/execute-rule/15.0.0:
-    resolution: {integrity: sha512-pyE4ApxjbWhb1TXz5vRiGwI2ssdMMgZbaaheZq1/7WC0xRnqnIhE1yUC1D2q20qPtvkZPstTYvMiRVtF+DvjUg==}
-    engines: {node: '>=v12'}
-    dev: true
-    optional: true
 
   /@commitlint/execute-rule/16.0.0:
     resolution: {integrity: sha512-8edcCibmBb386x5JTHSPHINwA5L0xPkHQFY8TAuDEt5QyRZY/o5DF8OPHSa5Hx2xJvGaxxuIz4UtAT6IiRDYkw==}
@@ -1724,26 +1718,10 @@ packages:
       '@commitlint/types': 16.0.0
     dev: true
 
-  /@commitlint/load/15.0.0:
-    resolution: {integrity: sha512-Ak1YPeOhvxmY3ioe0o6m1yLGvUAYb4BdfGgShU8jiTCmU3Mnmms0Xh/kfQz8AybhezCC3AmVTyBLaBZxOHR8kg==}
-    engines: {node: '>=v12'}
-    requiresBuild: true
-    dependencies:
-      '@commitlint/execute-rule': 15.0.0
-      '@commitlint/resolve-extends': 15.0.0
-      '@commitlint/types': 15.0.0
-      '@endemolshinegroup/cosmiconfig-typescript-loader': 3.0.2_b67f536f129c730ed129a6d21d223ba9
-      chalk: 4.1.2
-      cosmiconfig: 7.0.1
-      lodash: 4.17.21
-      resolve-from: 5.0.0
-      typescript: 4.5.2
-    dev: true
-    optional: true
-
   /@commitlint/load/16.0.0_@types+node@17.0.4:
     resolution: {integrity: sha512-7WhrGCkP6K/XfjBBguLkkI2XUdiiIyMGlNsSoSqgRNiD352EiffhFEApMy1/XOU+viwBBm/On0n5p0NC7e9/4A==}
     engines: {node: '>=v12'}
+    requiresBuild: true
     dependencies:
       '@commitlint/config-validator': 16.0.0
       '@commitlint/execute-rule': 16.0.0
@@ -1785,17 +1763,6 @@ packages:
       git-raw-commits: 2.0.10
     dev: true
 
-  /@commitlint/resolve-extends/15.0.0:
-    resolution: {integrity: sha512-7apfRJjgJsKja7lHsPfEFixKjA/fk/UeD3owkOw1174yYu4u8xBDLSeU3IinGPdMuF9m245eX8wo7vLUy+EBSg==}
-    engines: {node: '>=v12'}
-    dependencies:
-      import-fresh: 3.3.0
-      lodash: 4.17.21
-      resolve-from: 5.0.0
-      resolve-global: 1.0.0
-    dev: true
-    optional: true
-
   /@commitlint/resolve-extends/16.0.0:
     resolution: {integrity: sha512-Z/w9MAQUcxeawpCLtjmkVNXAXOmB2nhW+LYmHEZcx9O6UTauF/1+uuZ2/r0MtzTe1qw2JD+1QHVhEWYHVPlkdA==}
     engines: {node: '>=v12'}
@@ -1830,14 +1797,6 @@ packages:
     dependencies:
       find-up: 5.0.0
     dev: true
-
-  /@commitlint/types/15.0.0:
-    resolution: {integrity: sha512-OMSLX+QJnyNoTwws54ULv9sOvuw9GdVezln76oyUd4YbMMJyaav62aSXDuCdWyL2sm9hTkSzyEi52PNaIj/vqw==}
-    engines: {node: '>=v12'}
-    dependencies:
-      chalk: 4.1.2
-    dev: true
-    optional: true
 
   /@commitlint/types/16.0.0:
     resolution: {integrity: sha512-+0FvYOAS39bJ4aKjnYn/7FD4DfWkmQ6G/06I4F0Gvu4KS5twirEg8mIcLhmeRDOOKn4Tp8PwpLwBiSA6npEMQA==}
@@ -2538,22 +2497,6 @@ packages:
       - uglify-js
       - webpack-cli
     dev: false
-
-  /@endemolshinegroup/cosmiconfig-typescript-loader/3.0.2_b67f536f129c730ed129a6d21d223ba9:
-    resolution: {integrity: sha512-QRVtqJuS1mcT56oHpVegkKBlgtWjXw/gHNWO3eL9oyB5Sc7HBoc2OLG/nYpVfT/Jejvo3NUrD0Udk7XgoyDKkA==}
-    engines: {node: '>=10.0.0'}
-    peerDependencies:
-      cosmiconfig: '>=6'
-    dependencies:
-      cosmiconfig: 7.0.1
-      lodash.get: 4.4.2
-      make-error: 1.3.6
-      ts-node: 9.1.1_typescript@4.5.2
-      tslib: 2.3.1
-    transitivePeerDependencies:
-      - typescript
-    dev: true
-    optional: true
 
   /@eslint/eslintrc/0.4.3:
     resolution: {integrity: sha512-J6KFFz5QCYUJq3pf0mjEcCJVERbzv71PUIDczuh9JkwGEzced6CO5ADLHB1rbf/+oPBtoPfMYNOpGDzCANlbXw==}
@@ -6488,7 +6431,7 @@ packages:
       longest: 2.0.1
       word-wrap: 1.2.3
     optionalDependencies:
-      '@commitlint/load': 15.0.0
+      '@commitlint/load': 16.0.0_@types+node@17.0.4
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -10071,11 +10014,6 @@ packages:
   /lodash.foreach/4.5.0:
     resolution: {integrity: sha1-Gmo16s5AEoDH8G3d7DUWWrJ+PlM=}
     dev: false
-
-  /lodash.get/4.4.2:
-    resolution: {integrity: sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=}
-    dev: true
-    optional: true
 
   /lodash.ismatch/4.4.0:
     resolution: {integrity: sha1-dWy1FQyjum8RCFp4hJZF8Yj4Xzc=}
