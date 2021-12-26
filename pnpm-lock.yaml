@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@commitlint/cli': ^16.0.0
   '@commitlint/config-angular': ^16.0.0
-  '@commitlint/config-conventional': ^15.0.0
+  '@commitlint/config-conventional': ^16.0.0
   '@docusaurus/core': ^2.0.0-alpha.70
   '@docusaurus/preset-classic': ^2.0.0-alpha.70
   '@jscutlery/semver': ^2.13.0
@@ -79,7 +79,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 16.0.0_@types+node@17.0.4
   '@commitlint/config-angular': 16.0.0
-  '@commitlint/config-conventional': 15.0.0
+  '@commitlint/config-conventional': 16.0.0
   '@jscutlery/semver': 2.13.0
   '@nrwl/cli': 13.4.1
   '@nrwl/eslint-plugin-nx': 13.4.1_20a73bef6c029668be156f4249b126d9
@@ -1664,8 +1664,8 @@ packages:
       '@commitlint/config-angular-type-enum': 16.0.0
     dev: true
 
-  /@commitlint/config-conventional/15.0.0:
-    resolution: {integrity: sha512-eZBRL8Lk3hMNHp1wUMYj0qrZQEsST1ai7KHR8J1IDD9aHgT7L2giciibuQ+Og7vxVhR5WtYDvh9xirXFVPaSkQ==}
+  /@commitlint/config-conventional/16.0.0:
+    resolution: {integrity: sha512-mN7J8KlKFn0kROd+q9PB01sfDx/8K/R25yITspL1No8PB4oj9M1p77xWjP80hPydqZG9OvQq+anXK3ZWeR7s3g==}
     engines: {node: '>=v12'}
     dependencies:
       conventional-changelog-conventionalcommits: 4.6.1
