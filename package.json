@@ -52,7 +52,7 @@
     "@nx-plus/docusaurus": "^12.2.0",
     "@testing-library/react": "12.1.2",
     "@testing-library/react-hooks": "7.0.2",
-    "@types/jest": "27.0.3",
+    "@types/jest": "27.4.0",
     "@types/node": "17.0.5",
     "@types/react": "17.0.38",
     "@types/react-dom": "17.0.11",
