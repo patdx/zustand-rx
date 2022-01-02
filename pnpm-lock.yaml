@@ -8,7 +8,7 @@ specifiers:
   '@docusaurus/preset-classic': ^2.0.0-alpha.70
   '@jscutlery/semver': ^2.13.0
   '@mdx-js/react': ^1.6.21
-  '@nrwl/cli': 13.4.1
+  '@nrwl/cli': 13.4.2
   '@nrwl/eslint-plugin-nx': 13.4.1
   '@nrwl/jest': 13.4.1
   '@nrwl/linter': 13.4.1
@@ -81,7 +81,7 @@ devDependencies:
   '@commitlint/config-angular': 16.0.0
   '@commitlint/config-conventional': 16.0.0
   '@jscutlery/semver': 2.13.0
-  '@nrwl/cli': 13.4.1
+  '@nrwl/cli': 13.4.2
   '@nrwl/eslint-plugin-nx': 13.4.1_20a73bef6c029668be156f4249b126d9
   '@nrwl/jest': 13.4.1
   '@nrwl/linter': 13.4.1_typescript@4.5.2
@@ -2919,6 +2919,18 @@ packages:
       yargs-parser: 20.0.0
     dev: true
 
+  /@nrwl/cli/13.4.2:
+    resolution: {integrity: sha512-QIHmyuzbIuCKsWnq71bDsyxTrkZ22qsap0ea9cKA0Wo08jm8McKoIGWR0tqAKDlzPXlRNlHd/t3GTUvwJpGdMA==}
+    hasBin: true
+    dependencies:
+      '@nrwl/tao': 13.4.2
+      chalk: 4.1.0
+      enquirer: 2.3.6
+      v8-compile-cache: 2.3.0
+      yargs: 15.4.1
+      yargs-parser: 20.0.0
+    dev: true
+
   /@nrwl/cypress/13.4.1_bd395d89920c16f184e138983bc64341:
     resolution: {integrity: sha512-+H4oSmtYhH/zyEGVYVEc6kw96hhdjIfajfGW1Hkver+yqtsXLuD8gfxC+LT8gK1VWcR+seMOS5DzdHzToVKuOA==}
     peerDependencies:
@@ -3290,6 +3302,25 @@ packages:
       ignore: 5.1.9
       jsonc-parser: 3.0.0
       nx: 13.4.1
+      rxjs: 6.6.7
+      rxjs-for-await: 0.0.2_rxjs@6.6.7
+      semver: 7.3.4
+      tmp: 0.2.1
+      tslib: 2.3.1
+      yargs-parser: 20.0.0
+    dev: true
+
+  /@nrwl/tao/13.4.2:
+    resolution: {integrity: sha512-Fc5+th1rdDeo/WyTE15o2pXIib6P1K/QkPkDAfxKnI77kMem0YlGLtohgoEQf/nfOF1qMv3P+bEWv6uH3+KyPw==}
+    hasBin: true
+    dependencies:
+      chalk: 4.1.0
+      enquirer: 2.3.6
+      fast-glob: 3.2.7
+      fs-extra: 9.1.0
+      ignore: 5.1.9
+      jsonc-parser: 3.0.0
+      nx: 13.4.2
       rxjs: 6.6.7
       rxjs-for-await: 0.0.2_rxjs@6.6.7
       semver: 7.3.4
@@ -10589,7 +10620,7 @@ packages:
     resolution: {integrity: sha512-clM0NQhQKYkqcNz2E3uYRMLwhp2L/9dBhJhQi9XBX4IAyA2gWAomhRIlLm5Xxg3g4h1xwSpP3eJ5t89VikY8Pw==}
     hasBin: true
     dependencies:
-      '@nrwl/cli': 13.4.1
+      '@nrwl/cli': 13.4.2
     dev: true
 
   /nx/13.4.1:
@@ -10597,6 +10628,13 @@ packages:
     hasBin: true
     dependencies:
       '@nrwl/cli': 13.4.1
+    dev: true
+
+  /nx/13.4.2:
+    resolution: {integrity: sha512-4zakyBenWXXhpmLB9TG4gSZC3inW6l+JMV/Hr3SVx8sHjxB708JTnss1tHwhvWp0fYaC8lG6ZLsMczmFKrhgjg==}
+    hasBin: true
+    dependencies:
+      '@nrwl/cli': 13.4.2
     dev: true
 
   /object-assign/4.1.1:
