@@ -11,7 +11,7 @@ specifiers:
   '@nrwl/cli': 13.4.2
   '@nrwl/eslint-plugin-nx': 13.4.2
   '@nrwl/jest': 13.4.2
-  '@nrwl/linter': 13.4.1
+  '@nrwl/linter': 13.4.2
   '@nrwl/react': 13.4.1
   '@nrwl/tao': 13.4.1
   '@nrwl/web': 13.4.1
@@ -84,7 +84,7 @@ devDependencies:
   '@nrwl/cli': 13.4.2
   '@nrwl/eslint-plugin-nx': 13.4.2_20a73bef6c029668be156f4249b126d9
   '@nrwl/jest': 13.4.2
-  '@nrwl/linter': 13.4.1_typescript@4.5.2
+  '@nrwl/linter': 13.4.2_typescript@4.5.2
   '@nrwl/react': 13.4.1_06efd07f324a49e051600f8db609bbf4
   '@nrwl/tao': 13.4.1
   '@nrwl/web': 13.4.1_prettier@2.4.1+typescript@4.5.2
@@ -3250,6 +3250,27 @@ packages:
     dependencies:
       '@nrwl/devkit': 13.4.2
       '@nrwl/jest': 13.4.2_ts-node@9.1.1
+      '@phenomnomnominal/tsquery': 4.1.1_typescript@4.5.2
+      eslint: 8.2.0
+      glob: 7.1.4
+      minimatch: 3.0.4
+      tmp: 0.2.1
+      tslib: 2.3.1
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - node-notifier
+      - supports-color
+      - ts-node
+      - typescript
+      - utf-8-validate
+    dev: true
+
+  /@nrwl/linter/13.4.2_typescript@4.5.2:
+    resolution: {integrity: sha512-IqGvGi1aU/4uEpfye9nixCCNHXvB94W7jcToFkXeSEak8hbX6EWKKhcRIXPvQCl59vRUTtN7W3VRe0ZnUbpgPw==}
+    dependencies:
+      '@nrwl/devkit': 13.4.2
+      '@nrwl/jest': 13.4.2
       '@phenomnomnominal/tsquery': 4.1.1_typescript@4.5.2
       eslint: 8.2.0
       glob: 7.1.4
