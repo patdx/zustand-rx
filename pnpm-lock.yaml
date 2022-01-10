@@ -10,7 +10,7 @@ specifiers:
   '@mdx-js/react': ^1.6.21
   '@nrwl/cli': 13.4.4
   '@nrwl/eslint-plugin-nx': 13.4.4
-  '@nrwl/jest': 13.4.3
+  '@nrwl/jest': 13.4.4
   '@nrwl/linter': 13.4.3
   '@nrwl/react': 13.4.3
   '@nrwl/tao': 13.4.3
@@ -83,7 +83,7 @@ devDependencies:
   '@jscutlery/semver': 2.13.0
   '@nrwl/cli': 13.4.4
   '@nrwl/eslint-plugin-nx': 13.4.4_742afa9214858d5e113a6764e524e47a
-  '@nrwl/jest': 13.4.3
+  '@nrwl/jest': 13.4.4
   '@nrwl/linter': 13.4.3_typescript@4.5.2
   '@nrwl/react': 13.4.3_16267ea6c9f4dadcedfa32feec84c243
   '@nrwl/tao': 13.4.3
@@ -2666,7 +2666,7 @@ packages:
       istanbul-lib-instrument: 4.0.3
       istanbul-lib-report: 3.0.0
       istanbul-lib-source-maps: 4.0.1
-      istanbul-reports: 3.0.5
+      istanbul-reports: 3.1.3
       jest-haste-map: 27.4.6
       jest-resolve: 27.4.6
       jest-util: 27.4.2
@@ -3061,6 +3061,29 @@ packages:
       chalk: 4.1.0
       identity-obj-proxy: 3.0.0
       jest-config: 27.2.2_ts-node@9.1.1
+      jest-resolve: 27.2.2
+      jest-util: 27.2.0
+      resolve.exports: 1.1.0
+      rxjs: 6.6.7
+      tslib: 2.3.1
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - node-notifier
+      - supports-color
+      - ts-node
+      - utf-8-validate
+    dev: true
+
+  /@nrwl/jest/13.4.4:
+    resolution: {integrity: sha512-ClaDdYvDi1Vy5kwbx/xZ+e+frvrZ7XL7ufP3yLLOy2NtI+H3RgqNw9Lsq9xZqefrLrvf/46pDjOwQ113QFWsNw==}
+    dependencies:
+      '@jest/reporters': 27.2.2
+      '@jest/test-result': 27.2.2
+      '@nrwl/devkit': 13.4.4
+      chalk: 4.1.0
+      identity-obj-proxy: 3.0.0
+      jest-config: 27.2.2
       jest-resolve: 27.2.2
       jest-util: 27.2.0
       resolve.exports: 1.1.0
@@ -9255,14 +9278,6 @@ packages:
       source-map: 0.6.1
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /istanbul-reports/3.0.5:
-    resolution: {integrity: sha512-5+19PlhnGabNWB7kOFnuxT8H3T/iIyQzIbQMxXsURmmvKg86P2sbkrGOT77VnHw0Qr0gc2XzRaRfMZYYbSQCJQ==}
-    engines: {node: '>=8'}
-    dependencies:
-      html-escaper: 2.0.2
-      istanbul-lib-report: 3.0.0
     dev: true
 
   /istanbul-reports/3.1.3:
