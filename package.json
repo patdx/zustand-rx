@@ -63,7 +63,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "docusaurus-plugin-typedoc": "^0.16.3",
     "dot-json": "^1.2.2",
-    "eslint": "7",
+    "eslint": "8",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-cypress": "^2.10.3",
     "eslint-plugin-import": "2.25.4",
