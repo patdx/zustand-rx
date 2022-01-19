@@ -10,7 +10,7 @@ specifiers:
   '@mdx-js/react': ^1.6.21
   '@nrwl/cli': 13.4.6
   '@nrwl/eslint-plugin-nx': 13.4.6
-  '@nrwl/jest': 13.4.5
+  '@nrwl/jest': 13.4.6
   '@nrwl/linter': 13.4.6
   '@nrwl/react': 13.4.6
   '@nrwl/tao': 13.4.5
@@ -83,7 +83,7 @@ devDependencies:
   '@jscutlery/semver': 2.13.0
   '@nrwl/cli': 13.4.6
   '@nrwl/eslint-plugin-nx': 13.4.6_ae52851c94c0f3ea62337251d0128367
-  '@nrwl/jest': 13.4.5
+  '@nrwl/jest': 13.4.6
   '@nrwl/linter': 13.4.6_eslint@8.2.0+typescript@4.5.2
   '@nrwl/react': 13.4.6_57545f44c91b17af644f7e01753bc02d
   '@nrwl/tao': 13.4.5
