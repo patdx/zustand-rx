@@ -10,7 +10,7 @@ specifiers:
   '@mdx-js/react': ^1.6.21
   '@nrwl/cli': 13.5.2
   '@nrwl/eslint-plugin-nx': 13.5.1
-  '@nrwl/jest': 13.5.1
+  '@nrwl/jest': 13.5.2
   '@nrwl/linter': 13.5.1
   '@nrwl/react': 13.5.1
   '@nrwl/tao': 13.5.1
@@ -83,7 +83,7 @@ devDependencies:
   '@jscutlery/semver': 2.13.0
   '@nrwl/cli': 13.5.2
   '@nrwl/eslint-plugin-nx': 13.5.1_ae52851c94c0f3ea62337251d0128367
-  '@nrwl/jest': 13.5.1
+  '@nrwl/jest': 13.5.2
   '@nrwl/linter': 13.5.1_eslint@8.2.0+typescript@4.5.2
   '@nrwl/react': 13.5.1_57b8f0bbf50083655d7f8f38e2dd2d52
   '@nrwl/tao': 13.5.1
@@ -2991,6 +2991,17 @@ packages:
       tslib: 2.3.1
     dev: true
 
+  /@nrwl/devkit/13.5.2:
+    resolution: {integrity: sha512-xOKDDJrHIgsBI80ZpOtEgzoleD8v/+8V4F6VKcq7Ika9RgP9NuEBUTMvuGTQM3GJy5xWkQEXTh1YlfgibnQpfA==}
+    dependencies:
+      '@nrwl/tao': 13.5.2
+      ejs: 3.1.6
+      ignore: 5.1.9
+      rxjs: 6.6.7
+      semver: 7.3.4
+      tslib: 2.3.1
+    dev: true
+
   /@nrwl/eslint-plugin-nx/13.5.1_ae52851c94c0f3ea62337251d0128367:
     resolution: {integrity: sha512-/R+gnIjUCRI3Vz0Tf13JGIq0z64V89by5Waje4E+YEnj8sCJ0DsEDAErWkdn+DNPZ+BJ3nXjVJb8g5lK53bT6Q==}
     peerDependencies:
@@ -3048,6 +3059,29 @@ packages:
       chalk: 4.1.0
       identity-obj-proxy: 3.0.0
       jest-config: 27.2.2_ts-node@9.1.1
+      jest-resolve: 27.2.2
+      jest-util: 27.2.0
+      resolve.exports: 1.1.0
+      rxjs: 6.6.7
+      tslib: 2.3.1
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - node-notifier
+      - supports-color
+      - ts-node
+      - utf-8-validate
+    dev: true
+
+  /@nrwl/jest/13.5.2:
+    resolution: {integrity: sha512-GoP4ofExKi3XlN3UW7zeLMHiMcrZ32p1QhQ4VyKzPtVrzaZReGwjT5V1RWnglyhZKeDed4saNJVbcx55xG6dfQ==}
+    dependencies:
+      '@jest/reporters': 27.2.2
+      '@jest/test-result': 27.2.2
+      '@nrwl/devkit': 13.5.2
+      chalk: 4.1.0
+      identity-obj-proxy: 3.0.0
+      jest-config: 27.2.2
       jest-resolve: 27.2.2
       jest-util: 27.2.0
       resolve.exports: 1.1.0
