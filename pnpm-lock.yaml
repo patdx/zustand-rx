@@ -11,7 +11,7 @@ specifiers:
   '@nrwl/cli': 13.5.3
   '@nrwl/eslint-plugin-nx': 13.5.3
   '@nrwl/jest': 13.5.3
-  '@nrwl/linter': 13.5.2
+  '@nrwl/linter': 13.5.3
   '@nrwl/react': 13.5.1
   '@nrwl/tao': 13.5.1
   '@nrwl/web': 13.5.1
@@ -84,7 +84,7 @@ devDependencies:
   '@nrwl/cli': 13.5.3
   '@nrwl/eslint-plugin-nx': 13.5.3_ae52851c94c0f3ea62337251d0128367
   '@nrwl/jest': 13.5.3
-  '@nrwl/linter': 13.5.2_eslint@8.2.0+typescript@4.5.2
+  '@nrwl/linter': 13.5.3_eslint@8.2.0+typescript@4.5.2
   '@nrwl/react': 13.5.1_57b8f0bbf50083655d7f8f38e2dd2d52
   '@nrwl/tao': 13.5.1
   '@nrwl/web': 13.5.1_57b8f0bbf50083655d7f8f38e2dd2d52
@@ -2884,17 +2884,6 @@ packages:
       yargs-parser: 20.0.0
     dev: true
 
-  /@nrwl/cli/13.5.2:
-    resolution: {integrity: sha512-TvrxQ8Qu9l665YZBaMxI8b54Gp1VO/BPsf+8luf3+rZZdsd+ha7PzTtMhTPOoNB0sx0auM71iyZTCV4J1Up43A==}
-    hasBin: true
-    dependencies:
-      '@nrwl/tao': 13.5.2
-      chalk: 4.1.0
-      enquirer: 2.3.6
-      v8-compile-cache: 2.3.0
-      yargs-parser: 20.0.0
-    dev: true
-
   /@nrwl/cli/13.5.3:
     resolution: {integrity: sha512-TMh8FfF6PPnjuxoSIU0wFVtE6xcf5UfxmX0pSy+ztEDU66RBSPwUxbHUFZGMKrT7jNZLutqmziwi89leTngvfw==}
     hasBin: true
@@ -3002,17 +2991,6 @@ packages:
       tslib: 2.3.1
     dev: true
 
-  /@nrwl/devkit/13.5.2:
-    resolution: {integrity: sha512-xOKDDJrHIgsBI80ZpOtEgzoleD8v/+8V4F6VKcq7Ika9RgP9NuEBUTMvuGTQM3GJy5xWkQEXTh1YlfgibnQpfA==}
-    dependencies:
-      '@nrwl/tao': 13.5.2
-      ejs: 3.1.6
-      ignore: 5.1.9
-      rxjs: 6.6.7
-      semver: 7.3.4
-      tslib: 2.3.1
-    dev: true
-
   /@nrwl/devkit/13.5.3:
     resolution: {integrity: sha512-Fg2n5KjCbKn2c5lRGpYzuyB2x385RJmsyJ+7EE230MCTJaw5OXk7U02hrK+nL5dZltEmI06VH409FAEwVyOUqw==}
     dependencies:
@@ -3082,29 +3060,6 @@ packages:
       chalk: 4.1.0
       identity-obj-proxy: 3.0.0
       jest-config: 27.2.2_ts-node@9.1.1
-      jest-resolve: 27.2.2
-      jest-util: 27.2.0
-      resolve.exports: 1.1.0
-      rxjs: 6.6.7
-      tslib: 2.3.1
-    transitivePeerDependencies:
-      - bufferutil
-      - canvas
-      - node-notifier
-      - supports-color
-      - ts-node
-      - utf-8-validate
-    dev: true
-
-  /@nrwl/jest/13.5.2:
-    resolution: {integrity: sha512-GoP4ofExKi3XlN3UW7zeLMHiMcrZ32p1QhQ4VyKzPtVrzaZReGwjT5V1RWnglyhZKeDed4saNJVbcx55xG6dfQ==}
-    dependencies:
-      '@jest/reporters': 27.2.2
-      '@jest/test-result': 27.2.2
-      '@nrwl/devkit': 13.5.2
-      chalk: 4.1.0
-      identity-obj-proxy: 3.0.0
-      jest-config: 27.2.2
       jest-resolve: 27.2.2
       jest-util: 27.2.0
       resolve.exports: 1.1.0
@@ -3273,16 +3228,16 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@nrwl/linter/13.5.2_eslint@8.2.0+typescript@4.5.2:
-    resolution: {integrity: sha512-mNEZ2T5uB3D0mcfVSjGDQ2o1MKaihJWcS8QNKpyFH9ZZROV6+VDki8tOQG1GQnraLHIlIIzfkOg+FHRkNHkedQ==}
+  /@nrwl/linter/13.5.3_0e023eaecae588a13ad54452ae4ba943:
+    resolution: {integrity: sha512-xiQVPlhLjesFdt9uHXV4GtuFgiUbx9cATc3At1R6xHkdd7Lbqv/deq+FWJKnGb5MgTpvzyQc/gNUvfSyKoSBsA==}
     peerDependencies:
       eslint: ^8.0.0
     peerDependenciesMeta:
       eslint:
         optional: true
     dependencies:
-      '@nrwl/devkit': 13.5.2
-      '@nrwl/jest': 13.5.2
+      '@nrwl/devkit': 13.5.3
+      '@nrwl/jest': 13.5.3_ts-node@9.1.1
       '@phenomnomnominal/tsquery': 4.1.1_typescript@4.5.2
       eslint: 8.2.0
       tmp: 0.2.1
@@ -3297,7 +3252,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@nrwl/linter/13.5.3_0e023eaecae588a13ad54452ae4ba943:
+  /@nrwl/linter/13.5.3_eslint@8.2.0+typescript@4.5.2:
     resolution: {integrity: sha512-xiQVPlhLjesFdt9uHXV4GtuFgiUbx9cATc3At1R6xHkdd7Lbqv/deq+FWJKnGb5MgTpvzyQc/gNUvfSyKoSBsA==}
     peerDependencies:
       eslint: ^8.0.0
@@ -3306,7 +3261,7 @@ packages:
         optional: true
     dependencies:
       '@nrwl/devkit': 13.5.3
-      '@nrwl/jest': 13.5.3_ts-node@9.1.1
+      '@nrwl/jest': 13.5.3
       '@phenomnomnominal/tsquery': 4.1.1_typescript@4.5.2
       eslint: 8.2.0
       tmp: 0.2.1
@@ -3439,25 +3394,6 @@ packages:
       ignore: 5.1.9
       jsonc-parser: 3.0.0
       nx: 13.5.1
-      rxjs: 6.6.7
-      rxjs-for-await: 0.0.2_rxjs@6.6.7
-      semver: 7.3.4
-      tmp: 0.2.1
-      tslib: 2.3.1
-      yargs-parser: 20.0.0
-    dev: true
-
-  /@nrwl/tao/13.5.2:
-    resolution: {integrity: sha512-6yACds22JtmH1I4ImXGUpdP923DiXUcu575RtJtYfCH5XNTMuvH2pVp9AKv5Tz6Srp5tOporR62aOI0CB5C9dA==}
-    hasBin: true
-    dependencies:
-      chalk: 4.1.0
-      enquirer: 2.3.6
-      fast-glob: 3.2.7
-      fs-extra: 9.1.0
-      ignore: 5.1.9
-      jsonc-parser: 3.0.0
-      nx: 13.5.2
       rxjs: 6.6.7
       rxjs-for-await: 0.0.2_rxjs@6.6.7
       semver: 7.3.4
@@ -10929,13 +10865,6 @@ packages:
     hasBin: true
     dependencies:
       '@nrwl/cli': 13.5.1
-    dev: true
-
-  /nx/13.5.2:
-    resolution: {integrity: sha512-Jq++QZMCD5WvCEsOs979W5v1rkvyRTlgcuTxCAIYutp1LxpeOQM4xZnHQlAWpzB/inZCxwFmWqeL7+oUuyapDg==}
-    hasBin: true
-    dependencies:
-      '@nrwl/cli': 13.5.2
     dev: true
 
   /nx/13.5.3:
