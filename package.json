@@ -43,7 +43,7 @@
     "@jscutlery/semver": "^2.13.0",
     "@nrwl/cli": "13.5.2",
     "@nrwl/eslint-plugin-nx": "13.5.1",
-    "@nrwl/jest": "13.5.1",
+    "@nrwl/jest": "13.5.2",
     "@nrwl/linter": "13.5.1",
     "@nrwl/react": "13.5.1",
     "@nrwl/tao": "13.5.1",
