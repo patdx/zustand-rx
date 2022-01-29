@@ -10,7 +10,10 @@
         "outputPath": "dist/libs/zustand-rx",
         "commands": [
           "nx build-base zustand-rx",
-          "pnpm dot-json dist/libs/zustand-rx/package.json main \"./index.cjs.js\""
+          "pnpm shx mv dist/libs/zustand-rx/index.cjs.js dist/libs/zustand-rx/index.cjs",
+          "pnpm shx mv dist/libs/zustand-rx/index.esm.js dist/libs/zustand-rx/index.mjs",
+          "pnpm dot-json dist/libs/zustand-rx/package.json main \"./index.cjs\"",
+          "pnpm dot-json dist/libs/zustand-rx/package.json module \"./index.mjs\""
         ],
         "parallel": false
       }
