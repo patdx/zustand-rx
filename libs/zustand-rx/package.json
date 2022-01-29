@@ -15,7 +15,7 @@
     "zustand": "*"
   },
   "exports": {
-    "import": "./zustand-rx.mjs",
-    "require": "./zustand-rx.cjs"
+    "import": "./index.esm.js",
+    "require": "./index.cjs.js"
   }
 }

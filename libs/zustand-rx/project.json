@@ -10,16 +10,13 @@
         "outputPath": "dist/libs/zustand-rx",
         "commands": [
           "nx build-base zustand-rx",
-          "pnpm shx mv dist/libs/zustand-rx/zustand-rx.cjs.js dist/libs/zustand-rx/zustand-rx.cjs",
-          "pnpm shx mv dist/libs/zustand-rx/zustand-rx.esm.js dist/libs/zustand-rx/zustand-rx.mjs",
-          "pnpm dot-json dist/libs/zustand-rx/package.json main \"./zustand-rx.cjs\"",
-          "pnpm dot-json dist/libs/zustand-rx/package.json module \"./zustand-rx.mjs\""
+          "pnpm dot-json dist/libs/zustand-rx/package.json main \"./index.cjs.js\""
         ],
         "parallel": false
       }
     },
     "build-base": {
-      "executor": "@nrwl/web:package",
+      "executor": "@nrwl/web:rollup",
       "outputs": [
         "{options.outputPath}"
       ],
