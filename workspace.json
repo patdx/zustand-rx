@@ -1,39 +1,10 @@
 {
   "version": 2,
   "projects": {
-    "workspace": {
-      "root": ".",
-      "targets": {
-        "version": {
-          "executor": "@jscutlery/semver:version",
-          "options": {
-            "syncVersions": true
-          }
-        }
-      }
-    },
+    "docs-app": "apps/docs-app",
+    "docusaurus": "libs/docusaurus",
+    "workspace": ".",
     "zustand-rx": "libs/zustand-rx",
-    "zustand-rx-react": "apps/zustand-rx-react",
-    "zustand-rx-react-e2e": "apps/zustand-rx-react-e2e",
-    "docs-app": {
-      "projectType": "application",
-      "root": "apps/docs-app",
-      "sourceRoot": "apps/docs-app/src",
-      "targets": {
-        "build": {
-          "executor": "@nx-plus/docusaurus:browser",
-          "options": {
-            "outputPath": "dist/apps/docs-app"
-          }
-        },
-        "serve": {
-          "executor": "@nx-plus/docusaurus:dev-server",
-          "options": {
-            "port": 3000
-          }
-        }
-      },
-      "tags": []
-    }
+    "zustand-rx-react": "apps/zustand-rx-react"
   }
 }

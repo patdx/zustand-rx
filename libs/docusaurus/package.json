@@ -1,0 +1,7 @@
+{
+  "name": "@zustand-rx/docusaurus",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "executors": "./executors.json",
+  "generators": "./generators.json"
+}

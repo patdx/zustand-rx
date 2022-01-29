@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@zustand-rx/docusaurus": ["libs/docusaurus/src/index.ts"],
       "zustand-rx": ["libs/zustand-rx/src/index.ts"]
     },
     "strict": true,

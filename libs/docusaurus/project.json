@@ -1,0 +1,54 @@
+{
+  "root": "libs/docusaurus",
+  "sourceRoot": "libs/docusaurus/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": [
+        "{options.outputFile}"
+      ],
+      "options": {
+        "lintFilePatterns": [
+          "libs/docusaurus/**/*.ts"
+        ]
+      }
+    },
+    "build": {
+      "executor": "@nrwl/node:package",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "outputPath": "dist/libs/docusaurus",
+        "tsConfig": "libs/docusaurus/tsconfig.lib.json",
+        "packageJson": "libs/docusaurus/package.json",
+        "main": "libs/docusaurus/src/index.ts",
+        "assets": [
+          "libs/docusaurus/*.md",
+          {
+            "input": "./libs/docusaurus/src",
+            "glob": "**/!(*.ts)",
+            "output": "./src"
+          },
+          {
+            "input": "./libs/docusaurus/src",
+            "glob": "**/*.d.ts",
+            "output": "./src"
+          },
+          {
+            "input": "./libs/docusaurus",
+            "glob": "generators.json",
+            "output": "."
+          },
+          {
+            "input": "./libs/docusaurus",
+            "glob": "executors.json",
+            "output": "."
+          }
+        ]
+      }
+    }
+  },
+  "tags": []
+}

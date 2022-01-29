@@ -21,7 +21,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[index.ts:6](https://github.com/patdx/zustand-rx/blob/e6043c7/libs/zustand-rx/src/index.ts#L6)
+[index.ts:6](https://github.com/patdx/zustand-rx/blob/312d91d/libs/zustand-rx/src/index.ts#L6)
 
 ## Functions
 
@@ -57,4 +57,4 @@ API: https://github.com/mobxjs/mobx-utils#tostream
 
 #### Defined in
 
-[index.ts:14](https://github.com/patdx/zustand-rx/blob/e6043c7/libs/zustand-rx/src/index.ts#L14)
+[index.ts:14](https://github.com/patdx/zustand-rx/blob/312d91d/libs/zustand-rx/src/index.ts#L14)

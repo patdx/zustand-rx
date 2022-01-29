@@ -1,0 +1,43 @@
+{
+  "projectType": "application",
+  "root": "apps/docs-app",
+  "sourceRoot": "apps/docs-app/src",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "commands": [
+          "nx build docusaurus",
+          "nx build-base docs-app"
+        ],
+        "parallel": false
+      }
+    },
+    "build-base": {
+      "executor": "./dist/libs/docusaurus:build",
+      "options": {
+        "outputPath": "dist/apps/docs-app"
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "commands": [
+          "nx build docusaurus",
+          "nx serve-base docs-app"
+        ],
+        "parallel": false
+      }
+    },
+    "serve-base": {
+      "executor": "./dist/libs/docusaurus:serve",
+      "options": {
+        "port": 3000
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": [
+    "docusaurus"
+  ]
+}
