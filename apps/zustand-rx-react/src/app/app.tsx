@@ -3,7 +3,6 @@ import { useEffect } from 'react';
 import { toStream } from 'zustand-rx';
 import { combine } from 'zustand/middleware';
 import create from 'zustand/vanilla';
-import createReact from 'zustand';
 
 const store = create(
   combine({ bears: 0 }, (set) => ({

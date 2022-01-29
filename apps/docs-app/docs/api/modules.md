@@ -21,7 +21,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[index.ts:6](https://github.com/patdx/zustand-rx/blob/312d91d/libs/zustand-rx/src/index.ts#L6)
+[index.ts:6](https://github.com/patdx/zustand-rx/blob/7ed6b10/libs/zustand-rx/src/index.ts#L6)
 
 ## Functions
 
@@ -35,11 +35,11 @@ API: https://github.com/mobxjs/mobx-utils#tostream
 
 #### Type parameters
 
-| Name     | Type                                                              |
-| :------- | :---------------------------------------------------------------- |
-| `TStore` | extends `StoreApi`<`any`\>                                        |
-| `TState` | extends `object`[`StateValueOf`](modules#statevalueof)<`TStore`\> |
-| `TSlice` | `TState`                                                          |
+| Name     | Type                                                                 |
+| :------- | :------------------------------------------------------------------- |
+| `TStore` | extends `StoreApi`<`any`\>                                           |
+| `TState` | extends `object` = [`StateValueOf`](modules#statevalueof)<`TStore`\> |
+| `TSlice` | `TState`                                                             |
 
 #### Parameters
 
@@ -57,4 +57,4 @@ API: https://github.com/mobxjs/mobx-utils#tostream
 
 #### Defined in
 
-[index.ts:14](https://github.com/patdx/zustand-rx/blob/312d91d/libs/zustand-rx/src/index.ts#L14)
+[index.ts:14](https://github.com/patdx/zustand-rx/blob/7ed6b10/libs/zustand-rx/src/index.ts#L14)
