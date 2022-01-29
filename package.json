@@ -48,7 +48,7 @@
     "@nrwl/react": "13.7.1",
     "@nrwl/tao": "13.7.1",
     "@nrwl/web": "13.6.1",
-    "@nrwl/workspace": "13.7.0",
+    "@nrwl/workspace": "13.7.1",
     "@nx-plus/docusaurus": "^12.2.0",
     "@testing-library/react": "12.1.2",
     "@testing-library/react-hooks": "7.0.2",
