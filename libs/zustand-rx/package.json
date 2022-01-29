@@ -15,7 +15,7 @@
     "zustand": "*"
   },
   "exports": {
-    "import": "./index.esm.js",
-    "require": "./index.cjs.js"
+    "import": "./index.mjs",
+    "require": "./index.cjs"
   }
 }
