@@ -15,7 +15,7 @@ specifiers:
   '@nrwl/react': 13.7.0
   '@nrwl/tao': 13.6.1
   '@nrwl/web': 13.6.1
-  '@nrwl/workspace': 13.6.1
+  '@nrwl/workspace': 13.7.0
   '@nx-plus/docusaurus': ^12.2.0
   '@testing-library/react': 12.1.2
   '@testing-library/react-hooks': 7.0.2
@@ -88,8 +88,8 @@ devDependencies:
   '@nrwl/react': 13.7.0_f8dddbb7327612b2aa05a3d2f6c4adf2
   '@nrwl/tao': 13.6.1
   '@nrwl/web': 13.6.1_f8dddbb7327612b2aa05a3d2f6c4adf2
-  '@nrwl/workspace': 13.6.1_c6587a612eb68a515686118631ba90d7
-  '@nx-plus/docusaurus': 12.2.0_@nrwl+workspace@13.6.1
+  '@nrwl/workspace': 13.7.0_c6587a612eb68a515686118631ba90d7
+  '@nx-plus/docusaurus': 12.2.0_@nrwl+workspace@13.7.0
   '@testing-library/react': 12.1.2_react-dom@17.0.2+react@17.0.2
   '@testing-library/react-hooks': 7.0.2_react-dom@17.0.2+react@17.0.2
   '@types/jest': 27.4.0
@@ -3768,51 +3768,6 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@nrwl/workspace/13.6.1_c6587a612eb68a515686118631ba90d7:
-    resolution: {integrity: sha512-pmMRoYDgfSn0xN+yHYqBt/ltXFU/xCn7RQHa7mo3ThU2+gfAb/IhDHug5yRp2UqMKHmmMWQ6DbGuusXLlVix6A==}
-    peerDependencies:
-      prettier: ^2.5.1
-    peerDependenciesMeta:
-      prettier:
-        optional: true
-    dependencies:
-      '@nrwl/cli': 13.6.1
-      '@nrwl/devkit': 13.6.1
-      '@nrwl/jest': 13.6.1
-      '@nrwl/linter': 13.6.1_eslint@8.2.0+typescript@4.5.2
-      '@parcel/watcher': 2.0.4
-      chalk: 4.1.0
-      chokidar: 3.5.2
-      cli-cursor: 3.1.0
-      cli-spinners: 2.6.1
-      dotenv: 10.0.0
-      enquirer: 2.3.6
-      figures: 3.2.0
-      flat: 5.0.2
-      fs-extra: 9.1.0
-      glob: 7.1.4
-      ignore: 5.1.9
-      minimatch: 3.0.4
-      npm-run-path: 4.0.1
-      open: 7.4.2
-      prettier: 2.4.1
-      rxjs: 6.6.7
-      semver: 7.3.4
-      tmp: 0.2.1
-      tslib: 2.3.1
-      yargs: 15.4.1
-      yargs-parser: 20.0.0
-    transitivePeerDependencies:
-      - bufferutil
-      - canvas
-      - eslint
-      - node-notifier
-      - supports-color
-      - ts-node
-      - typescript
-      - utf-8-validate
-    dev: true
-
   /@nrwl/workspace/13.7.0_29da7fe31fcba9a366c84be12ebdcc15:
     resolution: {integrity: sha512-Swh/x3/D5e2dmiFEoPNDJiA2LVitxqcnT3i2nLwSuwjIqnXXFecrcx/igxYMgEQh3q00Hm2TRHlqAelBoJRfig==}
     peerDependencies:
@@ -3903,7 +3858,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@nx-plus/docusaurus/12.2.0_@nrwl+workspace@13.6.1:
+  /@nx-plus/docusaurus/12.2.0_@nrwl+workspace@13.7.0:
     resolution: {integrity: sha512-/GWFsEenqAprjDJgaZj13TWbjfK3A722JaKVuChjNT8Ze7JA5M9XOdpzMlDaaL4OuKcwfzPFgfgcoTSp9e4Vrw==}
     peerDependencies:
       '@nrwl/workspace': ^12.0.0
@@ -3911,7 +3866,7 @@ packages:
       '@angular-devkit/architect': 0.1201.0
       '@angular-devkit/core': 12.1.0
       '@angular-devkit/schematics': 12.1.0
-      '@nrwl/workspace': 13.6.1_c6587a612eb68a515686118631ba90d7
+      '@nrwl/workspace': 13.7.0_c6587a612eb68a515686118631ba90d7
       rxjs: 6.5.5
       typescript: 4.3.5
     dev: true
