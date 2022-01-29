@@ -9,9 +9,3 @@ This file was generated using
 
 - fix remaining build issues
   ([df1a60f](https://github.com/patdx/zustand-rx/commit/df1a60f4180fc1c908f45346d96fef40779b89f0))
-
-# [1.0.0](https://github.com/patdx/zustand-rx/compare/v1.0.0-beta.0...v1.0.0) (2021-11-08)
-
-# [1.0.0-beta.0](https://github.com/patdx/zustand-rx/compare/v0.0.1-beta.0...v1.0.0-beta.0) (2021-11-08)
-
-## 0.0.1-beta.0 (2021-11-08)
