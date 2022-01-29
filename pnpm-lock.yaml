@@ -49,7 +49,7 @@ specifiers:
   prettier-package-json: ^2.6.0
   react: 17.0.2
   react-dom: 17.0.2
-  react-router-dom: '5'
+  react-router-dom: '6'
   regenerator-runtime: 0.13.9
   rxjs: ^7.4.0
   shx: ^0.3.3
@@ -70,7 +70,7 @@ dependencies:
   observable-hooks: 4.1.0_aa2d6774eba8d3168b1dcae97738656d
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
-  react-router-dom: 5.3.0_react@17.0.2
+  react-router-dom: 6.2.1_react-dom@17.0.2+react@17.0.2
   regenerator-runtime: 0.13.9
   rxjs: 7.4.0
   tslib: 2.3.1
@@ -8874,6 +8874,12 @@ packages:
       value-equal: 1.0.1
     dev: false
 
+  /history/5.2.0:
+    resolution: {integrity: sha512-uPSF6lAJb3nSePJ43hN3eKj1dTWpN9gMod0ZssbFTIsen+WehTmEadgL+kg78xLJFdRfrrC//SavDzmRVdE+Ig==}
+    dependencies:
+      '@babel/runtime': 7.16.3
+    dev: false
+
   /hoist-non-react-statics/3.3.2:
     resolution: {integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==}
     dependencies:
@@ -12568,7 +12574,7 @@ packages:
     peerDependencies:
       react: '>=15'
     dependencies:
-      '@babel/runtime': 7.16.0
+      '@babel/runtime': 7.16.3
       history: 4.10.1
       loose-envify: 1.4.0
       prop-types: 15.7.2
@@ -12576,6 +12582,18 @@ packages:
       react-router: 5.2.1_react@17.0.2
       tiny-invariant: 1.2.0
       tiny-warning: 1.0.3
+    dev: false
+
+  /react-router-dom/6.2.1_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-I6Zax+/TH/cZMDpj3/4Fl2eaNdcvoxxHoH1tYOREsQ22OKDYofGebrNm6CTPUcvLvZm63NL/vzCYdjf9CUhqmA==}
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
+    dependencies:
+      history: 5.2.0
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-router: 6.2.1_react@17.0.2
     dev: false
 
   /react-router/5.2.1_react@17.0.2:
@@ -12594,6 +12612,15 @@ packages:
       react-is: 16.13.1
       tiny-invariant: 1.2.0
       tiny-warning: 1.0.3
+    dev: false
+
+  /react-router/6.2.1_react@17.0.2:
+    resolution: {integrity: sha512-2fG0udBtxou9lXtK97eJeET2ki5//UWfQSl1rlJ7quwe6jrktK9FCCc8dQb5QY6jAv3jua8bBQRhhDOM/kVRsg==}
+    peerDependencies:
+      react: '>=16.8'
+    dependencies:
+      history: 5.2.0
+      react: 17.0.2
     dev: false
 
   /react-side-effect/2.1.1_react@17.0.2:
