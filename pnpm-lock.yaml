@@ -6,7 +6,7 @@ specifiers:
   '@commitlint/config-conventional': 16.0.0
   '@docusaurus/core': 2.0.0-beta.15
   '@docusaurus/preset-classic': 2.0.0-beta.15
-  '@jscutlery/semver': 2.17.6
+  '@jscutlery/semver': 2.18.0
   '@mdx-js/react': 1.6.22
   '@nrwl/cli': 13.7.1
   '@nrwl/devkit': 13.7.1
@@ -82,7 +82,7 @@ devDependencies:
   '@commitlint/cli': 16.1.0_@types+node@17.0.13
   '@commitlint/config-angular': 16.0.0
   '@commitlint/config-conventional': 16.0.0
-  '@jscutlery/semver': 2.17.6
+  '@jscutlery/semver': 2.18.0
   '@nrwl/cli': 13.7.1
   '@nrwl/devkit': 13.7.1
   '@nrwl/eslint-plugin-nx': 13.7.1_008c67fd55e09176ca78266759116eee
@@ -3109,8 +3109,8 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@jscutlery/semver/2.17.6:
-    resolution: {integrity: sha512-yqpLTERGep5rsbXNw+0rKfKL+Q4JEFgqM7oa3jLLu4DyBSCbXabY+bRZVvwRFzBpjTnP8C1FHJ9pWN6CfUDRrg==}
+  /@jscutlery/semver/2.18.0:
+    resolution: {integrity: sha512-YK00dXy/nrGUCKC5sSUEmBfRRLw59MlcTm4wp5jepWkI/pynB9SyTqq5V1IxVn/+SlCsBLx6od5ANi34+iq5Ow==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@nrwl/devkit': 13.7.1
