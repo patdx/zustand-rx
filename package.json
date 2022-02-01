@@ -75,7 +75,7 @@
     "eslint-plugin-react-hooks": "4.3.0",
     "husky": "7.0.4",
     "jest": "27.4.7",
-    "lint-staged": "12.3.2",
+    "lint-staged": "12.3.3",
     "ngx-deploy-npm": "3.0.12",
     "only-allow": "1.0.0",
     "prettier": "2.5.1",
