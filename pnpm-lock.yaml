@@ -43,7 +43,7 @@ specifiers:
   eslint-plugin-react-hooks: 4.3.0
   husky: 7.0.4
   jest: 27.5.1
-  lint-staged: 12.3.3
+  lint-staged: 12.3.4
   ngx-deploy-npm: 3.1.1
   observable-hooks: 4.2.0
   only-allow: 1.0.0
@@ -116,7 +116,7 @@ devDependencies:
   eslint-plugin-react-hooks: 4.3.0_eslint@8.9.0
   husky: 7.0.4
   jest: 27.5.1
-  lint-staged: 12.3.3
+  lint-staged: 12.3.4
   ngx-deploy-npm: 3.1.1
   only-allow: 1.0.0
   prettier: 2.5.1
@@ -10385,8 +10385,8 @@ packages:
   /lines-and-columns/1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
-  /lint-staged/12.3.3:
-    resolution: {integrity: sha512-OqcLsqcPOqzvsfkxjeBpZylgJ3SRG1RYqc9LxC6tkt6tNsq1bNVkAixBwX09f6CobcHswzqVOCBpFR1Fck0+ag==}
+  /lint-staged/12.3.4:
+    resolution: {integrity: sha512-yv/iK4WwZ7/v0GtVkNb3R82pdL9M+ScpIbJLJNyCXkJ1FGaXvRCOg/SeL59SZtPpqZhE7BD6kPKFLIDUhDx2/w==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
