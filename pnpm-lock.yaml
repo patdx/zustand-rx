@@ -58,7 +58,7 @@ specifiers:
   ts-jest: 27.1.3
   tslib: 2.3.1
   typedoc: 0.22.11
-  typedoc-plugin-markdown: 3.11.13
+  typedoc-plugin-markdown: 3.11.14
   typescript: 4.5.5
   url-loader: 4.1.1
   zustand: 3.7.0
@@ -105,7 +105,7 @@ devDependencies:
   babel-jest: 27.5.1
   commitizen: 4.2.4
   cz-conventional-changelog: 3.3.0
-  docusaurus-plugin-typedoc: 0.16.9_9ba5f337de6dacc798dea3ac064af1c0
+  docusaurus-plugin-typedoc: 0.16.9_388ebc07c3e2e757fbf7c6c90e2fb4cd
   dot-json: 1.2.2
   eslint: 8.9.0
   eslint-config-prettier: 8.3.0_eslint@8.9.0
@@ -124,7 +124,7 @@ devDependencies:
   shx: 0.3.4
   ts-jest: 27.1.3_475e8eea5bf6dabc21596f828e831563
   typedoc: 0.22.11_typescript@4.5.5
-  typedoc-plugin-markdown: 3.11.13_typedoc@0.22.11
+  typedoc-plugin-markdown: 3.11.14_typedoc@0.22.11
   typescript: 4.5.5
   url-loader: 4.1.1
 
@@ -7244,14 +7244,14 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /docusaurus-plugin-typedoc/0.16.9_9ba5f337de6dacc798dea3ac064af1c0:
+  /docusaurus-plugin-typedoc/0.16.9_388ebc07c3e2e757fbf7c6c90e2fb4cd:
     resolution: {integrity: sha512-G3pNPgU4mu6n7rXuIG/6DnmbT2FaipisxAHZum+7DlwBHkpFxO/UO+dC/YHyHopvAfqR3f9KgfgizmNaVIAYFQ==}
     peerDependencies:
       typedoc: '>=0.22.0'
       typedoc-plugin-markdown: '>=3.11.10'
     dependencies:
       typedoc: 0.22.11_typescript@4.5.5
-      typedoc-plugin-markdown: 3.11.13_typedoc@0.22.11
+      typedoc-plugin-markdown: 3.11.14_typedoc@0.22.11
     dev: true
 
   /dom-accessibility-api/0.5.10:
@@ -14167,8 +14167,8 @@ packages:
     resolution: {integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=}
     dev: true
 
-  /typedoc-plugin-markdown/3.11.13_typedoc@0.22.11:
-    resolution: {integrity: sha512-9Y7eWWmUF5i8LMfetPlOP+kTn5L3Q71fm/AUHZhxWYoAiugbybQujhjQk4h09uY2WghPP2BldOivtTxnOwj85A==}
+  /typedoc-plugin-markdown/3.11.14_typedoc@0.22.11:
+    resolution: {integrity: sha512-lh47OQvl0079nB18YL9wuTRRhMpjo300SZKfx/xpQY8qG+GINeSxTod95QBELeI0NP81sNtUbemRDrn5nyef4Q==}
     peerDependencies:
       typedoc: '>=0.22.0'
     dependencies:
