@@ -46,7 +46,7 @@ specifiers:
   lint-staged: 12.3.4
   ngx-deploy-npm: 3.1.1
   observable-hooks: 4.2.0
-  only-allow: 1.0.0
+  only-allow: 1.1.0
   prettier: 2.5.1
   prettier-package-json: 2.6.0
   react: 17.0.2
@@ -118,7 +118,7 @@ devDependencies:
   jest: 27.5.1
   lint-staged: 12.3.4
   ngx-deploy-npm: 3.1.1
-  only-allow: 1.0.0
+  only-allow: 1.1.0
   prettier: 2.5.1
   prettier-package-json: 2.6.0
   shx: 0.3.4
@@ -11178,12 +11178,12 @@ packages:
     dependencies:
       mimic-fn: 2.1.0
 
-  /only-allow/1.0.0:
-    resolution: {integrity: sha512-DQazysAz1cw8JxxYVqg+wXWSm6K7smVqORwS+dtXQWPeRwjsWvRpxMRa5FPiOPxH4e05xCDv12ncAUF8JlVukw==}
+  /only-allow/1.1.0:
+    resolution: {integrity: sha512-HYiuMpRuy0d0DjoQZwhwO1Ueal0NXJ2I4mNxLv3aGw/1naRcAAzVC953WNpcbjlo+ak3WsoKDjHvoMd2cSZLpw==}
     hasBin: true
     dependencies:
       boxen: 4.2.0
-      which-pm-runs: 1.0.0
+      which-pm-runs: 1.1.0
     dev: true
 
   /open/8.4.0:
@@ -14865,8 +14865,9 @@ packages:
     resolution: {integrity: sha1-2e8H3Od7mQK4o6j6SzHD4/fm6Ho=}
     dev: true
 
-  /which-pm-runs/1.0.0:
-    resolution: {integrity: sha1-Zws6+8VS4LVd9rd4DKdGFfI60cs=}
+  /which-pm-runs/1.1.0:
+    resolution: {integrity: sha512-n1brCuqClxfFfq/Rb0ICg9giSZqCS+pLtccdag6C2HyufBrh3fBOiy9nb6ggRMvWOVH5GrdJskj5iGTZNxd7SA==}
+    engines: {node: '>=4'}
     dev: true
 
   /which/1.3.1:
