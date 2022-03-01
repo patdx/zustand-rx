@@ -24,7 +24,7 @@ specifiers:
   '@types/jest': 27.4.1
   '@types/node': 17.0.13
   '@types/react': 17.0.39
-  '@types/react-dom': 17.0.11
+  '@types/react-dom': 17.0.12
   '@typescript-eslint/eslint-plugin': 5.13.0
   '@typescript-eslint/parser': 5.13.0
   babel-jest: 27.5.1
@@ -99,7 +99,7 @@ devDependencies:
   '@types/jest': 27.4.1
   '@types/node': 17.0.13
   '@types/react': 17.0.39
-  '@types/react-dom': 17.0.11
+  '@types/react-dom': 17.0.12
   '@typescript-eslint/eslint-plugin': 5.13.0_33fffc354ccfa91fbe7d1677b9395a0a
   '@typescript-eslint/parser': 5.13.0_eslint@8.10.0+typescript@4.6.2
   babel-jest: 27.5.1
@@ -5505,7 +5505,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.16.0
       '@types/react': 17.0.39
-      '@types/react-dom': 17.0.11
+      '@types/react-dom': 17.0.12
       '@types/react-test-renderer': 17.0.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -5521,7 +5521,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.16.7
       '@testing-library/dom': 8.11.0
-      '@types/react-dom': 17.0.11
+      '@types/react-dom': 17.0.12
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     dev: true
@@ -5775,8 +5775,8 @@ packages:
   /@types/range-parser/1.2.4:
     resolution: {integrity: sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==}
 
-  /@types/react-dom/17.0.11:
-    resolution: {integrity: sha512-f96K3k+24RaLGVu/Y2Ng3e1EbZ8/cVJvypZWd7cy0ofCBaf2lcM46xNhycMZ2xGwbBjRql7hOlZ+e2WlJ5MH3Q==}
+  /@types/react-dom/17.0.12:
+    resolution: {integrity: sha512-SeJ430ndLI15JtRSHuzotn7AIdUtr8bdk6XW8mMfzjZo3vahRgJGHZqHiI4nAzCHTVG4qC21ObfsHBVUEHcDhg==}
     dependencies:
       '@types/react': 17.0.39
     dev: true
