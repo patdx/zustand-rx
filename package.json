@@ -64,7 +64,7 @@
     "babel-jest": "27.5.1",
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
-    "docusaurus-plugin-typedoc": "0.17.0",
+    "docusaurus-plugin-typedoc": "0.17.2",
     "dot-json": "1.2.2",
     "eslint": "8.10.0",
     "eslint-config-prettier": "8.5.0",
