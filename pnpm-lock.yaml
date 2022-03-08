@@ -53,7 +53,7 @@ specifiers:
   react-dom: 17.0.2
   react-router-dom: 5.3.0
   regenerator-runtime: 0.13.9
-  rxjs: 7.5.4
+  rxjs: 7.5.5
   shx: 0.3.4
   ts-jest: 27.1.3
   tslib: 2.3.1
@@ -69,12 +69,12 @@ dependencies:
   '@mdx-js/react': 1.6.22_react@17.0.2
   clsx: 1.1.1
   core-js: 3.21.1
-  observable-hooks: 4.2.0_4389961f1e9839fbcb8515e79f38eb32
+  observable-hooks: 4.2.0_95dbd2143a892133cb1f95671e6a188e
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-router-dom: 5.3.0_react@17.0.2
   regenerator-runtime: 0.13.9
-  rxjs: 7.5.4
+  rxjs: 7.5.5
   tslib: 2.3.1
   zustand: 3.7.1_react@17.0.2
 
@@ -3859,7 +3859,7 @@ packages:
     dependencies:
       '@nrwl/devkit': 13.8.3
       inquirer: 8.2.0
-      rxjs: 7.5.4
+      rxjs: 7.5.5
       standard-version: 9.3.2
     dev: true
 
@@ -10145,7 +10145,7 @@ packages:
       mute-stream: 0.0.8
       ora: 5.4.1
       run-async: 2.4.1
-      rxjs: 7.5.4
+      rxjs: 7.5.5
       string-width: 4.2.3
       strip-ansi: 6.0.1
       through: 2.3.8
@@ -11451,7 +11451,7 @@ packages:
       log-update: 4.0.0
       p-map: 4.0.0
       rfdc: 1.3.0
-      rxjs: 7.5.4
+      rxjs: 7.5.5
       through: 2.3.8
       wrap-ansi: 7.0.0
     dev: true
@@ -12188,7 +12188,7 @@ packages:
       es-abstract: 1.19.1
     dev: true
 
-  /observable-hooks/4.2.0_4389961f1e9839fbcb8515e79f38eb32:
+  /observable-hooks/4.2.0_95dbd2143a892133cb1f95671e6a188e:
     resolution: {integrity: sha512-bGjfGQI9vXrOIf1zAc3dmMqIXSqGQM+MLYOSQuqTzgP/8ptyDn9Gsm3tXXnohHkL7byyzHFc0/zuWyydUjtAFg==}
     peerDependencies:
       react: '>=16.8.0'
@@ -12197,7 +12197,7 @@ packages:
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      rxjs: 7.5.4
+      rxjs: 7.5.5
     dev: false
 
   /obuf/1.1.2:
@@ -14298,8 +14298,8 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /rxjs/7.5.4:
-    resolution: {integrity: sha512-h5M3Hk78r6wAheJF0a5YahB1yRQKCsZ4MsGdZ5O9ETbVtjPcScGfrMmoOq7EBsCRzd4BDkvDJ7ogP8Sz5tTFiQ==}
+  /rxjs/7.5.5:
+    resolution: {integrity: sha512-sy+H0pQofO95VDmFLzyaw9xNJU4KTRSwQIGM6+iG3SypAtCiLDzpeG8sJrNCWn2Up9km+KhkvTdbkrdy+yzZdw==}
     dependencies:
       tslib: 2.3.1
 
@@ -16008,7 +16008,7 @@ packages:
       joi: 17.6.0
       lodash: 4.17.21
       minimist: 1.2.5
-      rxjs: 7.5.4
+      rxjs: 7.5.5
     transitivePeerDependencies:
       - debug
     dev: false
