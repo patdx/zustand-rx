@@ -15,13 +15,19 @@
       "options": {
         "outputPath": "dist/libs/zustand-rx",
         "commands": [
-          "pnpm shx ls -R dist/libs",
-          "pnpm shx mv dist/libs/zustand-rx/index.cjs.js dist/libs/zustand-rx/index.cjs",
-          "pnpm shx mv dist/libs/zustand-rx/index.esm.js dist/libs/zustand-rx/index.mjs",
-          "pnpm dot-json dist/libs/zustand-rx/package.json main \"./index.cjs\"",
-          "pnpm dot-json dist/libs/zustand-rx/package.json module \"./index.mjs\""
+          "pnpm shx ls -R dist/libs"
         ],
         "parallel": false
+      },
+      "configurations": {
+        "x-package": {
+          "commands": [
+            "pnpm shx mv dist/libs/zustand-rx/index.cjs.js dist/libs/zustand-rx/index.cjs",
+            "pnpm shx mv dist/libs/zustand-rx/index.esm.js dist/libs/zustand-rx/index.mjs",
+            "pnpm dot-json dist/libs/zustand-rx/package.json main \"./index.cjs\"",
+            "pnpm dot-json dist/libs/zustand-rx/package.json module \"./index.mjs\""
+          ]
+        }
       }
     },
     "build-base": {
