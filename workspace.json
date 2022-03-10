@@ -3,6 +3,7 @@
   "projects": {
     "docs-app": "apps/docs-app",
     "docusaurus": "libs/docusaurus",
+    "test-lib": "libs/test-lib",
     "workspace": ".",
     "zustand-rx": "libs/zustand-rx",
     "zustand-rx-react": "apps/zustand-rx-react"
