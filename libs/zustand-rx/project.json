@@ -6,10 +6,16 @@
   "targets": {
     "build": {
       "executor": "@nrwl/workspace:run-commands",
+      "dependsOn": [
+        {
+          "target": "build-base",
+          "projects": "self"
+        }
+      ],
       "options": {
         "outputPath": "dist/libs/zustand-rx",
         "commands": [
-          "nx build-base zustand-rx",
+          "pnpm shx ls -R dist/libs",
           "pnpm shx mv dist/libs/zustand-rx/index.cjs.js dist/libs/zustand-rx/index.cjs",
           "pnpm shx mv dist/libs/zustand-rx/index.esm.js dist/libs/zustand-rx/index.mjs",
           "pnpm dot-json dist/libs/zustand-rx/package.json main \"./index.cjs\"",
