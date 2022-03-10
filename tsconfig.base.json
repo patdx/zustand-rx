@@ -16,7 +16,6 @@
     "baseUrl": ".",
     "paths": {
       "@zustand-rx/docusaurus": ["libs/docusaurus/src/index.ts"],
-      "@zustand-rx/test-lib": ["libs/test-lib/src/index.ts"],
       "zustand-rx": ["libs/zustand-rx/src/index.ts"]
     },
     "strict": true,

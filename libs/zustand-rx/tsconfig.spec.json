@@ -11,5 +11,5 @@
     "**/*.spec.js",
     "**/*.spec.jsx",
     "**/*.d.ts"
-  ]
+, "src/zustand-rx.ts"  ]
 }
