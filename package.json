@@ -38,8 +38,8 @@
     "zustand": "3.7.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.2.1",
-    "@commitlint/config-angular": "16.2.1",
+    "@commitlint/cli": "16.2.3",
+    "@commitlint/config-angular": "16.2.3",
     "@commitlint/config-conventional": "16.2.1",
     "@jscutlery/semver": "2.20.1",
     "@nrwl/cli": "13.8.8",
