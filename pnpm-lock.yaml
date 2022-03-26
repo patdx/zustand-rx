@@ -52,7 +52,7 @@ specifiers:
   prettier-package-json: 2.6.3
   react: 17.0.2
   react-dom: 17.0.2
-  react-router-dom: 5.3.0
+  react-router-dom: 6.2.2
   regenerator-runtime: 0.13.9
   rxjs: 7.5.5
   shx: 0.3.4
@@ -73,7 +73,7 @@ dependencies:
   observable-hooks: 4.2.0_95dbd2143a892133cb1f95671e6a188e
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
-  react-router-dom: 5.3.0_react@17.0.2
+  react-router-dom: 6.2.2_react-dom@17.0.2+react@17.0.2
   regenerator-runtime: 0.13.9
   rxjs: 7.5.5
   tslib: 2.3.1
@@ -2603,13 +2603,6 @@ packages:
     dependencies:
       regenerator-runtime: 0.13.9
     dev: true
-
-  /@babel/runtime/7.16.7:
-    resolution: {integrity: sha512-9E9FJowqAsytyOY6LG+1KuueckRL+aQW+mKvXRXnuFGyRAyepJPmEo9vgMfXUA6O9u3IeEdv9MAkppFcaQwogQ==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      regenerator-runtime: 0.13.9
-    dev: false
 
   /@babel/runtime/7.17.2:
     resolution: {integrity: sha512-hzeyJyMA1YGdJTuWU0e/j4wKXrU4OMFvY2MSlaI9B7VQb0r5cxTE3EAIS2Q7Tn2RIcDkRvTA/v2JsAEhxe99uw==}
@@ -5302,7 +5295,7 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.16.7
-      '@babel/runtime': 7.17.2
+      '@babel/runtime': 7.17.8
       '@types/aria-query': 4.2.2
       aria-query: 5.0.0
       chalk: 4.1.2
@@ -6267,7 +6260,7 @@ packages:
     resolution: {integrity: sha512-o/HelwhuKpTj/frsOsbNLNgnNGVIFsVP/SW2BSF14gVl7kAfMOJ6/8wUAUvG1R1NHKrfG+2sHZTu0yauT1qBrA==}
     engines: {node: '>=6.0'}
     dependencies:
-      '@babel/runtime': 7.17.2
+      '@babel/runtime': 7.17.8
       '@babel/runtime-corejs3': 7.17.2
     dev: true
 
@@ -9857,6 +9850,12 @@ packages:
       tiny-invariant: 1.2.0
       tiny-warning: 1.0.3
       value-equal: 1.0.1
+    dev: false
+
+  /history/5.3.0:
+    resolution: {integrity: sha512-ZqaKwjjrAYUYfLG+htGaIIZ4nioX2L70ZUMIFysS3xvBsSG4x/n1V6TXV3N8ZYNuFGlDirFg32T7B6WOUPDYcQ==}
+    dependencies:
+      '@babel/runtime': 7.17.8
     dev: false
 
   /hoist-non-react-statics/3.3.2:
@@ -13863,7 +13862,7 @@ packages:
     peerDependencies:
       react: '>=16.13.1'
     dependencies:
-      '@babel/runtime': 7.17.2
+      '@babel/runtime': 7.17.8
       react: 17.0.2
     dev: true
 
@@ -13951,7 +13950,7 @@ packages:
     peerDependencies:
       react: '>=15'
     dependencies:
-      '@babel/runtime': 7.16.7
+      '@babel/runtime': 7.17.8
       history: 4.10.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
@@ -13959,6 +13958,18 @@ packages:
       react-router: 5.2.1_react@17.0.2
       tiny-invariant: 1.2.0
       tiny-warning: 1.0.3
+    dev: false
+
+  /react-router-dom/6.2.2_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-AtYEsAST7bDD4dLSQHDnk/qxWLJdad5t1HFa1qJyUrCeGgEuCSw0VB/27ARbF9Fi/W5598ujvJOm3ujUCVzuYQ==}
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
+    dependencies:
+      history: 5.3.0
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-router: 6.2.2_react@17.0.2
     dev: false
 
   /react-router/5.2.1_react@17.0.2:
@@ -13977,6 +13988,15 @@ packages:
       react-is: 16.13.1
       tiny-invariant: 1.2.0
       tiny-warning: 1.0.3
+    dev: false
+
+  /react-router/6.2.2_react@17.0.2:
+    resolution: {integrity: sha512-/MbxyLzd7Q7amp4gDOGaYvXwhEojkJD5BtExkuKmj39VEE0m3l/zipf6h2WIB2jyAO0lI6NGETh4RDcktRm4AQ==}
+    peerDependencies:
+      react: '>=16.8'
+    dependencies:
+      history: 5.3.0
+      react: 17.0.2
     dev: false
 
   /react-textarea-autosize/8.3.3_03a98942b76c57740a9573edba2d1cc1:
