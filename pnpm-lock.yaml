@@ -40,7 +40,7 @@ specifiers:
   eslint-plugin-import: 2.25.4
   eslint-plugin-jsx-a11y: 6.5.1
   eslint-plugin-react: 7.29.4
-  eslint-plugin-react-hooks: 4.3.0
+  eslint-plugin-react-hooks: 4.4.0
   husky: 7.0.4
   jest: 27.5.1
   lint-staged: 12.3.7
@@ -114,7 +114,7 @@ devDependencies:
   eslint-plugin-import: 2.25.4_eslint@8.12.0
   eslint-plugin-jsx-a11y: 6.5.1_eslint@8.12.0
   eslint-plugin-react: 7.29.4_eslint@8.12.0
-  eslint-plugin-react-hooks: 4.3.0_eslint@8.12.0
+  eslint-plugin-react-hooks: 4.4.0_eslint@8.12.0
   husky: 7.0.4
   jest: 27.5.1
   lint-staged: 12.3.7
@@ -3372,7 +3372,7 @@ packages:
       eslint-plugin-import: 2.25.4_eslint@8.12.0
       eslint-plugin-jsx-a11y: 6.5.1_eslint@8.12.0
       eslint-plugin-react: 7.28.0_eslint@8.12.0
-      eslint-plugin-react-hooks: 4.3.0_eslint@8.12.0
+      eslint-plugin-react-hooks: 4.4.0_eslint@8.12.0
       react-refresh: 0.10.0
       semver: 7.3.4
       url-loader: 4.1.1_webpack@5.70.0
@@ -7510,8 +7510,8 @@ packages:
       minimatch: 3.0.4
     dev: true
 
-  /eslint-plugin-react-hooks/4.3.0_eslint@8.12.0:
-    resolution: {integrity: sha512-XslZy0LnMn+84NEG9jSGR6eGqaZB3133L8xewQo3fQagbQuGt7a63gf+P1NGKZavEYEC3UXaWEAA/AqDkuN6xA==}
+  /eslint-plugin-react-hooks/4.4.0_eslint@8.12.0:
+    resolution: {integrity: sha512-U3RVIfdzJaeKDQKEJbz5p3NW8/L80PCATJAfuojwbaEL+gBjfGdhUcGde+WGUW46Q5sr/NgxevsIiDtNXrvZaQ==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
