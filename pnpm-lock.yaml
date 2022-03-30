@@ -6,7 +6,7 @@ specifiers:
   '@commitlint/config-conventional': 16.2.1
   '@docusaurus/core': 2.0.0-beta.18
   '@docusaurus/preset-classic': 2.0.0-beta.18
-  '@jscutlery/semver': 2.21.4
+  '@jscutlery/semver': 2.21.5
   '@mdx-js/react': 1.6.22
   '@nrwl/devkit': 13.9.5
   '@nrwl/eslint-plugin-nx': 13.9.5
@@ -83,7 +83,7 @@ devDependencies:
   '@commitlint/cli': 16.2.3
   '@commitlint/config-angular': 16.2.3
   '@commitlint/config-conventional': 16.2.1
-  '@jscutlery/semver': 2.21.4_0f2b7f77b715d452bab9e7948faf053b
+  '@jscutlery/semver': 2.21.5_0f2b7f77b715d452bab9e7948faf053b
   '@nrwl/devkit': 13.9.5
   '@nrwl/eslint-plugin-nx': 13.9.5_d6e5d25d93a21b25bedf8b8fb5d80e45
   '@nrwl/jest': 13.9.5
@@ -2705,7 +2705,7 @@ packages:
       '@jest/test-result': 27.5.1
       '@jest/transform': 27.5.1
       '@jest/types': 27.5.1
-      chalk: 4.1.0
+      chalk: 4.1.2
       collect-v8-coverage: 1.0.1
       exit: 0.1.2
       glob: 7.2.0
@@ -2854,8 +2854,8 @@ packages:
       '@jridgewell/resolve-uri': 3.0.5
       '@jridgewell/sourcemap-codec': 1.4.11
 
-  /@jscutlery/semver/2.21.4_0f2b7f77b715d452bab9e7948faf053b:
-    resolution: {integrity: sha512-m48eeOOhOSwZwTN5E42gBElZq3F3NcGqk9njYWHd4M92duqdATEnAl3kZOZm4rnCcCRGTIsree8+hxd96A9k+g==}
+  /@jscutlery/semver/2.21.5_0f2b7f77b715d452bab9e7948faf053b:
+    resolution: {integrity: sha512-D4xsu3h9ePvfTkiMP0Z7O4k6L04iwUDlvvR86TFA1aiOF6XZN721avlVfRh9BproPO9OccxpIZH1SRoxoLAFXg==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@nrwl/devkit': 13.9.2
@@ -3947,7 +3947,7 @@ packages:
     resolution: {integrity: sha512-Z6337htb1mxIccvCx2Ai0v9LPDlBlmXzeWhap3q2Y6hg8g1p4+0W5Y6bG9RmXqJoXLaT1trO8uAXgGO7AN92yg==}
     dependencies:
       '@types/npmlog': 4.1.3
-      chalk: 4.1.0
+      chalk: 4.1.2
       core-js: 3.21.1
       npmlog: 4.1.2
       pretty-hrtime: 1.0.3
@@ -4102,7 +4102,7 @@ packages:
     dependencies:
       '@swc-node/core': 1.8.2
       '@swc-node/sourcemap-support': 0.1.11
-      chalk: 4.1.0
+      chalk: 4.1.2
       debug: 4.3.4
       pirates: 4.0.4
       tslib: 2.3.1
@@ -7447,7 +7447,7 @@ packages:
     resolution: {integrity: sha512-0En0w03NRVMn9Uiyn8YRPDKvWjxCWkslUEhGNTdGx15RvPJYQ+lbOlqrlNI2vEAs4pDYK4f/HN2TbDmk5TP0iw==}
     dependencies:
       debug: 3.2.7
-      resolve: 1.20.0
+      resolve: 1.22.0
     dev: true
 
   /eslint-module-utils/2.7.2:
@@ -8057,7 +8057,7 @@ packages:
     dependencies:
       '@babel/code-frame': 7.16.7
       '@types/json-schema': 7.0.9
-      chalk: 4.1.0
+      chalk: 4.1.2
       chokidar: 3.5.3
       cosmiconfig: 6.0.0
       deepmerge: 4.2.2
@@ -8323,7 +8323,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.0.4
+      minimatch: 3.1.2
       once: 1.4.0
       path-is-absolute: 1.0.1
     dev: true
@@ -9460,7 +9460,7 @@ packages:
       '@jest/test-result': 27.5.1
       '@jest/types': 27.5.1
       '@types/node': 17.0.13
-      chalk: 4.1.0
+      chalk: 4.1.2
       co: 4.6.0
       dedent: 0.7.0
       expect: 27.5.1
@@ -9522,7 +9522,7 @@ packages:
       '@jest/test-sequencer': 27.5.1
       '@jest/types': 27.5.1
       babel-jest: 27.5.1_@babel+core@7.17.8
-      chalk: 4.1.0
+      chalk: 4.1.2
       deepmerge: 4.2.2
       glob: 7.2.0
       graceful-fs: 4.2.9
@@ -9559,7 +9559,7 @@ packages:
       '@jest/test-sequencer': 27.5.1
       '@jest/types': 27.5.1
       babel-jest: 27.5.1_@babel+core@7.17.8
-      chalk: 4.1.0
+      chalk: 4.1.2
       deepmerge: 4.2.2
       glob: 7.2.0
       graceful-fs: 4.2.9
@@ -9646,7 +9646,7 @@ packages:
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/types': 27.5.1
-      chalk: 4.1.0
+      chalk: 4.1.2
       jest-get-type: 27.5.1
       jest-util: 27.5.1
       pretty-format: 27.5.1
@@ -9716,7 +9716,7 @@ packages:
       '@jest/test-result': 27.5.1
       '@jest/types': 27.5.1
       '@types/node': 17.0.13
-      chalk: 4.1.0
+      chalk: 4.1.2
       co: 4.6.0
       expect: 27.5.1
       is-generator-fn: 2.1.0
@@ -9818,7 +9818,7 @@ packages:
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/types': 27.5.1
-      chalk: 4.1.0
+      chalk: 4.1.2
       escalade: 3.1.1
       graceful-fs: 4.2.9
       jest-haste-map: 27.5.1
@@ -9951,7 +9951,7 @@ packages:
     dependencies:
       '@jest/types': 27.5.1
       '@types/node': 17.0.13
-      chalk: 4.1.0
+      chalk: 4.1.2
       graceful-fs: 4.2.9
       is-ci: 3.0.1
       picomatch: 2.3.1
@@ -12782,7 +12782,7 @@ packages:
     peerDependencies:
       postcss: 8.x
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
       concat-with-sourcemaps: 1.1.0
       cssnano: 5.1.5_postcss@8.4.12
       import-cwd: 3.0.0
@@ -13946,7 +13946,7 @@ packages:
       typescript: '*'
       webpack: ^5.0.0
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
       enhanced-resolve: 5.9.2
       micromatch: 4.0.5
       semver: 7.3.5
@@ -14015,7 +14015,7 @@ packages:
   /tsconfig-paths-webpack-plugin/3.5.2:
     resolution: {integrity: sha512-EhnfjHbzm5IYI9YPNVIxx1moxMI4bpHD2e0zTXeDNQcwjjRaGepP7IhTHJkyDBG0CAOoxRfe7jCG630Ou+C6Pw==}
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
       enhanced-resolve: 5.9.2
       tsconfig-paths: 3.12.0
     dev: true
