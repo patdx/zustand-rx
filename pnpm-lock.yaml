@@ -19,7 +19,7 @@ specifiers:
   '@nrwl/react': 13.9.5
   '@nrwl/web': 13.9.5
   '@nrwl/workspace': 13.9.5
-  '@testing-library/react': 12.1.4
+  '@testing-library/react': 13.0.0
   '@testing-library/react-hooks': 7.0.2
   '@types/jest': 27.4.1
   '@types/node': 17.0.13
@@ -95,7 +95,7 @@ devDependencies:
   '@nrwl/react': 13.9.5_12bf56698b2e1b80e234f7ba47e8421b
   '@nrwl/web': 13.9.5_12bf56698b2e1b80e234f7ba47e8421b
   '@nrwl/workspace': 13.9.5_0f2b7f77b715d452bab9e7948faf053b
-  '@testing-library/react': 12.1.4_react-dom@18.0.0+react@18.0.0
+  '@testing-library/react': 13.0.0_react-dom@18.0.0+react@18.0.0
   '@testing-library/react-hooks': 7.0.2_react-dom@18.0.0+react@18.0.0
   '@types/jest': 27.4.1
   '@types/node': 17.0.13
@@ -1605,13 +1605,6 @@ packages:
     dependencies:
       regenerator-runtime: 0.13.9
     dev: false
-
-  /@babel/runtime/7.17.2:
-    resolution: {integrity: sha512-hzeyJyMA1YGdJTuWU0e/j4wKXrU4OMFvY2MSlaI9B7VQb0r5cxTE3EAIS2Q7Tn2RIcDkRvTA/v2JsAEhxe99uw==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      regenerator-runtime: 0.13.9
-    dev: true
 
   /@babel/runtime/7.17.8:
     resolution: {integrity: sha512-dQpEpK0O9o6lj6oPu0gRDbbnk+4LeHlNcBpspf6Olzt3GIX4P1lWF1gS+pHLDFlaJvbR6q7jCfQ08zA4QJBnmA==}
@@ -4297,14 +4290,14 @@ packages:
       react-error-boundary: 3.1.4_react@18.0.0
     dev: true
 
-  /@testing-library/react/12.1.4_react-dom@18.0.0+react@18.0.0:
-    resolution: {integrity: sha512-jiPKOm7vyUw311Hn/HlNQ9P8/lHNtArAx0PisXyFixDDvfl8DbD6EUdbshK5eqauvBSvzZd19itqQ9j3nferJA==}
+  /@testing-library/react/13.0.0_react-dom@18.0.0+react@18.0.0:
+    resolution: {integrity: sha512-p0lYA1M7uoEmk2LnCbZLGmHJHyH59sAaZVXChTXlyhV/PRW9LoIh4mdf7tiXsO8BoNG+vN8UnFJff1hbZeXv+w==}
     engines: {node: '>=12'}
     peerDependencies:
-      react: '*'
-      react-dom: '*'
+      react: ^18.0.0
+      react-dom: ^18.0.0
     dependencies:
-      '@babel/runtime': 7.17.2
+      '@babel/runtime': 7.17.8
       '@testing-library/dom': 8.11.0
       '@types/react-dom': 17.0.14
       react: 18.0.0
