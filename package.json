@@ -76,7 +76,7 @@
     "husky": "7.0.4",
     "jest": "27.5.1",
     "lint-staged": "12.3.7",
-    "ngx-deploy-npm": "3.1.4",
+    "ngx-deploy-npm": "3.1.5",
     "nx": "13.9.5",
     "only-allow": "1.1.0",
     "prettier": "2.6.2",
