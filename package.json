@@ -35,7 +35,7 @@
     "regenerator-runtime": "0.13.9",
     "rxjs": "7.5.5",
     "tslib": "2.3.1",
-    "zustand": "3.7.1"
+    "zustand": "3.7.2"
   },
   "devDependencies": {
     "@commitlint/cli": "16.2.3",
