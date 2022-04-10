@@ -20,7 +20,7 @@ specifiers:
   '@nrwl/web': 13.9.5
   '@nrwl/workspace': 13.9.5
   '@testing-library/react': 13.0.0
-  '@testing-library/react-hooks': 7.0.2
+  '@testing-library/react-hooks': 8.0.0
   '@types/jest': 27.4.1
   '@types/node': 17.0.13
   '@types/react': 18.0.1
@@ -96,7 +96,7 @@ devDependencies:
   '@nrwl/web': 13.9.5_5c7cb5b29b9ce5eddf3bce56cf316713
   '@nrwl/workspace': 13.9.5_f11458f3b5a9aac7eb7b6e83671a32b3
   '@testing-library/react': 13.0.0_react-dom@18.0.0+react@18.0.0
-  '@testing-library/react-hooks': 7.0.2_react-dom@18.0.0+react@18.0.0
+  '@testing-library/react-hooks': 8.0.0_d1b655986da7bf62d1172c7ae6e89165
   '@types/jest': 27.4.1
   '@types/node': 17.0.13
   '@types/react': 18.0.1
@@ -1584,13 +1584,6 @@ packages:
       core-js-pure: 3.20.3
       regenerator-runtime: 0.13.9
     dev: false
-
-  /@babel/runtime/7.16.0:
-    resolution: {integrity: sha512-Nht8L0O8YCktmsDV6FqFue7vQLRx3Hb0B37lS5y0jDRqRxlBG4wIJHnf9/bgSE2UyipKFA01YtS+npRdTWBUyw==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      regenerator-runtime: 0.13.9
-    dev: true
 
   /@babel/runtime/7.16.3:
     resolution: {integrity: sha512-WBwekcqacdY2e9AF/Q7WLFUWmdJGJTkbjqTjoMDgXkVZ3ZRUvOPsLb5KdwISoQVsbP+DQzVZW4Zhci0DvpbNTQ==}
@@ -4298,23 +4291,24 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/react-hooks/7.0.2_react-dom@18.0.0+react@18.0.0:
-    resolution: {integrity: sha512-dYxpz8u9m4q1TuzfcUApqi8iFfR6R0FaMbr2hjZJy1uC8z+bO/K4v8Gs9eogGKYQop7QsrBTFkv/BCF7MzD2Cg==}
+  /@testing-library/react-hooks/8.0.0_d1b655986da7bf62d1172c7ae6e89165:
+    resolution: {integrity: sha512-uZqcgtcUUtw7Z9N32W13qQhVAD+Xki2hxbTR461MKax8T6Jr8nsUvZB+vcBTkzY2nFvsUet434CsgF0ncW2yFw==}
     engines: {node: '>=12'}
     peerDependencies:
-      react: '>=16.9.0'
-      react-dom: '>=16.9.0'
-      react-test-renderer: '>=16.9.0'
+      '@types/react': ^16.9.0 || ^17.0.0
+      react: ^16.9.0 || ^17.0.0
+      react-dom: ^16.9.0 || ^17.0.0
+      react-test-renderer: ^16.9.0 || ^17.0.0
     peerDependenciesMeta:
+      '@types/react':
+        optional: true
       react-dom:
         optional: true
       react-test-renderer:
         optional: true
     dependencies:
-      '@babel/runtime': 7.16.0
+      '@babel/runtime': 7.17.8
       '@types/react': 18.0.1
-      '@types/react-dom': 18.0.0
-      '@types/react-test-renderer': 17.0.1
       react: 18.0.0
       react-dom: 18.0.0_react@18.0.0
       react-error-boundary: 3.1.4_react@18.0.0
@@ -4607,12 +4601,6 @@ packages:
       '@types/history': 4.7.11
       '@types/react': 18.0.1
     dev: false
-
-  /@types/react-test-renderer/17.0.1:
-    resolution: {integrity: sha512-3Fi2O6Zzq/f3QR9dRnlnHso9bMl7weKCviFmfF6B4LS1Uat6Hkm15k0ZAQuDz+UBq6B3+g+NM6IT2nr5QgPzCw==}
-    dependencies:
-      '@types/react': 18.0.1
-    dev: true
 
   /@types/react/18.0.1:
     resolution: {integrity: sha512-VnWlrVgG0dYt+NqlfMI0yUYb8Rdl4XUROyH+c6gq/iFCiZ805Vi//26UW38DHnxQkbDhnrIWTBiy6oKZqL11cw==}
