@@ -19,7 +19,7 @@ specifiers:
   '@nrwl/react': 13.9.5
   '@nrwl/web': 13.9.5
   '@nrwl/workspace': 13.9.5
-  '@testing-library/react': 13.0.0
+  '@testing-library/react': 13.0.1
   '@testing-library/react-hooks': 8.0.0
   '@types/jest': 27.4.1
   '@types/node': 17.0.13
@@ -95,7 +95,7 @@ devDependencies:
   '@nrwl/react': 13.9.5_5c7cb5b29b9ce5eddf3bce56cf316713
   '@nrwl/web': 13.9.5_5c7cb5b29b9ce5eddf3bce56cf316713
   '@nrwl/workspace': 13.9.5_f11458f3b5a9aac7eb7b6e83671a32b3
-  '@testing-library/react': 13.0.0_react-dom@18.0.0+react@18.0.0
+  '@testing-library/react': 13.0.1_react-dom@18.0.0+react@18.0.0
   '@testing-library/react-hooks': 8.0.0_d1b655986da7bf62d1172c7ae6e89165
   '@types/jest': 27.4.1
   '@types/node': 17.0.13
@@ -4314,8 +4314,8 @@ packages:
       react-error-boundary: 3.1.4_react@18.0.0
     dev: true
 
-  /@testing-library/react/13.0.0_react-dom@18.0.0+react@18.0.0:
-    resolution: {integrity: sha512-p0lYA1M7uoEmk2LnCbZLGmHJHyH59sAaZVXChTXlyhV/PRW9LoIh4mdf7tiXsO8BoNG+vN8UnFJff1hbZeXv+w==}
+  /@testing-library/react/13.0.1_react-dom@18.0.0+react@18.0.0:
+    resolution: {integrity: sha512-zeHx3PohYYp+4bTJwrixQY8zSBZjWUGwYc7OhD1EpWTHS92RleApLoP72NdwaWxOrM1P1Uezt3XvGf6t2XSWPQ==}
     engines: {node: '>=12'}
     peerDependencies:
       react: ^18.0.0
