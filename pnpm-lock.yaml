@@ -6,7 +6,7 @@ specifiers:
   '@commitlint/config-conventional': 16.2.4
   '@docusaurus/core': 2.0.0-beta.18
   '@docusaurus/preset-classic': 2.0.0-beta.18
-  '@jscutlery/semver': 2.22.0
+  '@jscutlery/semver': 2.23.2
   '@mdx-js/react': 1.6.22
   '@nrwl/devkit': 13.9.5
   '@nrwl/eslint-plugin-nx': 13.9.5
@@ -83,7 +83,7 @@ devDependencies:
   '@commitlint/cli': 16.2.4
   '@commitlint/config-angular': 16.2.4
   '@commitlint/config-conventional': 16.2.4
-  '@jscutlery/semver': 2.22.0
+  '@jscutlery/semver': 2.23.2
   '@nrwl/devkit': 13.9.5
   '@nrwl/eslint-plugin-nx': 13.9.5_4750231c742acff0ca90e5dace177495
   '@nrwl/jest': 13.9.5
@@ -2841,12 +2841,12 @@ packages:
       '@jridgewell/resolve-uri': 3.0.5
       '@jridgewell/sourcemap-codec': 1.4.11
 
-  /@jscutlery/semver/2.22.0:
-    resolution: {integrity: sha512-3+DqosM8rhoI4m6+YAa/LTjhFULvnL0PBCo60VADgfSYnZdXO6RdnSwcfLOJ4agc0OOs4ea2cjN+THXz2jYrCQ==}
+  /@jscutlery/semver/2.23.2:
+    resolution: {integrity: sha512-4s0Afr5SYdPW/Uhu73e3bvVTV9Vri3AOOCOk0WjQQAXwbS65i/KxsxA+huUInFHjohqSG+Ie0f7/VMUlmAAEiQ==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      '@nrwl/devkit': 13.10.2
-      inquirer: 8.2.2
+      '@nrwl/devkit': 14.0.3
+      inquirer: 8.2.3
       rxjs: 7.5.5
       standard-version: 9.3.2
     transitivePeerDependencies:
@@ -2917,18 +2917,18 @@ packages:
       - supports-color
     dev: true
 
-  /@nrwl/cli/13.10.2:
-    resolution: {integrity: sha512-e9TK7CBaOb2jvnnuypPTox+l3vr1Lubjrq7rvyVrUDfSFsRe33Em1FTEdT7RCwjzF1ypvGkF0Fm2Cxi9/ljxVg==}
-    dependencies:
-      nx: 13.10.2
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /@nrwl/cli/13.9.5:
     resolution: {integrity: sha512-WO2tcRTnYcz/LMJO9RVDoQtpwREjanosUJhymFD6ozrdZBhDuxKQ2S681mjnCXWlWEhYvccGfLhechluiEdCLA==}
     dependencies:
       nx: 13.9.5
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@nrwl/cli/14.0.3:
+    resolution: {integrity: sha512-5zlBNQHLHXUCq6PashOhoI4+QoYjQahMd4hnNiTa/T08dCPnR974b7PHZj22QJnpeaBUKlGCjh5NSmUyPfDW2Q==}
+    dependencies:
+      nx: 14.0.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3020,12 +3020,12 @@ packages:
       - supports-color
     dev: true
 
-  /@nrwl/devkit/13.10.2:
-    resolution: {integrity: sha512-7jM86MAHc/vvQ4jJt8QjMncC0lFfhkxZ/d5Nt5b+s3AUQgFPkwg1TXt/uj+qo0goS/Mbv5UNVIdMGlEchnbvVQ==}
+  /@nrwl/devkit/13.9.5:
+    resolution: {integrity: sha512-7C79pueB1y0WCQa5iGoMID+lvXOvj66lPqeN7a/H6E7VHWyjmCqfo/Sf53KWKIQn9qJwzcp4MFyE/2U+ey9T5A==}
     dependencies:
       ejs: 3.1.6
       ignore: 5.2.0
-      nx: 13.10.2
+      nx: 13.9.5
       rxjs: 6.6.7
       semver: 7.3.4
       tslib: 2.4.0
@@ -3033,12 +3033,12 @@ packages:
       - supports-color
     dev: true
 
-  /@nrwl/devkit/13.9.5:
-    resolution: {integrity: sha512-7C79pueB1y0WCQa5iGoMID+lvXOvj66lPqeN7a/H6E7VHWyjmCqfo/Sf53KWKIQn9qJwzcp4MFyE/2U+ey9T5A==}
+  /@nrwl/devkit/14.0.3:
+    resolution: {integrity: sha512-4ussrfGcuymnMvPc7mkqA9CyC2ytMEM6J+XfcmklaTDea+OzlW/T3tv015fz9YNNlhWAWHSXdkI3gmm3ypdiuQ==}
     dependencies:
       ejs: 3.1.6
       ignore: 5.2.0
-      nx: 13.9.5
+      nx: 14.0.3
       rxjs: 6.6.7
       semver: 7.3.4
       tslib: 2.4.0
@@ -3403,20 +3403,20 @@ packages:
       - supports-color
     dev: true
 
-  /@nrwl/tao/13.10.2:
-    resolution: {integrity: sha512-Eq/u4tRRRtrMYBormdeTrRFj/rpcP5fsa3QrwcHjUSNnQDM/FZ9kt7fRgbnh+2QzdTJnU4QmaX6t4Kt+qYtsTQ==}
-    hasBin: true
-    dependencies:
-      nx: 13.10.2
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /@nrwl/tao/13.9.5:
     resolution: {integrity: sha512-wvHdEuTxamADvQoGJa3BOZoijQm3Irol0vAxkxzoFS47SYXNvoBPtLhvrtF8P+yJv+gTLW8C0QnUHPVtsnenPA==}
     hasBin: true
     dependencies:
       nx: 13.9.5
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@nrwl/tao/14.0.3:
+    resolution: {integrity: sha512-DCk8ktLSUol/8wZN8TlXnHzId8CpOxQwdeSLrJLfsdealHvTrbF8c8b7mSbaSihZ5nDlsEuHWvJZNLWPxQHBJA==}
+    hasBin: true
+    dependencies:
+      nx: 14.0.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -8911,8 +8911,8 @@ packages:
       through: 2.3.8
     dev: true
 
-  /inquirer/8.2.2:
-    resolution: {integrity: sha512-pG7I/si6K/0X7p1qU+rfWnpTE1UIkTONN1wxtzh0d+dHXtT/JG6qBgLxoyHVsQa8cFABxAPh0pD6uUUHiAoaow==}
+  /inquirer/8.2.3:
+    resolution: {integrity: sha512-jmoBlmWUChXgVi1wGDZsD7pWCaibJKmL+8+E2jaiWiRj8OlJLwQdQQS2CIjgvdg8UUHX+oyagQKicVVcqwxi9Q==}
     engines: {node: '>=12.0.0'}
     dependencies:
       ansi-escapes: 4.3.2
@@ -8929,6 +8929,7 @@ packages:
       string-width: 4.2.3
       strip-ansi: 6.0.1
       through: 2.3.8
+      wrap-ansi: 7.0.0
     dev: true
 
   /internal-slot/1.0.3:
@@ -10949,46 +10950,6 @@ packages:
       - supports-color
     dev: true
 
-  /nx/13.10.2:
-    resolution: {integrity: sha512-6ac/7DO66asndgsMVC+YR5oa0jfEmmXjmE19gvIuAJtii00dSKd6o+n1G8lbl8RPZcz43wVY0zwV/eMpCSNFXw==}
-    hasBin: true
-    requiresBuild: true
-    dependencies:
-      '@nrwl/cli': 13.10.2
-      '@nrwl/tao': 13.10.2
-      '@parcel/watcher': 2.0.4
-      '@swc-node/register': 1.4.2
-      '@swc/core': 1.2.152
-      chalk: 4.1.0
-      chokidar: 3.5.3
-      cli-cursor: 3.1.0
-      cli-spinners: 2.6.1
-      dotenv: 10.0.0
-      enquirer: 2.3.6
-      fast-glob: 3.2.7
-      figures: 3.2.0
-      flat: 5.0.2
-      fs-extra: 9.1.0
-      glob: 7.1.4
-      ignore: 5.2.0
-      jsonc-parser: 3.0.0
-      minimatch: 3.0.4
-      npm-run-path: 4.0.1
-      open: 8.4.0
-      rxjs: 6.6.7
-      rxjs-for-await: 0.0.2_rxjs@6.6.7
-      semver: 7.3.4
-      tar-stream: 2.2.0
-      tmp: 0.2.1
-      tsconfig-paths: 3.14.1
-      tslib: 2.4.0
-      v8-compile-cache: 2.3.0
-      yargs: 17.4.1
-      yargs-parser: 21.0.1
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /nx/13.9.5:
     resolution: {integrity: sha512-hkGWaoJCqQPeVh3w67dlksM0Eab61EYYeZ1GZd6/YSC4EKzjtlQLRt2CMNu+2qCAkkUp4UgOWJHGUesGakcyDA==}
     hasBin: true
@@ -11011,6 +10972,48 @@ packages:
       tslib: 2.4.0
       v8-compile-cache: 2.3.0
       yargs-parser: 20.0.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /nx/14.0.3:
+    resolution: {integrity: sha512-p5MARLvRv3oxBT3EDq3ihg3Qb0NQEaIOWwthmZeKmEoRqYbZpM3dWbwlbN6yGdXJJPqtEW/IsffgGHl9m+7Vsw==}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      '@nrwl/cli': 14.0.3
+      '@nrwl/tao': 14.0.3
+      '@parcel/watcher': 2.0.4
+      '@swc-node/register': 1.4.2
+      '@swc/core': 1.2.152
+      chalk: 4.1.0
+      chokidar: 3.5.3
+      cli-cursor: 3.1.0
+      cli-spinners: 2.6.1
+      cliui: 7.0.4
+      dotenv: 10.0.0
+      enquirer: 2.3.6
+      fast-glob: 3.2.7
+      figures: 3.2.0
+      flat: 5.0.2
+      fs-extra: 9.1.0
+      glob: 7.1.4
+      ignore: 5.2.0
+      jsonc-parser: 3.0.0
+      minimatch: 3.0.4
+      npm-run-path: 4.0.1
+      open: 8.4.0
+      rxjs: 6.6.7
+      rxjs-for-await: 0.0.2_rxjs@6.6.7
+      semver: 7.3.4
+      string-width: 4.2.3
+      tar-stream: 2.2.0
+      tmp: 0.2.1
+      tsconfig-paths: 3.14.1
+      tslib: 2.4.0
+      v8-compile-cache: 2.3.0
+      yargs: 17.4.1
+      yargs-parser: 21.0.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -13363,7 +13366,7 @@ packages:
       find-up: 5.0.0
       fs-access: 1.0.1
       git-semver-tags: 4.1.1
-      semver: 7.3.5
+      semver: 7.3.7
       stringify-package: 1.0.1
       yargs: 16.2.0
     dev: true
