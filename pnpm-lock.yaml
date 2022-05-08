@@ -44,7 +44,7 @@ specifiers:
   husky: 7.0.4
   jest: 27.5.1
   lint-staged: 12.4.1
-  ngx-deploy-npm: 3.1.7
+  ngx-deploy-npm: 3.1.9
   nx: 13.9.5
   observable-hooks: 4.2.0
   only-allow: 1.1.0
@@ -118,7 +118,7 @@ devDependencies:
   husky: 7.0.4
   jest: 27.5.1
   lint-staged: 12.4.1
-  ngx-deploy-npm: 3.1.7
+  ngx-deploy-npm: 3.1.9_nx@13.9.5
   nx: 13.9.5
   only-allow: 1.1.0
   prettier: 2.6.2
@@ -2911,14 +2911,6 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
 
-  /@nrwl/cli/13.10.1:
-    resolution: {integrity: sha512-qpjnx7bobwurUOCZG7DIZGfRNfyaxovSIFWacWRv0Pe60ZRGZw76PRmhTyRj5/U5qnvdKhlPIWy4hxeusJTHLw==}
-    dependencies:
-      nx: 13.10.1
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /@nrwl/cli/13.9.5:
     resolution: {integrity: sha512-WO2tcRTnYcz/LMJO9RVDoQtpwREjanosUJhymFD6ozrdZBhDuxKQ2S681mjnCXWlWEhYvccGfLhechluiEdCLA==}
     dependencies:
@@ -3003,19 +2995,6 @@ packages:
       - webpack
     dev: true
 
-  /@nrwl/devkit/13.10.1:
-    resolution: {integrity: sha512-2gzrVfnYH+0ZmM9gDI9kl0qSf0NnzBUDsy0D6uDmvUrwP7jh8Q48d+aFN28E73wTpO91qzzNXUc66iC9Sr9ozQ==}
-    dependencies:
-      ejs: 3.1.6
-      ignore: 5.2.0
-      nx: 13.10.1
-      rxjs: 6.6.7
-      semver: 7.3.4
-      tslib: 2.4.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /@nrwl/devkit/13.9.5:
     resolution: {integrity: sha512-7C79pueB1y0WCQa5iGoMID+lvXOvj66lPqeN7a/H6E7VHWyjmCqfo/Sf53KWKIQn9qJwzcp4MFyE/2U+ey9T5A==}
     dependencies:
@@ -3027,6 +3006,19 @@ packages:
       tslib: 2.4.0
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@nrwl/devkit/14.0.5_nx@13.9.5:
+    resolution: {integrity: sha512-2kGv3tquuf3xko9FVG+Q6gUMt+RsOigdieANZtvsPaNUAxJOD5DabxHA1pwkd8AUg6bewpv64cVLgvhUIBj1MQ==}
+    peerDependencies:
+      nx: '>= 13.10 <= 15'
+    dependencies:
+      ejs: 3.1.6
+      ignore: 5.2.0
+      nx: 13.9.5
+      rxjs: 6.6.7
+      semver: 7.3.4
+      tslib: 2.4.0
     dev: true
 
   /@nrwl/eslint-plugin-nx/13.9.5_034ea789dbc70b2fa79f156fc28a5829:
@@ -3381,15 +3373,6 @@ packages:
       - utf-8-validate
       - vue-template-compiler
       - webpack
-    dev: true
-
-  /@nrwl/tao/13.10.1:
-    resolution: {integrity: sha512-QYtMISnJPYyA9ADfBTXiEWvwzjgMICGIrM6sWc018dI2pQ8rWiTRRGOKq5YOsyHGhVd+MSEQYJlElGl3Y4gDIA==}
-    hasBin: true
-    dependencies:
-      nx: 13.10.1
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@nrwl/tao/13.9.5:
@@ -7236,6 +7219,7 @@ packages:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
     dependencies:
       once: 1.4.0
+    dev: false
 
   /enhanced-resolve/5.9.2:
     resolution: {integrity: sha512-GIm3fQfwLJ8YZx2smuHpBKkXC1yOk+OBEmKckVyL0i/ea8mqDEykK3ld5dgH1QYPNyT/lIllxV2LULnxCHaHkA==}
@@ -8097,10 +8081,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       null-check: 1.0.0
-    dev: true
-
-  /fs-constants/1.0.0:
-    resolution: {integrity: sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==}
     dev: true
 
   /fs-extra/10.0.1:
@@ -10838,12 +10818,12 @@ packages:
   /neo-async/2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  /ngx-deploy-npm/3.1.7:
-    resolution: {integrity: sha512-mFVBOjVNva/a1vvsp3F9DJo51sO38Z9CsBfEVZwrE8HrmK3Pm8Hi6pLAJqoud3s4N1csiN3BLBiYY0h0fbOZ3w==}
+  /ngx-deploy-npm/3.1.9_nx@13.9.5:
+    resolution: {integrity: sha512-JedTEbpqwgyrfoItu8RE9mofVPDM3AR/bfKFSfUlJITfnZTuFPktcw4MAImMQ54lZ8jiVZhIAeDC/Q7b6PJX2Q==}
     dependencies:
-      '@nrwl/devkit': 13.10.1
+      '@nrwl/devkit': 14.0.5_nx@13.9.5
     transitivePeerDependencies:
-      - supports-color
+      - nx
     dev: true
 
   /no-case/3.0.4:
@@ -10973,46 +10953,6 @@ packages:
 
   /nwsapi/2.2.0:
     resolution: {integrity: sha512-h2AatdwYH+JHiZpv7pt/gSX1XoRGb7L/qSIeuqA6GwYoF9w1vP1cw42TO0aI2pNyshRK5893hNSl+1//vHK7hQ==}
-    dev: true
-
-  /nx/13.10.1:
-    resolution: {integrity: sha512-XA1sN8biNhUJcKqjUMsvbC8QzIF631CJvDxZ1n48R1QsB8LJG/pvHY2pIqz6GWRJFbR9mhwAqYyoHq43qCSyYw==}
-    hasBin: true
-    requiresBuild: true
-    dependencies:
-      '@nrwl/cli': 13.10.1
-      '@nrwl/tao': 13.10.1
-      '@parcel/watcher': 2.0.4
-      '@swc-node/register': 1.4.2
-      '@swc/core': 1.2.152
-      chalk: 4.1.0
-      chokidar: 3.5.3
-      cli-cursor: 3.1.0
-      cli-spinners: 2.6.1
-      dotenv: 10.0.0
-      enquirer: 2.3.6
-      fast-glob: 3.2.7
-      figures: 3.2.0
-      flat: 5.0.2
-      fs-extra: 9.1.0
-      glob: 7.1.4
-      ignore: 5.2.0
-      jsonc-parser: 3.0.0
-      minimatch: 3.0.4
-      npm-run-path: 4.0.1
-      open: 8.4.0
-      rxjs: 6.6.7
-      rxjs-for-await: 0.0.2_rxjs@6.6.7
-      semver: 7.3.4
-      tar-stream: 2.2.0
-      tmp: 0.2.1
-      tsconfig-paths: 3.14.1
-      tslib: 2.4.0
-      v8-compile-cache: 2.3.0
-      yargs: 17.4.1
-      yargs-parser: 21.0.1
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /nx/13.9.5:
@@ -13709,17 +13649,6 @@ packages:
   /tapable/2.2.1:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
     engines: {node: '>=6'}
-
-  /tar-stream/2.2.0:
-    resolution: {integrity: sha512-ujeqbceABgwMZxEJnk2HDY2DlnUZ+9oEcb1KzTVfYHio0UE6dG71n60d8D2I4qNvleWrrXpmjpt7vZeF1LnMZQ==}
-    engines: {node: '>=6'}
-    dependencies:
-      bl: 4.1.0
-      end-of-stream: 1.4.4
-      fs-constants: 1.0.0
-      inherits: 2.0.4
-      readable-stream: 3.6.0
-    dev: true
 
   /tar/6.1.11:
     resolution: {integrity: sha512-an/KZQzQUkZCkuoAA64hM92X0Urb6VpRhAFllDzz44U2mcD5scmT3zBc4VgVpkugF580+DQn8eAFSyoQt0tznA==}
