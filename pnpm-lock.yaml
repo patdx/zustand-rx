@@ -19,7 +19,7 @@ specifiers:
   '@nrwl/react': 13.9.5
   '@nrwl/web': 13.9.5
   '@nrwl/workspace': 13.9.5
-  '@testing-library/react': 13.1.1
+  '@testing-library/react': 13.2.0
   '@testing-library/react-hooks': 8.0.0
   '@types/jest': 27.5.0
   '@types/node': 17.0.13
@@ -95,7 +95,7 @@ devDependencies:
   '@nrwl/react': 13.9.5_c830f0706b661d10bd19a9c63aad8bbe
   '@nrwl/web': 13.9.5_ae7cc24faf311f31fee135b669e3604c
   '@nrwl/workspace': 13.9.5_32e74c210f66a7c0958470dce8645f2b
-  '@testing-library/react': 13.1.1_react-dom@18.1.0+react@18.1.0
+  '@testing-library/react': 13.2.0_react-dom@18.1.0+react@18.1.0
   '@testing-library/react-hooks': 8.0.0_71dc17fa2f93091b2e1d43ec53f70836
   '@types/jest': 27.5.0
   '@types/node': 17.0.13
@@ -5266,7 +5266,7 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.16.7
-      '@babel/runtime': 7.17.8
+      '@babel/runtime': 7.17.9
       '@types/aria-query': 4.2.2
       aria-query: 5.0.0
       chalk: 4.1.2
@@ -5298,14 +5298,14 @@ packages:
       react-error-boundary: 3.1.4_react@18.1.0
     dev: true
 
-  /@testing-library/react/13.1.1_react-dom@18.1.0+react@18.1.0:
-    resolution: {integrity: sha512-8mirlAa0OKaUvnqnZF6MdAh2tReYA2KtWVw1PKvaF5EcCZqgK5pl8iF+3uW90JdG5Ua2c2c2E2wtLdaug3dsVg==}
+  /@testing-library/react/13.2.0_react-dom@18.1.0+react@18.1.0:
+    resolution: {integrity: sha512-Bprbz/SZVONCJy5f7hcihNCv313IJXdYiv0nSJklIs1SQCIHHNlnGNkosSXnGZTmesyGIcBGNppYhXcc11pb7g==}
     engines: {node: '>=12'}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
     dependencies:
-      '@babel/runtime': 7.17.8
+      '@babel/runtime': 7.17.9
       '@testing-library/dom': 8.11.0
       '@types/react-dom': 18.0.3
       react: 18.1.0
@@ -13956,7 +13956,7 @@ packages:
     peerDependencies:
       react: '>=16.13.1'
     dependencies:
-      '@babel/runtime': 7.17.8
+      '@babel/runtime': 7.17.9
       react: 18.1.0
     dev: true
 
