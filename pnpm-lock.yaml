@@ -41,7 +41,7 @@ specifiers:
   eslint-plugin-jsx-a11y: 6.5.1
   eslint-plugin-react: 7.29.4
   eslint-plugin-react-hooks: 4.5.0
-  husky: 8.0.0
+  husky: 8.0.1
   jest: 27.5.1
   lint-staged: 12.4.1
   ngx-deploy-npm: 3.1.9
@@ -115,7 +115,7 @@ devDependencies:
   eslint-plugin-jsx-a11y: 6.5.1_eslint@8.15.0
   eslint-plugin-react: 7.29.4_eslint@8.15.0
   eslint-plugin-react-hooks: 4.5.0_eslint@8.15.0
-  husky: 8.0.0
+  husky: 8.0.1
   jest: 27.5.1
   lint-staged: 12.4.1
   ngx-deploy-npm: 3.1.9_nx@13.9.5
@@ -10202,8 +10202,8 @@ packages:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
     engines: {node: '>=10.17.0'}
 
-  /husky/8.0.0:
-    resolution: {integrity: sha512-4qbE/5dzNDNxFEkX9MNRPKl5+omTXQzdILCUWiqG/lWIAioiM5vln265/l6I2Zx8gpW8l1ukZwGQeCFbBZ6+6w==}
+  /husky/8.0.1:
+    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
