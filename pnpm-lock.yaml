@@ -32,7 +32,7 @@ specifiers:
   commitizen: 4.2.4
   core-js: 3.22.5
   cz-conventional-changelog: 3.3.0
-  docusaurus-plugin-typedoc: 0.17.4
+  docusaurus-plugin-typedoc: 0.17.5
   dot-json: 1.2.2
   eslint: 8.15.0
   eslint-config-prettier: 8.5.0
@@ -106,7 +106,7 @@ devDependencies:
   babel-jest: 27.5.1
   commitizen: 4.2.4
   cz-conventional-changelog: 3.3.0
-  docusaurus-plugin-typedoc: 0.17.4_7ed7cd9db8a6c57b7855f79198d0c441
+  docusaurus-plugin-typedoc: 0.17.5_7ed7cd9db8a6c57b7855f79198d0c441
   dot-json: 1.2.2
   eslint: 8.15.0
   eslint-config-prettier: 8.5.0_eslint@8.15.0
@@ -8425,8 +8425,8 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /docusaurus-plugin-typedoc/0.17.4_7ed7cd9db8a6c57b7855f79198d0c441:
-    resolution: {integrity: sha512-9qDPIr79sf1ovyj0VPOuAL2YIpGGasai/gaQEeJU7SclQalRV9yxDQjiC9tDbpxUgwxb2g7s8njnrwrwYIDMXQ==}
+  /docusaurus-plugin-typedoc/0.17.5_7ed7cd9db8a6c57b7855f79198d0c441:
+    resolution: {integrity: sha512-mMTk4lRy2+wQ7fmMOv6RLfKkoGnHkBLE8qUoPfWFoqUYDDDInwVQKxz12FNnQx86eJSLgBiZmuY/zB/bYsZQlQ==}
     peerDependencies:
       typedoc: '>=0.22.0'
       typedoc-plugin-markdown: '>=3.11.10'
