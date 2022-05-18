@@ -82,7 +82,7 @@
     "prettier": "2.6.2",
     "prettier-package-json": "2.6.3",
     "shx": "0.3.4",
-    "ts-jest": "27.1.4",
+    "ts-jest": "27.1.5",
     "tslib": "2.4.0",
     "typedoc": "0.22.15",
     "typedoc-plugin-markdown": "3.12.1",
