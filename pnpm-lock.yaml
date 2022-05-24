@@ -30,7 +30,7 @@ specifiers:
   babel-jest: 27.5.1
   clsx: 1.1.1
   commitizen: 4.2.4
-  core-js: 3.22.6
+  core-js: 3.22.7
   cz-conventional-changelog: 3.3.0
   docusaurus-plugin-typedoc: 0.17.5
   dot-json: 1.2.2
@@ -69,7 +69,7 @@ dependencies:
   '@docusaurus/preset-classic': 2.0.0-beta.20_9fbb45af0fa903d3ffaa11949a121afd
   '@mdx-js/react': 1.6.22_react@18.1.0
   clsx: 1.1.1
-  core-js: 3.22.6
+  core-js: 3.22.7
   observable-hooks: 4.2.0_45738ef863a07501c6d01794c500d3f9
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
@@ -3025,7 +3025,7 @@ packages:
       combine-promises: 1.1.0
       commander: 5.1.0
       copy-webpack-plugin: 10.2.4_webpack@5.72.0
-      core-js: 3.22.6
+      core-js: 3.22.7
       css-loader: 6.7.1_webpack@5.72.0
       css-minimizer-webpack-plugin: 3.4.1_clean-css@5.3.0+webpack@5.72.0
       cssnano: 5.1.7_postcss@8.4.13
@@ -4472,7 +4472,7 @@ packages:
       '@nrwl/devkit': 13.9.5
       '@nrwl/linter': 13.9.5_eslint@8.16.0+typescript@4.6.4
       '@nrwl/workspace': 13.9.5_684899a2e039b0decd9740688d544e11
-      core-js: 3.22.6
+      core-js: 3.22.7
       semver: 7.3.4
       ts-loader: 9.2.6_typescript@4.6.4+webpack@5.70.0
       tsconfig-paths-webpack-plugin: 3.5.2
@@ -4538,7 +4538,7 @@ packages:
       chalk: 4.1.0
       chokidar: 3.5.3
       copy-webpack-plugin: 9.1.0_webpack@5.70.0
-      core-js: 3.22.6
+      core-js: 3.22.7
       css-loader: 6.7.1_webpack@5.70.0
       css-minimizer-webpack-plugin: 3.4.1_webpack@5.70.0
       enhanced-resolve: 5.9.2
@@ -4945,7 +4945,7 @@ packages:
     dependencies:
       '@types/npmlog': 4.1.3
       chalk: 4.1.2
-      core-js: 3.22.6
+      core-js: 3.22.7
       npmlog: 4.1.2
       pretty-hrtime: 1.0.3
     dev: true
@@ -7707,8 +7707,8 @@ packages:
     resolution: {integrity: sha512-Q2H6tQ5MtPtcC7f3HxJ48i4Q7T9ybPKgvWyuH7JXIoNa2pm0KuBnycsET/qw1SLLZYfbsbrZQNMeIOClb+6WIA==}
     requiresBuild: true
 
-  /core-js/3.22.6:
-    resolution: {integrity: sha512-2IGcGH00z9I4twgNWU4uGCNEsBFG1s2JudVQrgSCoVhOfwoTwQjxC8aMo9exrpTMOxvobggEpaHnGMmQY4cfBQ==}
+  /core-js/3.22.7:
+    resolution: {integrity: sha512-Jt8SReuDKVNZnZEzyEQT5eK6T2RRCXkfTq7Lo09kpm+fHjgGewSbNjV+Wt4yZMhPDdzz2x1ulI5z/w4nxpBseg==}
     requiresBuild: true
 
   /core-util-is/1.0.3:
