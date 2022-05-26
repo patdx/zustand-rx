@@ -6,7 +6,7 @@ specifiers:
   '@commitlint/config-conventional': 17.0.0
   '@docusaurus/core': 2.0.0-beta.20
   '@docusaurus/preset-classic': 2.0.0-beta.20
-  '@jscutlery/semver': 2.23.4
+  '@jscutlery/semver': 2.24.0
   '@mdx-js/react': 1.6.22
   '@nrwl/devkit': 13.9.5
   '@nrwl/eslint-plugin-nx': 13.9.5
@@ -83,7 +83,7 @@ devDependencies:
   '@commitlint/cli': 17.0.1
   '@commitlint/config-angular': 17.0.0
   '@commitlint/config-conventional': 17.0.0
-  '@jscutlery/semver': 2.23.4_@nrwl+devkit@13.9.5
+  '@jscutlery/semver': 2.24.0_@nrwl+devkit@13.9.5
   '@nrwl/devkit': 13.9.5
   '@nrwl/eslint-plugin-nx': 13.9.5_27a947f535e2f50972248f58dcbdcc3e
   '@nrwl/jest': 13.9.5
@@ -3959,8 +3959,8 @@ packages:
       '@jridgewell/resolve-uri': 3.0.5
       '@jridgewell/sourcemap-codec': 1.4.11
 
-  /@jscutlery/semver/2.23.4_@nrwl+devkit@13.9.5:
-    resolution: {integrity: sha512-PvySPhbOeEeCDOu4XziDRTkg+OcyjMh5itWvIFCGPNqW1fyC5Yh/0rtyg7dk9H+yW6EfZUfxYHn9OMRUBJQOfA==}
+  /@jscutlery/semver/2.24.0_@nrwl+devkit@13.9.5:
+    resolution: {integrity: sha512-W46cxzkt7nnJbK2DCdtQ4cE/Kwi+yCXwH5H9egXImNNGV+SD+YagixMCI8b31WzgR1WGSMvP/ehG5KfA7rziQA==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@nrwl/devkit': ^14.0.0
@@ -3968,7 +3968,7 @@ packages:
       '@nrwl/devkit': 13.9.5
       inquirer: 8.2.4
       rxjs: 7.5.5
-      standard-version: 9.3.2
+      standard-version: 9.5.0
     dev: true
 
   /@leichtgewicht/ip-codec/2.0.3:
@@ -6041,7 +6041,7 @@ packages:
     hasBin: true
 
   /add-stream/1.0.0:
-    resolution: {integrity: sha1-anmQQ3ynNtXhKI25K9MmbV9csqo=}
+    resolution: {integrity: sha512-qQLMr+8o0WC4FZGQTcJiKBVC59JylcPSrTtk6usvmIDFUOCKegapy1VHQwRbFMOFyb/inzUVqHs+eMYKDM1YeQ==}
     dev: true
 
   /address/1.1.2:
@@ -7271,7 +7271,7 @@ packages:
     dev: false
 
   /clone/1.0.4:
-    resolution: {integrity: sha1-2jCcwmPfFZlMaIypAheco8fNfH4=}
+    resolution: {integrity: sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==}
     engines: {node: '>=0.8'}
     dev: true
 
@@ -7517,6 +7517,15 @@ packages:
       q: 1.5.1
     dev: true
 
+  /conventional-changelog-conventionalcommits/4.6.3:
+    resolution: {integrity: sha512-LTTQV4fwOM4oLPad317V/QNQ1FY4Hju5qeBIM1uTHbrnCE+Eg4CdRZ3gO2pUeR+tzWdp80M2j3qFFEDWVqOV4g==}
+    engines: {node: '>=10'}
+    dependencies:
+      compare-func: 2.0.0
+      lodash: 4.17.21
+      q: 1.5.1
+    dev: true
+
   /conventional-changelog-core/4.2.4:
     resolution: {integrity: sha512-gDVS+zVJHE2v4SLc6B0sLsPiloR0ygU7HaDW14aNJE1v4SlqJPILPl/aJC7YdtRE4CybBf8gDwObBvKha8Xlyg==}
     engines: {node: '>=10'}
@@ -7594,14 +7603,14 @@ packages:
       through2: 4.0.2
     dev: true
 
-  /conventional-changelog/3.1.24:
-    resolution: {integrity: sha512-ed6k8PO00UVvhExYohroVPXcOJ/K1N0/drJHx/faTH37OIZthlecuLIRX/T6uOp682CAoVoFpu+sSEaeuH6Asg==}
+  /conventional-changelog/3.1.25:
+    resolution: {integrity: sha512-ryhi3fd1mKf3fSjbLXOfK2D06YwKNic1nC9mWqybBHdObPd8KJ2vjaXZfYj1U23t+V8T8n0d7gwnc9XbIdFbyQ==}
     engines: {node: '>=10'}
     dependencies:
       conventional-changelog-angular: 5.0.13
       conventional-changelog-atom: 2.0.8
       conventional-changelog-codemirror: 2.0.8
-      conventional-changelog-conventionalcommits: 4.6.1
+      conventional-changelog-conventionalcommits: 4.6.3
       conventional-changelog-core: 4.2.4
       conventional-changelog-ember: 2.0.9
       conventional-changelog-eslint: 3.0.9
@@ -9503,13 +9512,6 @@ packages:
   /fresh/0.5.2:
     resolution: {integrity: sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=}
     engines: {node: '>= 0.6'}
-
-  /fs-access/1.0.1:
-    resolution: {integrity: sha1-1qh/JiJxzv6+wwxVNAf7mV2od3o=}
-    engines: {node: '>=0.10.0'}
-    dependencies:
-      null-check: 1.0.0
-    dev: true
 
   /fs-extra/10.0.1:
     resolution: {integrity: sha512-NbdoVMZso2Lsrn/QwLXOy6rm0ufY2zEOKCDzJR/0kBsb0E6qed0P3iYK+Ath3BfvXEeu4JhEtXLgILx5psUfag==}
@@ -12432,11 +12434,6 @@ packages:
     dependencies:
       boolbase: 1.0.0
 
-  /null-check/1.0.0:
-    resolution: {integrity: sha1-l33/1xdgErnsMNKjnbXPcqBDnt0=}
-    engines: {node: '>=0.10.0'}
-    dev: true
-
   /number-is-nan/1.0.1:
     resolution: {integrity: sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=}
     engines: {node: '>=0.10.0'}
@@ -15183,22 +15180,21 @@ packages:
     resolution: {integrity: sha512-GrdeshiRmS1YLMYgzF16olf2jJ/IzxXY9lhKOskuVziubpTYcYqyOwYeJKzQkwy7uN0fYSsbsC4RQaXf9LCrYA==}
     dev: true
 
-  /standard-version/9.3.2:
-    resolution: {integrity: sha512-u1rfKP4o4ew7Yjbfycv80aNMN2feTiqseAhUhrrx2XtdQGmu7gucpziXe68Z4YfHVqlxVEzo4aUA0Iu3VQOTgQ==}
+  /standard-version/9.5.0:
+    resolution: {integrity: sha512-3zWJ/mmZQsOaO+fOlsa0+QK90pwhNd042qEcw6hKFNoLFs7peGyvPffpEBbK/DSGPbyOvli0mUIFv5A4qTjh2Q==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
       chalk: 2.4.2
-      conventional-changelog: 3.1.24
+      conventional-changelog: 3.1.25
       conventional-changelog-config-spec: 2.1.0
-      conventional-changelog-conventionalcommits: 4.6.1
+      conventional-changelog-conventionalcommits: 4.6.3
       conventional-recommended-bump: 6.1.0
       detect-indent: 6.0.0
       detect-newline: 3.1.0
       dotgitignore: 2.1.0
       figures: 3.2.0
       find-up: 5.0.0
-      fs-access: 1.0.1
       git-semver-tags: 4.1.1
       semver: 7.3.7
       stringify-package: 1.0.1
