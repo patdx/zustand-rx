@@ -38,9 +38,9 @@
     "zustand": "3.7.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.0.1",
+    "@commitlint/cli": "17.0.2",
     "@commitlint/config-angular": "17.0.0",
-    "@commitlint/config-conventional": "17.0.0",
+    "@commitlint/config-conventional": "17.0.2",
     "@jscutlery/semver": "2.24.2",
     "@nrwl/devkit": "13.9.5",
     "@nrwl/eslint-plugin-nx": "13.9.5",
