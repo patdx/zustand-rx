@@ -1,6 +1,5 @@
 {
   "projectType": "application",
-  "root": "apps/docs-app",
   "sourceRoot": "apps/docs-app/src",
   "targets": {
     "build": {

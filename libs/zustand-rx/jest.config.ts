@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default {
   displayName: 'zustand-rx',
   preset: '../../jest.preset.js',

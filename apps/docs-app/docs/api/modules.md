@@ -6,7 +6,7 @@ sidebar_position: 0.5
 custom_edit_url: null
 ---
 
-## Type aliases
+## Type Aliases
 
 ### StateValueOf
 
@@ -21,13 +21,13 @@ custom_edit_url: null
 
 #### Defined in
 
-[index.ts:6](https://github.com/patdx/zustand-rx/blob/7ed6b10/libs/zustand-rx/src/index.ts#L6)
+[lib/zustand-rx.ts:6](https://github.com/patdx/zustand-rx/blob/aee7dc0/libs/zustand-rx/src/lib/zustand-rx.ts#L6)
 
 ## Functions
 
 ### toStream
 
-▸ `Const` **toStream**<`TStore`, `TState`, `TSlice`\>(`store`, `selector?`,
+▸ **toStream**<`TStore`, `TState`, `TSlice`\>(`store`, `selector?`,
 `__namedParameters?`): `Observable`<`TSlice`\>
 
 Create a zustand selector as an RxJS observable, inspired by the MobX toStream
@@ -35,11 +35,11 @@ API: https://github.com/mobxjs/mobx-utils#tostream
 
 #### Type parameters
 
-| Name     | Type                                                                 |
-| :------- | :------------------------------------------------------------------- |
-| `TStore` | extends `StoreApi`<`any`\>                                           |
-| `TState` | extends `object` = [`StateValueOf`](modules#statevalueof)<`TStore`\> |
-| `TSlice` | `TState`                                                             |
+| Name     | Type                                                                    |
+| :------- | :---------------------------------------------------------------------- |
+| `TStore` | extends `StoreApi`<`any`\>                                              |
+| `TState` | extends `object` = [`StateValueOf`](modules.md#statevalueof)<`TStore`\> |
+| `TSlice` | `TState`                                                                |
 
 #### Parameters
 
@@ -57,4 +57,4 @@ API: https://github.com/mobxjs/mobx-utils#tostream
 
 #### Defined in
 
-[index.ts:14](https://github.com/patdx/zustand-rx/blob/7ed6b10/libs/zustand-rx/src/index.ts#L14)
+[lib/zustand-rx.ts:14](https://github.com/patdx/zustand-rx/blob/aee7dc0/libs/zustand-rx/src/lib/zustand-rx.ts#L14)

@@ -10,6 +10,8 @@
     "**/*.spec.tsx",
     "**/*.spec.js",
     "**/*.spec.jsx",
-    "**/*.d.ts"
-, "src/zustand-rx.ts"  ]
+    "**/*.d.ts",
+    "src/zustand-rx.ts",
+    "jest.config.ts"
+  ]
 }

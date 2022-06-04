@@ -3,7 +3,7 @@
   "proseWrap": "always",
   "overrides": [
     {
-      "files": ["project.json"],
+      "files": ["project.json", "nx.json"],
       "options": {
         "parser": "json-stringify"
       }

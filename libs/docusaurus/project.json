@@ -1,5 +1,4 @@
 {
-  "root": "libs/docusaurus",
   "sourceRoot": "libs/docusaurus/src",
   "projectType": "library",
   "targets": {

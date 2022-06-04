@@ -1,5 +1,4 @@
 {
-  "root": "libs/zustand-rx",
   "sourceRoot": "libs/zustand-rx/src",
   "projectType": "library",
   "tags": [],
@@ -79,7 +78,7 @@
         "coverage/libs/zustand-rx"
       ],
       "options": {
-        "jestConfig": "libs/zustand-rx/jest.config.js",
+        "jestConfig": "libs/zustand-rx/jest.config.ts",
         "passWithNoTests": true
       }
     },

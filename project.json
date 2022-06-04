@@ -1,5 +1,4 @@
 {
-  "root": ".",
   "targets": {
     "version": {
       "executor": "@jscutlery/semver:version",
