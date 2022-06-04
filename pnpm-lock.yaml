@@ -52,7 +52,7 @@ specifiers:
   prettier-package-json: 2.6.3
   react: 18.1.0
   react-dom: 18.1.0
-  react-router-dom: 5.3.0
+  react-router-dom: 5.3.3
   regenerator-runtime: 0.13.9
   rxjs: 7.5.5
   shx: 0.3.4
@@ -73,7 +73,7 @@ dependencies:
   observable-hooks: 4.2.0_45738ef863a07501c6d01794c500d3f9
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
-  react-router-dom: 5.3.0_react@18.1.0
+  react-router-dom: 5.3.3_react@18.1.0
   regenerator-runtime: 0.13.9
   rxjs: 7.5.5
   tslib: 2.4.0
@@ -2676,13 +2676,6 @@ packages:
       regenerator-runtime: 0.13.9
     dev: true
 
-  /@babel/runtime/7.16.7:
-    resolution: {integrity: sha512-9E9FJowqAsytyOY6LG+1KuueckRL+aQW+mKvXRXnuFGyRAyepJPmEo9vgMfXUA6O9u3IeEdv9MAkppFcaQwogQ==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      regenerator-runtime: 0.13.9
-    dev: false
-
   /@babel/runtime/7.17.8:
     resolution: {integrity: sha512-dQpEpK0O9o6lj6oPu0gRDbbnk+4LeHlNcBpspf6Olzt3GIX4P1lWF1gS+pHLDFlaJvbR6q7jCfQ08zA4QJBnmA==}
     engines: {node: '>=6.9.0'}
@@ -3054,7 +3047,7 @@ packages:
       react-loadable-ssr-addon-v5-slorber: 1.0.1_e9a32d0ed12f8f09954f994457231c0d
       react-router: 5.2.1_react@18.1.0
       react-router-config: 5.1.1_react-router@5.2.1+react@18.1.0
-      react-router-dom: 5.3.0_react@18.1.0
+      react-router-dom: 5.3.3_react@18.1.0
       remark-admonitions: 1.2.1
       rtl-detect: 1.0.4
       semver: 7.3.7
@@ -3464,7 +3457,7 @@ packages:
       prismjs: 1.28.0
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
-      react-router-dom: 5.3.0_react@18.1.0
+      react-router-dom: 5.3.3_react@18.1.0
       rtlcss: 3.5.0
     transitivePeerDependencies:
       - '@parcel/css'
@@ -12925,7 +12918,7 @@ packages:
     dev: true
 
   /path-to-regexp/0.1.7:
-    resolution: {integrity: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=}
+    resolution: {integrity: sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ==}
 
   /path-to-regexp/1.8.0:
     resolution: {integrity: sha512-n43JRhlUKUAlibEJhPeir1ncUID16QnEjNpwzNdO3Lm4ywrBpBZ5oLD0I6br9evr1Y9JTqwRtAh7JLoOzAQdVA==}
@@ -14141,23 +14134,41 @@ packages:
       react-router: 5.2.1_react@18.1.0
     dev: false
 
-  /react-router-dom/5.3.0_react@18.1.0:
-    resolution: {integrity: sha512-ObVBLjUZsphUUMVycibxgMdh5jJ1e3o+KpAZBVeHcNQZ4W+uUGGWsokurzlF4YOldQYRQL4y6yFRWM4m3svmuQ==}
+  /react-router-dom/5.3.3_react@18.1.0:
+    resolution: {integrity: sha512-Ov0tGPMBgqmbu5CDmN++tv2HQ9HlWDuWIIqn4b88gjlAN5IHI+4ZUZRcpz9Hl0azFIwihbLDYw1OiHGRo7ZIng==}
     peerDependencies:
       react: '>=15'
     dependencies:
-      '@babel/runtime': 7.16.7
+      '@babel/runtime': 7.17.9
       history: 4.10.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
       react: 18.1.0
-      react-router: 5.2.1_react@18.1.0
+      react-router: 5.3.3_react@18.1.0
       tiny-invariant: 1.2.0
       tiny-warning: 1.0.3
     dev: false
 
   /react-router/5.2.1_react@18.1.0:
     resolution: {integrity: sha512-lIboRiOtDLFdg1VTemMwud9vRVuOCZmUIT/7lUoZiSpPODiiH1UQlfXy+vPLC/7IWdFYnhRwAyNqA/+I7wnvKQ==}
+    peerDependencies:
+      react: '>=15'
+    dependencies:
+      '@babel/runtime': 7.17.9
+      history: 4.10.1
+      hoist-non-react-statics: 3.3.2
+      loose-envify: 1.4.0
+      mini-create-react-context: 0.4.1_prop-types@15.8.1+react@18.1.0
+      path-to-regexp: 1.8.0
+      prop-types: 15.8.1
+      react: 18.1.0
+      react-is: 16.13.1
+      tiny-invariant: 1.2.0
+      tiny-warning: 1.0.3
+    dev: false
+
+  /react-router/5.3.3_react@18.1.0:
+    resolution: {integrity: sha512-mzQGUvS3bM84TnbtMYR8ZjKnuPJ71IjSzR+DE6UkUqvN4czWIqEs17yLL8xkAycv4ev0AiN+IGrWu88vJs/p2w==}
     peerDependencies:
       react: '>=15'
     dependencies:
