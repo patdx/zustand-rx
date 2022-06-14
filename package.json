@@ -79,7 +79,7 @@
     "ngx-deploy-npm": "3.1.9",
     "nx": "14.1.9",
     "only-allow": "1.1.0",
-    "prettier": "2.6.2",
+    "prettier": "2.7.0",
     "prettier-package-json": "2.6.3",
     "react-test-renderer": "18.1.0",
     "shx": "0.3.4",
