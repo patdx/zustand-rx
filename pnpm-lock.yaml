@@ -48,7 +48,7 @@ specifiers:
   observable-hooks: 4.2.0
   only-allow: 1.1.0
   prettier: 2.7.1
-  prettier-package-json: 2.6.3
+  prettier-package-json: 2.6.4
   react: 18.2.0
   react-dom: 18.2.0
   react-is: 18.2.0
@@ -123,7 +123,7 @@ devDependencies:
   nx: 14.1.9
   only-allow: 1.1.0
   prettier: 2.7.1
-  prettier-package-json: 2.6.3
+  prettier-package-json: 2.6.4
   react-test-renderer: 18.2.0_react@18.2.0
   shx: 0.3.4
   ts-jest: 27.1.4_4vac53qkbh3p4hrqxdjprq7yr4
@@ -6209,7 +6209,7 @@ packages:
     dev: true
 
   /author-regex/1.0.0:
-    resolution: {integrity: sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=}
+    resolution: {integrity: sha512-KbWgR8wOYRAPekEmMXrYYdc7BRyhn2Ftk7KWfMUnQ43hFdojWEFRxhhRUm3/OFEdPa1r0KAvTTg9YQK57xTe0g==}
     engines: {node: '>=0.8'}
     dev: true
 
@@ -9227,20 +9227,11 @@ packages:
     resolution: {integrity: sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==}
     dev: true
 
-  /fs-extra/10.0.1:
-    resolution: {integrity: sha512-NbdoVMZso2Lsrn/QwLXOy6rm0ufY2zEOKCDzJR/0kBsb0E6qed0P3iYK+Ath3BfvXEeu4JhEtXLgILx5psUfag==}
-    engines: {node: '>=12'}
-    dependencies:
-      graceful-fs: 4.2.10
-      jsonfile: 6.1.0
-      universalify: 2.0.0
-    dev: true
-
   /fs-extra/10.1.0:
     resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
     engines: {node: '>=12'}
     dependencies:
-      graceful-fs: 4.2.9
+      graceful-fs: 4.2.10
       jsonfile: 6.1.0
       universalify: 2.0.0
 
@@ -9448,17 +9439,6 @@ packages:
       path-is-absolute: 1.0.1
     dev: true
 
-  /glob/7.2.0:
-    resolution: {integrity: sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==}
-    dependencies:
-      fs.realpath: 1.0.0
-      inflight: 1.0.6
-      inherits: 2.0.4
-      minimatch: 3.1.2
-      once: 1.4.0
-      path-is-absolute: 1.0.1
-    dev: true
-
   /glob/7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
     dependencies:
@@ -9600,6 +9580,7 @@ packages:
 
   /graceful-fs/4.2.9:
     resolution: {integrity: sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==}
+    dev: true
 
   /gray-matter/4.0.3:
     resolution: {integrity: sha512-5v6yZd4JK3eMI3FqqCouswVqwugaA9r4dNZB1wwcmrD02QkV5H0y7XBQW8QwQqEaZY1pM9aqORSORhJRdNK44Q==}
@@ -11223,7 +11204,7 @@ packages:
     dev: true
 
   /jsonfile/4.0.0:
-    resolution: {integrity: sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=}
+    resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
     optionalDependencies:
       graceful-fs: 4.2.10
     dev: true
@@ -12372,7 +12353,7 @@ packages:
       callsites: 3.1.0
 
   /parse-author/2.0.0:
-    resolution: {integrity: sha1-00YL8d3Q367tQtp1QkLmX7aEqB8=}
+    resolution: {integrity: sha512-yx5DfvkN8JsHL2xk2Os9oTia467qnvRgey4ahSm2X8epehBLx/gWLcy5KI+Y36ful5DzGbCS6RazqZGgy1gHNw==}
     engines: {node: '>=0.10.0'}
     dependencies:
       author-regex: 1.0.0
@@ -13401,16 +13382,16 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /prettier-package-json/2.6.3:
-    resolution: {integrity: sha512-0zFMAyiSHImUb7VWJQFiORFaFJ46gtLZ05sHRkehSZ6aO9mO8pxSStkTnpIT7rIioQMJhnaF9LKcqJpmhHf6JQ==}
+  /prettier-package-json/2.6.4:
+    resolution: {integrity: sha512-aNZvEf0yy0UeqLdTHsFZiYjOEM9kACO02CGUR5XIHdqj3jrpHNlLkmfTaj1V/rvB4vYHHTH0i3qMf2FZ2Qtr/g==}
     hasBin: true
     dependencies:
       '@types/parse-author': 2.0.1
       commander: 4.1.1
       cosmiconfig: 7.0.1
-      fs-extra: 10.0.1
-      glob: 7.2.0
-      minimatch: 3.0.4
+      fs-extra: 10.1.0
+      glob: 7.2.3
+      minimatch: 3.1.2
       parse-author: 2.0.0
       sort-object-keys: 1.1.3
       sort-order: 1.0.1
@@ -14659,7 +14640,7 @@ packages:
     dev: true
 
   /sort-order/1.0.1:
-    resolution: {integrity: sha1-2CK4zbkOpqnfloxL1FmHz1SBmeY=}
+    resolution: {integrity: sha512-BiExT7C1IVF4DNd5dttR/dEq3wunGOHpy4phvqFUQA1pY6j2ye8WWEAV8LhRbfdF0EWDX12FfyPPf9P71eT+cA==}
     dev: true
 
   /source-map-js/0.6.2:
@@ -16455,7 +16436,7 @@ packages:
     dev: false
 
   /wrappy/1.0.2:
-    resolution: {integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=}
+    resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
   /write-file-atomic/3.0.3:
     resolution: {integrity: sha512-AvHcyZ5JnSfq3ioSyjrBkH9yW4m7Ayk8/9My/DD9onKeu/94fwrMocemO2QAJFAlnnDN+ZDS+ZjAR5ua1/PV/Q==}
