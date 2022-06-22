@@ -80,7 +80,7 @@
     "nx": "14.1.9",
     "only-allow": "1.1.0",
     "prettier": "2.7.1",
-    "prettier-package-json": "2.6.3",
+    "prettier-package-json": "2.6.4",
     "react-test-renderer": "18.2.0",
     "shx": "0.3.4",
     "ts-jest": "27.1.4",
