@@ -46,7 +46,7 @@ specifiers:
   ngx-deploy-npm: 4.1.0
   nx: 14.1.9
   observable-hooks: 4.2.0
-  only-allow: 1.1.0
+  only-allow: 1.1.1
   prettier: 2.7.1
   prettier-package-json: 2.6.4
   react: 18.2.0
@@ -121,7 +121,7 @@ devDependencies:
   lint-staged: 13.0.2
   ngx-deploy-npm: 4.1.0_nx@14.1.9
   nx: 14.1.9
-  only-allow: 1.1.0
+  only-allow: 1.1.1
   prettier: 2.7.1
   prettier-package-json: 2.6.4
   react-test-renderer: 18.2.0_react@18.2.0
@@ -12175,8 +12175,8 @@ packages:
       mimic-fn: 4.0.0
     dev: true
 
-  /only-allow/1.1.0:
-    resolution: {integrity: sha512-HYiuMpRuy0d0DjoQZwhwO1Ueal0NXJ2I4mNxLv3aGw/1naRcAAzVC953WNpcbjlo+ak3WsoKDjHvoMd2cSZLpw==}
+  /only-allow/1.1.1:
+    resolution: {integrity: sha512-WE01hpInLQUF3MKK7vhu4p1VZLKb4rL4d+CI3rwwwsToXELx6YawNFhZy3rVU3rpQpI9kF9zFMk4OjB3xwXdJA==}
     hasBin: true
     dependencies:
       boxen: 4.2.0
