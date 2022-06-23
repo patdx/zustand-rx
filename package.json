@@ -78,7 +78,7 @@
     "lint-staged": "13.0.2",
     "ngx-deploy-npm": "4.1.0",
     "nx": "14.1.9",
-    "only-allow": "1.1.0",
+    "only-allow": "1.1.1",
     "prettier": "2.7.1",
     "prettier-package-json": "2.6.4",
     "react-test-renderer": "18.2.0",
