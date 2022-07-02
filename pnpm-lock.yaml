@@ -59,7 +59,7 @@ specifiers:
   shx: 0.3.4
   ts-jest: 27.1.4
   tslib: 2.4.0
-  typedoc: 0.23.4
+  typedoc: 0.23.5
   typedoc-plugin-markdown: 3.13.2
   typescript: 4.7.4
   url-loader: 4.1.1
@@ -107,7 +107,7 @@ devDependencies:
   babel-jest: 27.5.1
   commitizen: 4.2.4
   cz-conventional-changelog: 3.3.0
-  docusaurus-plugin-typedoc: 0.17.5_m2wnaaqzqt4iugmpn4rgt4zxpa
+  docusaurus-plugin-typedoc: 0.17.5_ilmdjmmk7ebumxssw3jw6ka3c4
   dot-json: 1.2.2
   eslint: 8.18.0
   eslint-config-prettier: 8.5.0_eslint@8.18.0
@@ -127,8 +127,8 @@ devDependencies:
   react-test-renderer: 18.2.0_react@18.2.0
   shx: 0.3.4
   ts-jest: 27.1.4_4vac53qkbh3p4hrqxdjprq7yr4
-  typedoc: 0.23.4_typescript@4.7.4
-  typedoc-plugin-markdown: 3.13.2_typedoc@0.23.4
+  typedoc: 0.23.5_typescript@4.7.4
+  typedoc-plugin-markdown: 3.13.2_typedoc@0.23.5
   typescript: 4.7.4
   url-loader: 4.1.1
 
@@ -8149,14 +8149,14 @@ packages:
     dependencies:
       esutils: 2.0.3
 
-  /docusaurus-plugin-typedoc/0.17.5_m2wnaaqzqt4iugmpn4rgt4zxpa:
+  /docusaurus-plugin-typedoc/0.17.5_ilmdjmmk7ebumxssw3jw6ka3c4:
     resolution: {integrity: sha512-mMTk4lRy2+wQ7fmMOv6RLfKkoGnHkBLE8qUoPfWFoqUYDDDInwVQKxz12FNnQx86eJSLgBiZmuY/zB/bYsZQlQ==}
     peerDependencies:
       typedoc: '>=0.22.0'
       typedoc-plugin-markdown: '>=3.11.10'
     dependencies:
-      typedoc: 0.23.4_typescript@4.7.4
-      typedoc-plugin-markdown: 3.13.2_typedoc@0.23.4
+      typedoc: 0.23.5_typescript@4.7.4
+      typedoc-plugin-markdown: 3.13.2_typedoc@0.23.5
     dev: true
 
   /dom-accessibility-api/0.5.14:
@@ -15556,17 +15556,17 @@ packages:
     resolution: {integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=}
     dev: true
 
-  /typedoc-plugin-markdown/3.13.2_typedoc@0.23.4:
+  /typedoc-plugin-markdown/3.13.2_typedoc@0.23.5:
     resolution: {integrity: sha512-WpP+XW4TZ7yVIM9jSjTWUznZitXWY8OwSVRZAu65+lOI6tiIeUYEsgiFzIdGjNcWbwD6THNcJqATDoMVIp9RKw==}
     peerDependencies:
       typedoc: '>=0.23.0'
     dependencies:
       handlebars: 4.7.7
-      typedoc: 0.23.4_typescript@4.7.4
+      typedoc: 0.23.5_typescript@4.7.4
     dev: true
 
-  /typedoc/0.23.4_typescript@4.7.4:
-    resolution: {integrity: sha512-KvDc3aO7eSrPhPJ36zPfjKNdOMSQFeUOMOMZdG7jACQePJny+qEbufINCac/wAH8nMaCE3TRa5jcDmouRy58nA==}
+  /typedoc/0.23.5_typescript@4.7.4:
+    resolution: {integrity: sha512-5ydWUOe4E9Z3a/r33cC5X5CJPLnFDKIondHYtdnEnO0sa/s8f+Nrfe+LBGOk/UTkV2IPYyL1Gm1PtUKIihklyw==}
     engines: {node: '>= 14.14'}
     hasBin: true
     peerDependencies:
