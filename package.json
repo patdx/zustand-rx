@@ -26,7 +26,7 @@
     "@docusaurus/core": "2.0.0-beta.22",
     "@docusaurus/preset-classic": "2.0.0-beta.22",
     "@mdx-js/react": "1.6.22",
-    "clsx": "1.2.0",
+    "clsx": "1.2.1",
     "core-js": "3.23.3",
     "observable-hooks": "4.2.0",
     "react": "18.2.0",
