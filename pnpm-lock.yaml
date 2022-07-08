@@ -27,7 +27,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.30.5
   '@typescript-eslint/parser': 5.30.5
   babel-jest: 27.5.1
-  clsx: 1.2.0
+  clsx: 1.2.1
   commitizen: 4.2.4
   core-js: 3.23.3
   cz-conventional-changelog: 3.3.0
@@ -69,7 +69,7 @@ dependencies:
   '@docusaurus/core': 2.0.0-beta.22_laxx7oajycrjekgfbzprteir3i
   '@docusaurus/preset-classic': 2.0.0-beta.22_gaykerfgyfmcg5hwaflg3nb5k4
   '@mdx-js/react': 1.6.22_react@18.2.0
-  clsx: 1.2.0
+  clsx: 1.2.1
   core-js: 3.23.3
   observable-hooks: 4.2.0_22qqaavzrlowmrpdtym5luk3bu
   react: 18.2.0
@@ -3802,7 +3802,7 @@ packages:
       '@docusaurus/utils-common': 2.0.0-beta.22_gtcehwitjgo6gytchlcqrr4fme
       '@docusaurus/utils-validation': 2.0.0-beta.22_gtcehwitjgo6gytchlcqrr4fme
       '@mdx-js/react': 1.6.22_react@18.2.0
-      clsx: 1.2.0
+      clsx: 1.2.1
       copy-text-to-clipboard: 3.0.1
       infima: 0.2.0-alpha.41
       lodash: 4.17.21
@@ -3848,7 +3848,7 @@ packages:
       '@types/history': 4.7.11
       '@types/react': 18.0.15
       '@types/react-router-config': 5.0.6
-      clsx: 1.2.0
+      clsx: 1.2.1
       parse-numeric-range: 1.3.0
       prism-react-renderer: 1.3.5_react@18.2.0
       react: 18.2.0
@@ -3889,7 +3889,7 @@ packages:
       '@docusaurus/utils-validation': 2.0.0-beta.22_gtcehwitjgo6gytchlcqrr4fme
       algoliasearch: 4.13.1
       algoliasearch-helper: 3.10.0_algoliasearch@4.13.1
-      clsx: 1.2.0
+      clsx: 1.2.1
       eta: 1.12.3
       fs-extra: 10.1.0
       lodash: 4.17.21
@@ -7560,8 +7560,8 @@ packages:
     engines: {node: '>=0.8'}
     dev: true
 
-  /clsx/1.2.0:
-    resolution: {integrity: sha512-EPRP7XJsM1y0iCU3Z7C7jFKdQboXSeHgEfzQUTlz7m5NP3hDrlz48aUsmNGp4pC+JOW9WA3vIRqlYuo/bl4Drw==}
+  /clsx/1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
     engines: {node: '>=6'}
     dev: false
 
