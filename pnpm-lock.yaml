@@ -43,7 +43,7 @@ specifiers:
   husky: 8.0.1
   jest: 27.5.1
   lint-staged: 13.0.3
-  ngx-deploy-npm: 4.1.0
+  ngx-deploy-npm: 4.1.1
   nx: 14.1.9
   observable-hooks: 4.2.0
   only-allow: 1.1.1
@@ -119,7 +119,7 @@ devDependencies:
   husky: 8.0.1
   jest: 27.5.1
   lint-staged: 13.0.3
-  ngx-deploy-npm: 4.1.0_nx@14.1.9
+  ngx-deploy-npm: 4.1.1_nx@14.1.9
   nx: 14.1.9
   only-allow: 1.1.1
   prettier: 2.7.1
@@ -4532,8 +4532,8 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@nrwl/devkit/14.3.6_nx@14.1.9:
-    resolution: {integrity: sha512-yGAZ5emBSb13smdkVagJRD/IC+ZkGLuRUc9A4Oqp/hDtOoUx6Jxot6vKwniTfbYZlk1Dkeq77d3atsEwz0dD1A==}
+  /@nrwl/devkit/14.4.2_nx@14.1.9:
+    resolution: {integrity: sha512-CJCczAbnZ7w6XZeOMHhb4aTQeDzU0pJOAAJvNU1EAzbj/nkP+QILn/sX+WQR6z94UT2Y9SMamnE4TjQC2F48vQ==}
     peerDependencies:
       nx: '>= 13.10 <= 15'
     dependencies:
@@ -12407,11 +12407,11 @@ packages:
   /neo-async/2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  /ngx-deploy-npm/4.1.0_nx@14.1.9:
-    resolution: {integrity: sha512-/WHloNsGsmI8qAovFqS8AcTKyyuheiTmpQPxfDeyLBtgQ+/jvoxDfbEz98uTx4WtiSfSGJnOBLZiPVLwVyyqLg==}
+  /ngx-deploy-npm/4.1.1_nx@14.1.9:
+    resolution: {integrity: sha512-XjZubxz9gnPmke9lJP7cO3z1y7zBl/Joi+mBHE5MG8jWpgdSLoPN0ArMtAIkDdj7CO0s81ZMUs3z2ZaPPK5b6g==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@nrwl/devkit': 14.3.6_nx@14.1.9
+      '@nrwl/devkit': 14.4.2_nx@14.1.9
     transitivePeerDependencies:
       - nx
     dev: true
