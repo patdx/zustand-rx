@@ -49,7 +49,7 @@
     "@nrwl/js": "14.1.9",
     "@nrwl/linter": "14.1.9",
     "@nrwl/node": "14.1.9",
-    "@nrwl/nx-cloud": "14.0.5",
+    "@nrwl/nx-cloud": "14.2.0",
     "@nrwl/nx-plugin": "14.1.9",
     "@nrwl/react": "14.1.9",
     "@nrwl/web": "14.1.9",

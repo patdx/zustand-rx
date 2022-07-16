@@ -14,7 +14,7 @@ specifiers:
   '@nrwl/js': 14.1.9
   '@nrwl/linter': 14.1.9
   '@nrwl/node': 14.1.9
-  '@nrwl/nx-cloud': 14.0.5
+  '@nrwl/nx-cloud': 14.2.0
   '@nrwl/nx-plugin': 14.1.9
   '@nrwl/react': 14.1.9
   '@nrwl/web': 14.1.9
@@ -92,7 +92,7 @@ devDependencies:
   '@nrwl/js': 14.1.9_6pbz4dkubyiotuplntspac3srq
   '@nrwl/linter': 14.1.9_w734qdr6hcknhmnsdobw2k3ley
   '@nrwl/node': 14.1.9_6pbz4dkubyiotuplntspac3srq
-  '@nrwl/nx-cloud': 14.0.5
+  '@nrwl/nx-cloud': 14.2.0
   '@nrwl/nx-plugin': 14.1.9_6pbz4dkubyiotuplntspac3srq
   '@nrwl/react': 14.1.9_i4tlak4gaq7va3plpqhcdbmy3i
   '@nrwl/web': 14.1.9_cmdeelbf3it2aj46x5rhusdosa
@@ -4775,8 +4775,8 @@ packages:
       - webpack-cli
     dev: true
 
-  /@nrwl/nx-cloud/14.0.5:
-    resolution: {integrity: sha512-ADLGWiorW7sHT9hJw1OrxCG9JE9ALYfzNtXWJbvn4ulERul3hSsj+7P+uyUBtflpCrG1bmw5SxkQ77EH/DkY5A==}
+  /@nrwl/nx-cloud/14.2.0:
+    resolution: {integrity: sha512-KnrNFDCII9mbLwFp0HgyKVlhMTXoN90CQzGgdtCNPPBP/Wg84pttcpynGdWyupkrBJxdqMNTJEC7HGib0ipxew==}
     hasBin: true
     dependencies:
       axios: 0.21.4
@@ -6775,7 +6775,7 @@ packages:
   /axios/0.21.4:
     resolution: {integrity: sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==}
     dependencies:
-      follow-redirects: 1.14.7
+      follow-redirects: 1.15.1
     transitivePeerDependencies:
       - debug
     dev: true
@@ -9659,16 +9659,6 @@ packages:
     transitivePeerDependencies:
       - encoding
     dev: false
-
-  /follow-redirects/1.14.7:
-    resolution: {integrity: sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==}
-    engines: {node: '>=4.0'}
-    peerDependencies:
-      debug: '*'
-    peerDependenciesMeta:
-      debug:
-        optional: true
-    dev: true
 
   /follow-redirects/1.15.1:
     resolution: {integrity: sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==}
