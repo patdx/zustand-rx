@@ -1,4 +1,5 @@
 {
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/zustand-rx/src",
   "projectType": "library",
   "tags": [],

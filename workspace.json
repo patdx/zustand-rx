@@ -6,5 +6,6 @@
     "workspace": ".",
     "zustand-rx": "libs/zustand-rx",
     "zustand-rx-react": "apps/zustand-rx-react"
-  }
+  },
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json"
 }
