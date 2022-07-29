@@ -31,7 +31,7 @@ specifiers:
   babel-jest: 27.5.1
   clsx: 1.2.1
   commitizen: 4.2.5
-  core-js: 3.24.0
+  core-js: 3.24.1
   cz-conventional-changelog: 3.3.0
   docusaurus-plugin-typedoc: 0.17.5
   dot-json: 1.2.2
@@ -72,7 +72,7 @@ dependencies:
   '@docusaurus/preset-classic': 2.0.0-rc.1_ccdyrm72x3nhimve4hmunzjg24
   '@mdx-js/react': 1.6.22_react@18.2.0
   clsx: 1.2.1
-  core-js: 3.24.0
+  core-js: 3.24.1
   observable-hooks: 4.2.0_rbo53d2g7rpwoffbhif2vigefq
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -1921,7 +1921,7 @@ packages:
       combine-promises: 1.1.0
       commander: 5.1.0
       copy-webpack-plugin: 11.0.0_webpack@5.73.0
-      core-js: 3.24.0
+      core-js: 3.24.1
       css-loader: 6.7.1_webpack@5.73.0
       css-minimizer-webpack-plugin: 4.0.0_ym7haxui4mhsv4z74sxfalk3f4
       cssnano: 5.1.12_postcss@8.4.14
@@ -2019,7 +2019,7 @@ packages:
       combine-promises: 1.1.0
       commander: 5.1.0
       copy-webpack-plugin: 11.0.0_webpack@5.73.0
-      core-js: 3.24.0
+      core-js: 3.24.1
       css-loader: 6.7.1_webpack@5.73.0
       css-minimizer-webpack-plugin: 4.0.0_ym7haxui4mhsv4z74sxfalk3f4
       cssnano: 5.1.12_postcss@8.4.14
@@ -3616,7 +3616,7 @@ packages:
       '@nrwl/devkit': 14.4.3_nx@14.4.3
       '@nrwl/linter': 14.4.3_kbqolm43irmfuqi7habuwcvwcu
       '@nrwl/workspace': 14.4.3_sjhdlbpsoubgg6w3pvkbhoifqa
-      core-js: 3.24.0
+      core-js: 3.24.1
       dotenv: 10.0.0
       semver: 7.3.4
       ts-loader: 9.2.6_3o2jfq6vfqxns3sz6wn2nnc3ei
@@ -3687,7 +3687,7 @@ packages:
       chalk: 4.1.0
       chokidar: 3.5.3
       copy-webpack-plugin: 9.1.0_webpack@5.73.0
-      core-js: 3.24.0
+      core-js: 3.24.1
       css-loader: 6.7.1_webpack@5.73.0
       css-minimizer-webpack-plugin: 3.4.1_webpack@5.73.0
       enhanced-resolve: 5.9.3
@@ -4099,7 +4099,7 @@ packages:
     dependencies:
       '@types/npmlog': 4.1.3
       chalk: 4.1.2
-      core-js: 3.24.0
+      core-js: 3.24.1
       npmlog: 4.1.2
       pretty-hrtime: 1.0.3
     dev: true
@@ -6593,8 +6593,8 @@ packages:
     deprecated: core-js-pure@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js-pure.
     requiresBuild: true
 
-  /core-js/3.24.0:
-    resolution: {integrity: sha512-IeOyT8A6iK37Ep4kZDD423mpi6JfPRoPUdQwEWYiGolvn4o6j2diaRzNfDfpTdu3a5qMbrGUzKUpYpRY8jXCkQ==}
+  /core-js/3.24.1:
+    resolution: {integrity: sha512-0QTBSYSUZ6Gq21utGzkfITDylE8jWC9Ne1D2MrhvlsZBI1x39OdDIVbzSqtgMndIy6BlHxBXpMGqzZmnztg2rg==}
     requiresBuild: true
 
   /core-util-is/1.0.3:
