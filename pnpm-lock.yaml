@@ -6,7 +6,7 @@ specifiers:
   '@commitlint/config-conventional': 17.0.3
   '@docusaurus/core': 2.0.0-rc.1
   '@docusaurus/preset-classic': 2.0.0-rc.1
-  '@jscutlery/semver': 2.25.2
+  '@jscutlery/semver': 2.26.0
   '@mdx-js/react': 1.6.22
   '@nrwl/devkit': 14.4.3
   '@nrwl/eslint-plugin-nx': 14.4.3
@@ -87,7 +87,7 @@ devDependencies:
   '@commitlint/cli': 17.0.3_@swc+core@1.2.219
   '@commitlint/config-angular': 17.0.3
   '@commitlint/config-conventional': 17.0.3
-  '@jscutlery/semver': 2.25.2_@nrwl+devkit@14.4.3
+  '@jscutlery/semver': 2.26.0_@nrwl+devkit@14.4.3
   '@nrwl/devkit': 14.4.3_nx@14.4.3
   '@nrwl/eslint-plugin-nx': 14.4.3_oho4cogmui73omoyryny5ccl7q
   '@nrwl/jest': 14.4.3_nx@14.4.3+typescript@4.7.4
@@ -3067,15 +3067,16 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.13
     dev: true
 
-  /@jscutlery/semver/2.25.2_@nrwl+devkit@14.4.3:
-    resolution: {integrity: sha512-F5vpPHDN20e4kQxoalia+SnUk0xX/GZ798WAv6vxVFqV5Zw0RABUqnGQfDVSv9lbjm//eBeUvQmBd9f3A6y32g==}
+  /@jscutlery/semver/2.26.0_@nrwl+devkit@14.4.3:
+    resolution: {integrity: sha512-4LjgXPM2V1xTOWCjPQerbjljKdnTi7pCmeC5jfRdDe7ZkKH2Fs+MBqEeblrvzCM2hHG28UOq0bKw0ibUg8nA3A==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@nrwl/devkit': ^14.0.0
     dependencies:
       '@nrwl/devkit': 14.4.3_nx@14.4.3
+      detect-indent: 6.1.0
       inquirer: 8.2.4
-      rxjs: 7.5.5
+      rxjs: 7.5.6
       standard-version: 9.5.0
     dev: true
 
@@ -12830,12 +12831,6 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /rxjs/7.5.5:
-    resolution: {integrity: sha512-sy+H0pQofO95VDmFLzyaw9xNJU4KTRSwQIGM6+iG3SypAtCiLDzpeG8sJrNCWn2Up9km+KhkvTdbkrdy+yzZdw==}
-    dependencies:
-      tslib: 2.4.0
-    dev: true
-
   /rxjs/7.5.6:
     resolution: {integrity: sha512-dnyv2/YsXhnm461G+R/Pe5bWP41Nm6LBXEYWI6eiFP4fiwx6WRI/CD0zbdVAudd9xwLEF2IDcKXLHit0FYjUzw==}
     dependencies:
@@ -14052,7 +14047,7 @@ packages:
       is-typedarray: 1.0.0
 
   /typedarray/0.0.6:
-    resolution: {integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=}
+    resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: true
 
   /typedoc-plugin-markdown/3.13.4_typedoc@0.23.9:
