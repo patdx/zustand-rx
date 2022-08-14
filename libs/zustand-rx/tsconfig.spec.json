@@ -12,6 +12,6 @@
     "**/*.spec.jsx",
     "**/*.d.ts",
     "src/zustand-rx.ts",
-    "jest.config.ts"
+    "jest.config.js"
   ]
 }

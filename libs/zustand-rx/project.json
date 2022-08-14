@@ -79,7 +79,7 @@
         "coverage/libs/zustand-rx"
       ],
       "options": {
-        "jestConfig": "libs/zustand-rx/jest.config.ts",
+        "jestConfig": "libs/zustand-rx/jest.config.js",
         "passWithNoTests": true
       }
     },
