@@ -21,7 +21,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[lib/zustand-rx.ts:6](https://github.com/patdx/zustand-rx/blob/aee7dc0/libs/zustand-rx/src/lib/zustand-rx.ts#L6)
+[lib/zustand-rx.ts:6](https://github.com/patdx/zustand-rx/blob/d9ea0ba/libs/zustand-rx/src/lib/zustand-rx.ts#L6)
 
 ## Functions
 
@@ -37,7 +37,7 @@ API: https://github.com/mobxjs/mobx-utils#tostream
 
 | Name     | Type                                                                    |
 | :------- | :---------------------------------------------------------------------- |
-| `TStore` | extends `StoreApi`<`any`\>                                              |
+| `TStore` | extends `StoreApi`<`any`, `TStore`\>                                    |
 | `TState` | extends `object` = [`StateValueOf`](modules.md#statevalueof)<`TStore`\> |
 | `TSlice` | `TState`                                                                |
 
@@ -48,8 +48,8 @@ API: https://github.com/mobxjs/mobx-utils#tostream
 | `store`                              | `TStore`                                                 |
 | `selector?`                          | (`value`: `TState`) => `TSlice`                          |
 | `__namedParameters`                  | `Object`                                                 |
-| `__namedParameters.fireImmediately?` | `boolean`                                                |
 | `__namedParameters.equalityFn?`      | (`previous`: `TSlice`, `current`: `TSlice`) => `boolean` |
+| `__namedParameters.fireImmediately?` | `boolean`                                                |
 
 #### Returns
 
@@ -57,4 +57,4 @@ API: https://github.com/mobxjs/mobx-utils#tostream
 
 #### Defined in
 
-[lib/zustand-rx.ts:14](https://github.com/patdx/zustand-rx/blob/aee7dc0/libs/zustand-rx/src/lib/zustand-rx.ts#L14)
+[lib/zustand-rx.ts:14](https://github.com/patdx/zustand-rx/blob/d9ea0ba/libs/zustand-rx/src/lib/zustand-rx.ts#L14)
