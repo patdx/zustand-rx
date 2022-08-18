@@ -65,7 +65,7 @@ specifiers:
   typedoc-plugin-markdown: 3.13.4
   typescript: 4.7.4
   url-loader: 4.1.1
-  zustand: 4.0.0
+  zustand: 4.1.0
 
 dependencies:
   '@docusaurus/core': 2.0.1_h5x5qe35nki3wfh3cyw6b4wo3q
@@ -81,7 +81,7 @@ dependencies:
   regenerator-runtime: 0.13.9
   rxjs: 7.5.6
   tslib: 2.4.0
-  zustand: 4.0.0_react@18.2.0
+  zustand: 4.1.0_react@18.2.0
 
 devDependencies:
   '@commitlint/cli': 17.0.3_@swc+core@1.2.239
@@ -17007,8 +17007,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  /zustand/4.0.0_react@18.2.0:
-    resolution: {integrity: sha512-OrsfQTnRXF1LZ9/vR/IqN9ws5EXUhb149xmPjErZnUrkgxS/gAHGy2dPNIVkVvoxrVe1sIydn4JjF0dYHmGeeQ==}
+  /zustand/4.1.0_react@18.2.0:
+    resolution: {integrity: sha512-ba39yDM90wFHiCO5AuoP2Tr1vSY5Eggduk0ou91mWL/qKnz2sBq8AcdFoticOftt7AfIHRBENI7WfjkUrqB3vA==}
     engines: {node: '>=12.7.0'}
     peerDependencies:
       immer: '>=9.0'
