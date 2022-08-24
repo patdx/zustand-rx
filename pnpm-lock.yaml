@@ -45,7 +45,7 @@ specifiers:
   husky: 8.0.1
   jest: 27.5.1
   lint-staged: 13.0.3
-  ngx-deploy-npm: 4.2.1
+  ngx-deploy-npm: 4.2.2
   nx: 14.5.6
   observable-hooks: 4.2.0
   only-allow: 1.1.1
@@ -123,7 +123,7 @@ devDependencies:
   husky: 8.0.1
   jest: 27.5.1
   lint-staged: 13.0.3
-  ngx-deploy-npm: 4.2.1_nx@14.5.6+typescript@4.7.4
+  ngx-deploy-npm: 4.2.2_nx@14.5.6+typescript@4.7.4
   nx: 14.5.6_lopbxpvuz4qpkeydipwnixy3x4
   only-allow: 1.1.1
   prettier: 2.7.1
@@ -4423,6 +4423,21 @@ packages:
       - utf-8-validate
       - vue-template-compiler
       - webpack-cli
+    dev: true
+
+  /@nrwl/devkit/14.5.10_nx@14.5.6+typescript@4.7.4:
+    resolution: {integrity: sha512-YVT0MRvyXwe0uczUZK4XUi1f2iLAqklFMfAoqwfgcgWToH8xN06NSlyUphD4eLHFgem3Sd0kimAJVsnse/PTlA==}
+    peerDependencies:
+      nx: '>= 13.10 <= 15'
+    dependencies:
+      '@phenomnomnominal/tsquery': 4.1.1_typescript@4.7.4
+      ejs: 3.1.8
+      ignore: 5.2.0
+      nx: 14.5.6_lopbxpvuz4qpkeydipwnixy3x4
+      semver: 7.3.4
+      tslib: 2.4.0
+    transitivePeerDependencies:
+      - typescript
     dev: true
 
   /@nrwl/devkit/14.5.6_nx@14.5.6+typescript@4.7.4:
@@ -12421,11 +12436,11 @@ packages:
   /neo-async/2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  /ngx-deploy-npm/4.2.1_nx@14.5.6+typescript@4.7.4:
-    resolution: {integrity: sha512-kzstzC4GAdVlmGIXYSz2R+MwjKfYSlbHMaYxmIGl+RlTUzEqlW7GD1wd2g/jb+AwqInS9qppE/uMub8GGNpuUA==}
+  /ngx-deploy-npm/4.2.2_nx@14.5.6+typescript@4.7.4:
+    resolution: {integrity: sha512-htAjzRZuXLfFj1VZ2+4MPZH/9rhuKLnX4laLoCfDm+h7tCUveaXJMDR2nzGgf6HlR2KEMhz06DhCpGAnVvZyaA==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@nrwl/devkit': 14.5.6_nx@14.5.6+typescript@4.7.4
+      '@nrwl/devkit': 14.5.10_nx@14.5.6+typescript@4.7.4
     transitivePeerDependencies:
       - nx
       - typescript
