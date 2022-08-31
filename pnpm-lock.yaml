@@ -62,7 +62,7 @@ specifiers:
   ts-jest: 27.1.4
   tslib: 2.4.0
   typedoc: 0.23.12
-  typedoc-plugin-markdown: 3.13.4
+  typedoc-plugin-markdown: 3.13.5
   typescript: 4.8.2
   url-loader: 4.1.1
   zustand: 4.1.1
@@ -111,7 +111,7 @@ devDependencies:
   babel-jest: 27.5.1
   commitizen: 4.2.5_@swc+core@1.2.245
   cz-conventional-changelog: 3.3.0_@swc+core@1.2.245
-  docusaurus-plugin-typedoc: 0.17.5_7m3c3npy5h3nlzv6qiwstbghxq
+  docusaurus-plugin-typedoc: 0.17.5_hllrrslxckewhjmudyghxy3nxi
   dot-json: 1.2.2
   eslint: 8.23.0
   eslint-config-prettier: 8.5.0_eslint@8.23.0
@@ -132,7 +132,7 @@ devDependencies:
   shx: 0.3.4
   ts-jest: 27.1.4_dee5cefnhgz5yoczcujm3lo57m
   typedoc: 0.23.12_typescript@4.8.2
-  typedoc-plugin-markdown: 3.13.4_typedoc@0.23.12
+  typedoc-plugin-markdown: 3.13.5_typedoc@0.23.12
   typescript: 4.8.2
   url-loader: 4.1.1
 
@@ -8760,14 +8760,14 @@ packages:
     dependencies:
       esutils: 2.0.3
 
-  /docusaurus-plugin-typedoc/0.17.5_7m3c3npy5h3nlzv6qiwstbghxq:
+  /docusaurus-plugin-typedoc/0.17.5_hllrrslxckewhjmudyghxy3nxi:
     resolution: {integrity: sha512-mMTk4lRy2+wQ7fmMOv6RLfKkoGnHkBLE8qUoPfWFoqUYDDDInwVQKxz12FNnQx86eJSLgBiZmuY/zB/bYsZQlQ==}
     peerDependencies:
       typedoc: '>=0.22.0'
       typedoc-plugin-markdown: '>=3.11.10'
     dependencies:
       typedoc: 0.23.12_typescript@4.8.2
-      typedoc-plugin-markdown: 3.13.4_typedoc@0.23.12
+      typedoc-plugin-markdown: 3.13.5_typedoc@0.23.12
     dev: true
 
   /dom-accessibility-api/0.5.14:
@@ -16038,8 +16038,8 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: true
 
-  /typedoc-plugin-markdown/3.13.4_typedoc@0.23.12:
-    resolution: {integrity: sha512-E/EBBmu6ARtnbswZGtBVBB/BfukZiGMOlqPc0RXCI/NFitONBahFqbCAF5fKQlijlcfipJj5pw5AMFH3NytrAw==}
+  /typedoc-plugin-markdown/3.13.5_typedoc@0.23.12:
+    resolution: {integrity: sha512-E6bSn96MtiWTU4fr9wddD7d2T91XTtONj4Jdx2TZsjdAg/ig4ft2ECet/rNbBOiyw9MC0VO9toC/yvI8ZcY2PQ==}
     peerDependencies:
       typedoc: '>=0.23.0'
     dependencies:
