@@ -45,7 +45,7 @@ specifiers:
   husky: 8.0.1
   jest: 27.5.1
   lint-staged: 13.0.3
-  ngx-deploy-npm: 4.2.2
+  ngx-deploy-npm: 4.2.3
   nx: 14.5.6
   observable-hooks: 4.2.0
   only-allow: 1.1.1
@@ -123,7 +123,7 @@ devDependencies:
   husky: 8.0.1
   jest: 27.5.1
   lint-staged: 13.0.3
-  ngx-deploy-npm: 4.2.2_nx@14.5.6+typescript@4.8.2
+  ngx-deploy-npm: 4.2.3_nx@14.5.6+typescript@4.8.2
   nx: 14.5.6_uohl33bvdnxefngraz6jfjbtha
   only-allow: 1.1.1
   prettier: 2.7.1
@@ -4371,8 +4371,8 @@ packages:
       - webpack-cli
     dev: true
 
-  /@nrwl/devkit/14.5.10_nx@14.5.6+typescript@4.8.2:
-    resolution: {integrity: sha512-YVT0MRvyXwe0uczUZK4XUi1f2iLAqklFMfAoqwfgcgWToH8xN06NSlyUphD4eLHFgem3Sd0kimAJVsnse/PTlA==}
+  /@nrwl/devkit/14.5.6_nx@14.5.6+typescript@4.8.2:
+    resolution: {integrity: sha512-ZJPPy0DxfVIjEAOiBgJtYwil8IJ3FB9XdyF3s7Um8BvIO7f6G7SprUa4EV8zXJ4y/Jbrq7in8Vf4LMzhPKqxgw==}
     peerDependencies:
       nx: '>= 13.10 <= 15'
     dependencies:
@@ -4386,8 +4386,8 @@ packages:
       - typescript
     dev: true
 
-  /@nrwl/devkit/14.5.6_nx@14.5.6+typescript@4.8.2:
-    resolution: {integrity: sha512-ZJPPy0DxfVIjEAOiBgJtYwil8IJ3FB9XdyF3s7Um8BvIO7f6G7SprUa4EV8zXJ4y/Jbrq7in8Vf4LMzhPKqxgw==}
+  /@nrwl/devkit/14.6.4_nx@14.5.6+typescript@4.8.2:
+    resolution: {integrity: sha512-OWFThttET2JqAguwH0crQHe9vmO42/K2drkdxJAonJvsif95YrOayVdxgo+bmGsUgXDjrRINEpgoFjBGggUP9A==}
     peerDependencies:
       nx: '>= 13.10 <= 15'
     dependencies:
@@ -12280,11 +12280,11 @@ packages:
   /neo-async/2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  /ngx-deploy-npm/4.2.2_nx@14.5.6+typescript@4.8.2:
-    resolution: {integrity: sha512-htAjzRZuXLfFj1VZ2+4MPZH/9rhuKLnX4laLoCfDm+h7tCUveaXJMDR2nzGgf6HlR2KEMhz06DhCpGAnVvZyaA==}
+  /ngx-deploy-npm/4.2.3_nx@14.5.6+typescript@4.8.2:
+    resolution: {integrity: sha512-xSvrBjacUKutJqr0ipQ/rchHoHbT44C4lEy8kJ5PABYErsS0e3FdmmnrwfGg94FpJI6k1oHEYkfSPKs7ufDrNg==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@nrwl/devkit': 14.5.10_nx@14.5.6+typescript@4.8.2
+      '@nrwl/devkit': 14.6.4_nx@14.5.6+typescript@4.8.2
     transitivePeerDependencies:
       - nx
       - typescript
