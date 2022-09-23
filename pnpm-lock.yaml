@@ -47,7 +47,7 @@ specifiers:
   lint-staged: 13.0.3
   ngx-deploy-npm: 4.2.4
   nx: 14.5.6
-  observable-hooks: 4.2.0
+  observable-hooks: 4.2.1
   only-allow: 1.1.1
   prettier: 2.7.1
   prettier-package-json: 2.6.4
@@ -73,7 +73,7 @@ dependencies:
   '@mdx-js/react': 1.6.22_react@18.2.0
   clsx: 1.2.1
   core-js: 3.25.2
-  observable-hooks: 4.2.0_rbo53d2g7rpwoffbhif2vigefq
+  observable-hooks: 4.2.1_rbo53d2g7rpwoffbhif2vigefq
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-is: 18.2.0
@@ -12508,8 +12508,8 @@ packages:
       es-abstract: 1.20.1
     dev: true
 
-  /observable-hooks/4.2.0_rbo53d2g7rpwoffbhif2vigefq:
-    resolution: {integrity: sha512-bGjfGQI9vXrOIf1zAc3dmMqIXSqGQM+MLYOSQuqTzgP/8ptyDn9Gsm3tXXnohHkL7byyzHFc0/zuWyydUjtAFg==}
+  /observable-hooks/4.2.1_rbo53d2g7rpwoffbhif2vigefq:
+    resolution: {integrity: sha512-urZ0D28+oH+SRLQoCDd68rvvJIqK3zgH/Is0nubXDc+CF6d8rbDBN7A2n9mPAax7BtCRlwtnCBnkj8UwXRDf1Q==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
