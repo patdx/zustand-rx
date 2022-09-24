@@ -6,7 +6,7 @@ specifiers:
   '@commitlint/config-conventional': 17.1.0
   '@docusaurus/core': 2.1.0
   '@docusaurus/preset-classic': 2.1.0
-  '@jscutlery/semver': 2.27.0
+  '@jscutlery/semver': 2.27.1
   '@mdx-js/react': 1.6.22
   '@nrwl/devkit': 14.5.6
   '@nrwl/eslint-plugin-nx': 14.5.6
@@ -87,7 +87,7 @@ devDependencies:
   '@commitlint/cli': 17.1.2_@swc+core@1.3.3
   '@commitlint/config-angular': 17.1.0
   '@commitlint/config-conventional': 17.1.0
-  '@jscutlery/semver': 2.27.0_@nrwl+devkit@14.5.6
+  '@jscutlery/semver': 2.27.1_@nrwl+devkit@14.5.6
   '@nrwl/devkit': 14.5.6_nx@14.5.6+typescript@4.8.3
   '@nrwl/eslint-plugin-nx': 14.5.6_znqyamxbfn76dhngn6pzobz4fi
   '@nrwl/jest': 14.5.6_nx@14.5.6+typescript@4.8.3
@@ -4198,8 +4198,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@jscutlery/semver/2.27.0_@nrwl+devkit@14.5.6:
-    resolution: {integrity: sha512-PvYbtShImCsHG7tyyg1yeTyTbjHJemeYr+ivQZLpkkaPj/3BJe7p7TD40LvUkQFMhzDpR2FMUQ0q8MlwPbV/ZQ==}
+  /@jscutlery/semver/2.27.1_@nrwl+devkit@14.5.6:
+    resolution: {integrity: sha512-uApRqj8Pc2CG9BbN/ZiWFz9xNq14XDueJZQnhsdO0B9CYoAZqCEoKLbToM7yRXkQ/ZRg7uV3xkrFYEWXVl1K8Q==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@nrwl/devkit': ^14.0.0
