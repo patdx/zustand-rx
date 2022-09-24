@@ -50,7 +50,7 @@ specifiers:
   observable-hooks: 4.2.1
   only-allow: 1.1.1
   prettier: 2.7.1
-  prettier-package-json: 2.6.4
+  prettier-package-json: 2.7.0
   react: 18.2.0
   react-dom: 18.2.0
   react-is: 18.2.0
@@ -127,7 +127,7 @@ devDependencies:
   nx: 14.5.6_qx4nww24u7wcabxnmvajgjosaq
   only-allow: 1.1.1
   prettier: 2.7.1
-  prettier-package-json: 2.6.4
+  prettier-package-json: 2.7.0
   react-test-renderer: 18.2.0_react@18.2.0
   shx: 0.3.4
   ts-jest: 27.1.4_43lxixuwrecw56jk2g7jka4zou
@@ -13727,8 +13727,8 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /prettier-package-json/2.6.4:
-    resolution: {integrity: sha512-aNZvEf0yy0UeqLdTHsFZiYjOEM9kACO02CGUR5XIHdqj3jrpHNlLkmfTaj1V/rvB4vYHHTH0i3qMf2FZ2Qtr/g==}
+  /prettier-package-json/2.7.0:
+    resolution: {integrity: sha512-51I3/fYpBTLDXQDQK7+dfNlJzh5wdKhK8QteSZTZMppQd6aGpr1wqpwlKKZF1KdWA+91rwfpHUBrKwd2PXdXag==}
     hasBin: true
     dependencies:
       '@types/parse-author': 2.0.1
