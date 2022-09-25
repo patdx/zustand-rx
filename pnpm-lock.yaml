@@ -31,7 +31,7 @@ specifiers:
   babel-jest: 27.5.1
   clsx: 1.2.1
   commitizen: 4.2.5
-  core-js: 3.25.2
+  core-js: 3.25.3
   cz-conventional-changelog: 3.3.0
   docusaurus-plugin-typedoc: 0.17.5
   dot-json: 1.2.2
@@ -72,7 +72,7 @@ dependencies:
   '@docusaurus/preset-classic': 2.1.0_zljfvklyqz3z7xjjio2jcweovy
   '@mdx-js/react': 1.6.22_react@18.2.0
   clsx: 1.2.1
-  core-js: 3.25.2
+  core-js: 3.25.3
   observable-hooks: 4.2.1_rbo53d2g7rpwoffbhif2vigefq
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -3045,7 +3045,7 @@ packages:
       combine-promises: 1.1.0
       commander: 5.1.0
       copy-webpack-plugin: 11.0.0_webpack@5.74.0
-      core-js: 3.25.2
+      core-js: 3.25.3
       css-loader: 6.7.1_webpack@5.74.0
       css-minimizer-webpack-plugin: 4.0.0_kwz7aenajwsweas6icw5ncsgdy
       cssnano: 5.1.13_postcss@8.4.16
@@ -3143,7 +3143,7 @@ packages:
       combine-promises: 1.1.0
       commander: 5.1.0
       copy-webpack-plugin: 11.0.0_webpack@5.74.0
-      core-js: 3.25.2
+      core-js: 3.25.3
       css-loader: 6.7.1_webpack@5.74.0
       css-minimizer-webpack-plugin: 4.0.0_kwz7aenajwsweas6icw5ncsgdy
       cssnano: 5.1.13_postcss@8.4.16
@@ -4766,7 +4766,7 @@ packages:
       '@nrwl/devkit': 14.5.6_nx@14.5.6+typescript@4.8.3
       '@nrwl/linter': 14.5.6_gzondfbjt5vhis6hatnuzkysaa
       '@nrwl/workspace': 14.5.6_piijf7duwwgzey4whhrgdjy2p4
-      core-js: 3.25.2
+      core-js: 3.25.3
       dotenv: 10.0.0
       semver: 7.3.4
       ts-loader: 9.3.1_4bz3etpdgsvghw6bzhdz5wqrfu
@@ -4837,7 +4837,7 @@ packages:
       chalk: 4.1.0
       chokidar: 3.5.3
       copy-webpack-plugin: 10.2.4_webpack@5.73.0
-      core-js: 3.25.2
+      core-js: 3.25.3
       css-loader: 6.7.1_webpack@5.73.0
       css-minimizer-webpack-plugin: 3.4.1_webpack@5.73.0
       enhanced-resolve: 5.9.3
@@ -7949,8 +7949,8 @@ packages:
     resolution: {integrity: sha512-r1nJk41QLLPyozHUUPmILCEMtMw24NG4oWK6RbsDdjzQgg9ZvrUsPBj1MnG0wXXp1DCDU6j+wUvEmBSrtRbLXg==}
     requiresBuild: true
 
-  /core-js/3.25.2:
-    resolution: {integrity: sha512-YB4IAT1bjEfxTJ1XYy11hJAKskO+qmhuDBM8/guIfMz4JvdsAQAqvyb97zXX7JgSrfPLG5mRGFWJwJD39ruq2A==}
+  /core-js/3.25.3:
+    resolution: {integrity: sha512-y1hvKXmPHvm5B7w4ln1S4uc9eV/O5+iFExSRUimnvIph11uaizFR8LFMdONN8hG3P2pipUfX4Y/fR8rAEtcHcQ==}
     requiresBuild: true
 
   /core-util-is/1.0.3:
