@@ -86,7 +86,7 @@
     "prettier-package-json": "2.7.0",
     "react-test-renderer": "18.2.0",
     "shx": "0.3.4",
-    "ts-jest": "29.0.2",
+    "ts-jest": "29.0.3",
     "tslib": "2.4.0",
     "typedoc": "0.23.15",
     "typedoc-plugin-markdown": "3.13.6",
