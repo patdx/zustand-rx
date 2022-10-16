@@ -5,7 +5,7 @@
   "tags": [],
   "targets": {
     "build": {
-      "executor": "@nrwl/workspace:run-commands",
+      "executor": "nx:run-commands",
       "dependsOn": [
         {
           "target": "build-base",
@@ -76,7 +76,7 @@
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": [
-        "coverage/libs/zustand-rx"
+        "{workspaceRoot}/coverage/libs/zustand-rx"
       ],
       "options": {
         "jestConfig": "libs/zustand-rx/jest.config.js",

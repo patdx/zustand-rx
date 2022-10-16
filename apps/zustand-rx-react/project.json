@@ -80,7 +80,7 @@
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": [
-        "coverage/apps/zustand-rx-react"
+        "{workspaceRoot}/coverage/apps/zustand-rx-react"
       ],
       "options": {
         "jestConfig": "apps/zustand-rx-react/jest.config.ts",
