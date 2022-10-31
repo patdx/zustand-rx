@@ -6,7 +6,7 @@ specifiers:
   '@commitlint/config-conventional': 17.1.0
   '@docusaurus/core': 2.1.0
   '@docusaurus/preset-classic': 2.1.0
-  '@jscutlery/semver': 2.27.1
+  '@jscutlery/semver': 2.27.2
   '@mdx-js/react': 1.6.22
   '@nrwl/devkit': 15.0.0
   '@nrwl/eslint-plugin-nx': 15.0.0
@@ -88,7 +88,7 @@ devDependencies:
   '@commitlint/cli': 17.1.2_@swc+core@1.3.11
   '@commitlint/config-angular': 17.1.0
   '@commitlint/config-conventional': 17.1.0
-  '@jscutlery/semver': 2.27.1_@nrwl+devkit@15.0.0
+  '@jscutlery/semver': 2.27.2_@nrwl+devkit@15.0.0
   '@nrwl/devkit': 15.0.0_nx@15.0.0+typescript@4.8.4
   '@nrwl/eslint-plugin-nx': 15.0.0_s65smpmil4sagkhdqsfecagi7m
   '@nrwl/jest': 15.0.0_dvuk4gvcggmanrrbgpt2mb4ohu
@@ -3286,16 +3286,16 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@jscutlery/semver/2.27.1_@nrwl+devkit@15.0.0:
-    resolution: {integrity: sha512-uApRqj8Pc2CG9BbN/ZiWFz9xNq14XDueJZQnhsdO0B9CYoAZqCEoKLbToM7yRXkQ/ZRg7uV3xkrFYEWXVl1K8Q==}
+  /@jscutlery/semver/2.27.2_@nrwl+devkit@15.0.0:
+    resolution: {integrity: sha512-xT8Ps2gaQgnn/7tXgkM9eMvS1GzWAQpusjpqzk39fdyfMeTsewyp+nFZ+24ZRlxNkPMS0TmIxvC1JLeh1f0vDg==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@nrwl/devkit': ^14.0.0
     dependencies:
       '@nrwl/devkit': 15.0.0_nx@15.0.0+typescript@4.8.4
       detect-indent: 6.1.0
-      inquirer: 8.2.4
-      rxjs: 7.5.6
+      inquirer: 8.2.5
+      rxjs: 7.5.7
       standard-version: 9.5.0
     dev: true
 
@@ -9473,6 +9473,27 @@ packages:
       wrap-ansi: 7.0.0
     dev: true
 
+  /inquirer/8.2.5:
+    resolution: {integrity: sha512-QAgPDQMEgrDssk1XiwwHoOGYF9BAbUcc1+j+FhEvaOt8/cKRqyLn0U5qA6F74fGhTMGxf92pOvPBeh29jQJDTQ==}
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      ansi-escapes: 4.3.2
+      chalk: 4.1.2
+      cli-cursor: 3.1.0
+      cli-width: 3.0.0
+      external-editor: 3.1.0
+      figures: 3.2.0
+      lodash: 4.17.21
+      mute-stream: 0.0.8
+      ora: 5.4.1
+      run-async: 2.4.1
+      rxjs: 7.5.7
+      string-width: 4.2.3
+      strip-ansi: 6.0.1
+      through: 2.3.8
+      wrap-ansi: 7.0.0
+    dev: true
+
   /internal-slot/1.0.3:
     resolution: {integrity: sha512-O0DB1JC/sPyZl7cIo78n5dR7eUSwwpYPiXRhTzNxZVAMUuB8vlnRFyLxdrVToks6XPLVnFfbzaVd5WLjhgg+vA==}
     engines: {node: '>= 0.4'}
@@ -13632,12 +13653,6 @@ packages:
     engines: {npm: '>=2.0.0'}
     dependencies:
       tslib: 1.14.1
-    dev: true
-
-  /rxjs/7.5.6:
-    resolution: {integrity: sha512-dnyv2/YsXhnm461G+R/Pe5bWP41Nm6LBXEYWI6eiFP4fiwx6WRI/CD0zbdVAudd9xwLEF2IDcKXLHit0FYjUzw==}
-    dependencies:
-      tslib: 2.4.0
     dev: true
 
   /rxjs/7.5.7:
