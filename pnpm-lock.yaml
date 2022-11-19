@@ -46,7 +46,7 @@ specifiers:
   jest: 29.2.2
   jest-environment-jsdom: 29.2.2
   lint-staged: 13.0.3
-  ngx-deploy-npm: 4.3.2
+  ngx-deploy-npm: 4.3.5
   nx: 15.0.0
   observable-hooks: 4.2.1
   only-allow: 1.1.1
@@ -125,7 +125,7 @@ devDependencies:
   jest: 29.2.2_@types+node@18.11.9
   jest-environment-jsdom: 29.2.2
   lint-staged: 13.0.3
-  ngx-deploy-npm: 4.3.2_nx@15.0.0+typescript@4.8.4
+  ngx-deploy-npm: 4.3.5_nx@15.0.0+typescript@4.8.4
   nx: 15.0.0_7x2r5itgumgaeporhhfkspipva
   only-allow: 1.1.1
   prettier: 2.7.1
@@ -3392,22 +3392,23 @@ packages:
       - webpack-cli
     dev: true
 
-  /@nrwl/devkit/14.7.17_nx@15.0.0+typescript@4.8.4:
-    resolution: {integrity: sha512-flTV8BuC7oacWGHseoKsyOAYmWsMSP6iYGRjrCaV0MyRbDkNy0P07elXXFUW01er+l7x/awZYQR9/n/eNyqfXA==}
+  /@nrwl/devkit/15.0.0_nx@15.0.0+typescript@4.8.4:
+    resolution: {integrity: sha512-ALtPfILlxLDg77rV/XNdDGbhUkh0gZPj/4Ehy3ScvVqPhTrDIZNLGX13dXgUUF9xhGb7SXPmvzZkduBpqmHnfQ==}
     peerDependencies:
-      nx: '>= 13.10 <= 15'
+      nx: '>= 14 <= 16'
     dependencies:
       '@phenomnomnominal/tsquery': 4.1.1_typescript@4.8.4
       ejs: 3.1.8
       ignore: 5.2.0
       nx: 15.0.0_7x2r5itgumgaeporhhfkspipva
+      semver: 7.3.4
       tslib: 2.4.1
     transitivePeerDependencies:
       - typescript
     dev: true
 
-  /@nrwl/devkit/15.0.0_nx@15.0.0+typescript@4.8.4:
-    resolution: {integrity: sha512-ALtPfILlxLDg77rV/XNdDGbhUkh0gZPj/4Ehy3ScvVqPhTrDIZNLGX13dXgUUF9xhGb7SXPmvzZkduBpqmHnfQ==}
+  /@nrwl/devkit/15.0.13_nx@15.0.0+typescript@4.8.4:
+    resolution: {integrity: sha512-/8k7wbBRFf2UC+T4F+vWMy3bfSGi+uK6RwXk53moLq3nxehXaQhRiCqasC6VJFUw3zK6luu2T7xkPUlA9K9l4w==}
     peerDependencies:
       nx: '>= 14 <= 16'
     dependencies:
@@ -11548,11 +11549,11 @@ packages:
   /neo-async/2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  /ngx-deploy-npm/4.3.2_nx@15.0.0+typescript@4.8.4:
-    resolution: {integrity: sha512-xWH+TJeGV3LmW+CZrokjzvsbiNR98850JRi3a3Q7YidoeqHdXaZxVps6lG/6TLHl8mi5dCUU5PneVspt7tToNA==}
+  /ngx-deploy-npm/4.3.5_nx@15.0.0+typescript@4.8.4:
+    resolution: {integrity: sha512-Ffch9guirZ+nJzWi1gwBpMjT0rak+yQjDvC8yPtvqhQbvbSezt9CcKg/u9sA5mkcl+ZVEeia5t1qhxHxuQ6U+Q==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@nrwl/devkit': 14.7.17_nx@15.0.0+typescript@4.8.4
+      '@nrwl/devkit': 15.0.13_nx@15.0.0+typescript@4.8.4
     transitivePeerDependencies:
       - nx
       - typescript
