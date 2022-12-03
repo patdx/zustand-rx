@@ -31,7 +31,7 @@ specifiers:
   babel-jest: 29.3.1
   clsx: 1.2.1
   commitizen: 4.2.5
-  core-js: 3.26.0
+  core-js: 3.26.1
   cz-conventional-changelog: 3.3.0
   docusaurus-plugin-typedoc: 0.17.5
   dot-json: 1.2.2
@@ -73,7 +73,7 @@ dependencies:
   '@docusaurus/preset-classic': 2.2.0_zwc7bizuazvjo5ckqmmxm3sjje
   '@mdx-js/react': 1.6.22_react@18.2.0
   clsx: 1.2.1
-  core-js: 3.26.0
+  core-js: 3.26.1
   observable-hooks: 4.2.1_eg6o7gurzkmlt7b63gbvziog74
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -1914,7 +1914,7 @@ packages:
       combine-promises: 1.1.0
       commander: 5.1.0
       copy-webpack-plugin: 11.0.0_webpack@5.74.0
-      core-js: 3.26.0
+      core-js: 3.26.1
       css-loader: 6.7.1_webpack@5.74.0
       css-minimizer-webpack-plugin: 4.0.0_kwz7aenajwsweas6icw5ncsgdy
       cssnano: 5.1.13_postcss@8.4.16
@@ -2012,7 +2012,7 @@ packages:
       combine-promises: 1.1.0
       commander: 5.1.0
       copy-webpack-plugin: 11.0.0_webpack@5.74.0
-      core-js: 3.26.0
+      core-js: 3.26.1
       css-loader: 6.7.1_webpack@5.74.0
       css-minimizer-webpack-plugin: 4.0.0_kwz7aenajwsweas6icw5ncsgdy
       cssnano: 5.1.13_postcss@8.4.16
@@ -6952,8 +6952,8 @@ packages:
     resolution: {integrity: sha512-r1nJk41QLLPyozHUUPmILCEMtMw24NG4oWK6RbsDdjzQgg9ZvrUsPBj1MnG0wXXp1DCDU6j+wUvEmBSrtRbLXg==}
     requiresBuild: true
 
-  /core-js/3.26.0:
-    resolution: {integrity: sha512-+DkDrhoR4Y0PxDz6rurahuB+I45OsEUv8E1maPTB6OuHRohMMcznBq9TMpdpDMm/hUPob/mJJS3PqgbHpMTQgw==}
+  /core-js/3.26.1:
+    resolution: {integrity: sha512-21491RRQVzUn0GGM9Z1Jrpr6PNPxPi+Za8OM9q4tksTSnlbXXGKK1nXNg/QvwFYettXvSX6zWKCtHHfjN4puyA==}
     requiresBuild: true
     dev: false
 
