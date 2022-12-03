@@ -6,7 +6,7 @@ specifiers:
   '@commitlint/config-conventional': 17.2.0
   '@docusaurus/core': 2.2.0
   '@docusaurus/preset-classic': 2.2.0
-  '@jscutlery/semver': 2.27.2
+  '@jscutlery/semver': 2.29.0
   '@mdx-js/react': 1.6.22
   '@nrwl/devkit': 15.0.0
   '@nrwl/eslint-plugin-nx': 15.0.0
@@ -88,7 +88,7 @@ devDependencies:
   '@commitlint/cli': 17.2.0_@swc+core@1.3.21
   '@commitlint/config-angular': 17.2.0
   '@commitlint/config-conventional': 17.2.0
-  '@jscutlery/semver': 2.27.2_@nrwl+devkit@15.0.0
+  '@jscutlery/semver': 2.29.0_@nrwl+devkit@15.0.0
   '@nrwl/devkit': 15.0.0_nx@15.0.0+typescript@4.8.4
   '@nrwl/eslint-plugin-nx': 15.0.0_ibjepkb2z22ojpjvsvf566dx5i
   '@nrwl/jest': 15.0.0_n5qddhzkk27nrnauqhzzytzm4i
@@ -3274,17 +3274,18 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@jscutlery/semver/2.27.2_@nrwl+devkit@15.0.0:
-    resolution: {integrity: sha512-xT8Ps2gaQgnn/7tXgkM9eMvS1GzWAQpusjpqzk39fdyfMeTsewyp+nFZ+24ZRlxNkPMS0TmIxvC1JLeh1f0vDg==}
+  /@jscutlery/semver/2.29.0_@nrwl+devkit@15.0.0:
+    resolution: {integrity: sha512-kRSxi8RNCT2RP6Vg5NwrWv4AcKf5MLFbsAh3WON15CSR+hlNS9AScOM9mDYWogE5C60jmuNULpLI6Xbt5O0Kog==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
-      '@nrwl/devkit': ^14.0.0
+      '@nrwl/devkit': ^15.0.0
     dependencies:
       '@nrwl/devkit': 15.0.0_nx@15.0.0+typescript@4.8.4
+      conventional-changelog: 3.1.25
+      conventional-recommended-bump: 6.1.0
       detect-indent: 6.1.0
       inquirer: 8.2.5
       rxjs: 7.5.7
-      standard-version: 9.5.0
     dev: true
 
   /@leichtgewicht/ip-codec/2.0.4:
@@ -6735,10 +6736,6 @@ packages:
       q: 1.5.1
     dev: true
 
-  /conventional-changelog-config-spec/2.1.0:
-    resolution: {integrity: sha512-IpVePh16EbbB02V+UA+HQnnPIohgXvJRxHcS5+Uwk4AT5LjzCZJm5sp/yqs5C6KZJ1jMsV4paEV13BN1pvDuxQ==}
-    dev: true
-
   /conventional-changelog-conventionalcommits/4.6.3:
     resolution: {integrity: sha512-LTTQV4fwOM4oLPad317V/QNQ1FY4Hju5qeBIM1uTHbrnCE+Eg4CdRZ3gO2pUeR+tzWdp80M2j3qFFEDWVqOV4g==}
     engines: {node: '>=10'}
@@ -7633,14 +7630,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /dotgitignore/2.1.0:
-    resolution: {integrity: sha512-sCm11ak2oY6DglEPpCB8TixLjWAxd3kJTs6UIcSasNYxXdFPV+YKlye92c8H4kKFqV5qYMIh7d+cYecEg0dIkA==}
-    engines: {node: '>=6'}
-    dependencies:
-      find-up: 3.0.0
-      minimatch: 3.1.2
-    dev: true
-
   /duplexer/0.1.2:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}
 
@@ -8452,6 +8441,7 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       locate-path: 3.0.0
+    dev: false
 
   /find-up/4.1.0:
     resolution: {integrity: sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==}
@@ -11144,6 +11134,7 @@ packages:
     dependencies:
       p-locate: 3.0.0
       path-exists: 3.0.0
+    dev: false
 
   /locate-path/5.0.0:
     resolution: {integrity: sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==}
@@ -12010,6 +12001,7 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       p-limit: 2.3.0
+    dev: false
 
   /p-locate/4.1.0:
     resolution: {integrity: sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A==}
@@ -14181,27 +14173,6 @@ packages:
     resolution: {integrity: sha512-GrdeshiRmS1YLMYgzF16olf2jJ/IzxXY9lhKOskuVziubpTYcYqyOwYeJKzQkwy7uN0fYSsbsC4RQaXf9LCrYA==}
     dev: true
 
-  /standard-version/9.5.0:
-    resolution: {integrity: sha512-3zWJ/mmZQsOaO+fOlsa0+QK90pwhNd042qEcw6hKFNoLFs7peGyvPffpEBbK/DSGPbyOvli0mUIFv5A4qTjh2Q==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      chalk: 2.4.2
-      conventional-changelog: 3.1.25
-      conventional-changelog-config-spec: 2.1.0
-      conventional-changelog-conventionalcommits: 4.6.3
-      conventional-recommended-bump: 6.1.0
-      detect-indent: 6.1.0
-      detect-newline: 3.1.0
-      dotgitignore: 2.1.0
-      figures: 3.2.0
-      find-up: 5.0.0
-      git-semver-tags: 4.1.1
-      semver: 7.3.7
-      stringify-package: 1.0.1
-      yargs: 16.2.0
-    dev: true
-
   /state-toggle/1.0.3:
     resolution: {integrity: sha512-d/5Z4/2iiCnHw6Xzghyhb+GcmF89bxwgXG60wjIiZaxnymbyOmI8Hk4VqHXiVVp6u2ysaskFfXg3ekCj4WNftQ==}
     dev: false
@@ -14298,10 +14269,6 @@ packages:
       is-obj: 1.0.1
       is-regexp: 1.0.0
     dev: false
-
-  /stringify-package/1.0.1:
-    resolution: {integrity: sha512-sa4DUQsYciMP1xhKWGuFM04fB0LG/9DlluZoSVywUMRNvzid6XucHK0/90xGxRoHrAaROrcHK1aPKaijCtSrhg==}
-    dev: true
 
   /strip-ansi/6.0.1:
     resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==}
