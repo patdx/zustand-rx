@@ -46,7 +46,7 @@ specifiers:
   jest: 29.3.1
   jest-environment-jsdom: 29.3.1
   lint-staged: 13.0.4
-  ngx-deploy-npm: 4.3.5
+  ngx-deploy-npm: 4.3.9
   nx: 15.0.0
   observable-hooks: 4.2.1
   only-allow: 1.1.1
@@ -125,7 +125,7 @@ devDependencies:
   jest: 29.3.1_@types+node@18.11.10
   jest-environment-jsdom: 29.3.1
   lint-staged: 13.0.4
-  ngx-deploy-npm: 4.3.5_nx@15.0.0+typescript@4.9.3
+  ngx-deploy-npm: 4.3.9_nx@15.0.0+typescript@4.9.3
   nx: 15.0.0_h4pdoyo3l3nua2jmzaw5vfqqmq
   only-allow: 1.1.1
   prettier: 2.7.1
@@ -3415,8 +3415,8 @@ packages:
       - typescript
     dev: true
 
-  /@nrwl/devkit/15.0.13_nx@15.0.0+typescript@4.9.3:
-    resolution: {integrity: sha512-/8k7wbBRFf2UC+T4F+vWMy3bfSGi+uK6RwXk53moLq3nxehXaQhRiCqasC6VJFUw3zK6luu2T7xkPUlA9K9l4w==}
+  /@nrwl/devkit/15.2.3_nx@15.0.0+typescript@4.9.3:
+    resolution: {integrity: sha512-3IZVahO6vvEFxp0N7mEO34ZnYT+8FaObyYI/2XVYZ0eDCAMihn2IIUMj+M42vAXPOJpctdghSKXovQDuHO031w==}
     peerDependencies:
       nx: '>= 14 <= 16'
     dependencies:
@@ -11593,11 +11593,11 @@ packages:
   /neo-async/2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  /ngx-deploy-npm/4.3.5_nx@15.0.0+typescript@4.9.3:
-    resolution: {integrity: sha512-Ffch9guirZ+nJzWi1gwBpMjT0rak+yQjDvC8yPtvqhQbvbSezt9CcKg/u9sA5mkcl+ZVEeia5t1qhxHxuQ6U+Q==}
+  /ngx-deploy-npm/4.3.9_nx@15.0.0+typescript@4.9.3:
+    resolution: {integrity: sha512-Sglr7oxEfWROrT3w6B/NOTScjNg2YSRt6JxQMnVWDSnQ6iprCsOustEuQAs31LrX4J99kOMSvwyi8BtN61uyuA==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@nrwl/devkit': 15.0.13_nx@15.0.0+typescript@4.9.3
+      '@nrwl/devkit': 15.2.3_nx@15.0.0+typescript@4.9.3
     transitivePeerDependencies:
       - nx
       - typescript
