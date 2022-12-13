@@ -46,7 +46,7 @@ specifiers:
   jest: 29.3.1
   jest-environment-jsdom: 29.3.1
   lint-staged: 13.1.0
-  ngx-deploy-npm: 4.3.9
+  ngx-deploy-npm: 4.3.10
   nx: 15.0.0
   observable-hooks: 4.2.1
   only-allow: 1.1.1
@@ -125,7 +125,7 @@ devDependencies:
   jest: 29.3.1_@types+node@18.11.14
   jest-environment-jsdom: 29.3.1
   lint-staged: 13.1.0
-  ngx-deploy-npm: 4.3.9_nx@15.0.0+typescript@4.9.3
+  ngx-deploy-npm: 4.3.10_nx@15.0.0+typescript@4.9.3
   nx: 15.0.0_facz2opbapyestmexf5zkdkfiy
   only-allow: 1.1.1
   prettier: 2.8.1
@@ -11570,8 +11570,8 @@ packages:
   /neo-async/2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  /ngx-deploy-npm/4.3.9_nx@15.0.0+typescript@4.9.3:
-    resolution: {integrity: sha512-Sglr7oxEfWROrT3w6B/NOTScjNg2YSRt6JxQMnVWDSnQ6iprCsOustEuQAs31LrX4J99kOMSvwyi8BtN61uyuA==}
+  /ngx-deploy-npm/4.3.10_nx@15.0.0+typescript@4.9.3:
+    resolution: {integrity: sha512-6cLM1z0h6VD5SYH9fJSeslvTSKTkaySsH63k2AouXnAXsHQe4eFrdkmfMAZoVwUZHyaNIBOKMUcTvotgMwQnug==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@nrwl/devkit': 15.2.3_nx@15.0.0+typescript@4.9.3
