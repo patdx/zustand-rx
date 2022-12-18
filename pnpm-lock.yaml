@@ -58,7 +58,7 @@ specifiers:
   react-router-dom: 5.3.3
   react-test-renderer: 18.2.0
   regenerator-runtime: 0.13.11
-  rxjs: 7.6.0
+  rxjs: 7.8.0
   shx: 0.3.4
   ts-jest: 29.0.3
   tslib: 2.4.1
@@ -74,13 +74,13 @@ dependencies:
   '@mdx-js/react': 1.6.22_react@18.2.0
   clsx: 1.2.1
   core-js: 3.26.1
-  observable-hooks: 4.2.1_fyxtud5bg3q7rahyyurvxal62m
+  observable-hooks: 4.2.1_fxah7doycpmi757jcahkm5msqu
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-is: 18.2.0
   react-router-dom: 5.3.3_react@18.2.0
   regenerator-runtime: 0.13.11
-  rxjs: 7.6.0
+  rxjs: 7.8.0
   tslib: 2.4.1
   zustand: 4.1.5_react@18.2.0
 
@@ -9433,7 +9433,7 @@ packages:
       mute-stream: 0.0.8
       ora: 5.4.1
       run-async: 2.4.1
-      rxjs: 7.6.0
+      rxjs: 7.8.0
       string-width: 4.2.3
       strip-ansi: 6.0.1
       through: 2.3.8
@@ -9454,7 +9454,7 @@ packages:
       mute-stream: 0.0.8
       ora: 5.4.1
       run-async: 2.4.1
-      rxjs: 7.6.0
+      rxjs: 7.8.0
       string-width: 4.2.3
       strip-ansi: 6.0.1
       through: 2.3.8
@@ -11019,7 +11019,7 @@ packages:
       log-update: 4.0.0
       p-map: 4.0.0
       rfdc: 1.3.0
-      rxjs: 7.6.0
+      rxjs: 7.8.0
       through: 2.3.8
       wrap-ansi: 7.0.0
     dev: true
@@ -11822,7 +11822,7 @@ packages:
       es-abstract: 1.20.4
     dev: true
 
-  /observable-hooks/4.2.1_fyxtud5bg3q7rahyyurvxal62m:
+  /observable-hooks/4.2.1_fxah7doycpmi757jcahkm5msqu:
     resolution: {integrity: sha512-urZ0D28+oH+SRLQoCDd68rvvJIqK3zgH/Is0nubXDc+CF6d8rbDBN7A2n9mPAax7BtCRlwtnCBnkj8UwXRDf1Q==}
     peerDependencies:
       react: '>=16.8.0'
@@ -11831,7 +11831,7 @@ packages:
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      rxjs: 7.6.0
+      rxjs: 7.8.0
     dev: false
 
   /obuf/1.1.2:
@@ -13619,6 +13619,12 @@ packages:
     resolution: {integrity: sha512-DDa7d8TFNUalGC9VqXvQ1euWNN7sc63TrUCuM9J998+ViviahMIjKSOU7rfcgFOF+FCD71BhDRv4hrFz+ImDLQ==}
     dependencies:
       tslib: 2.4.1
+    dev: true
+
+  /rxjs/7.8.0:
+    resolution: {integrity: sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg==}
+    dependencies:
+      tslib: 2.4.1
 
   /safe-buffer/5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
@@ -15292,7 +15298,7 @@ packages:
       joi: 17.6.0
       lodash: 4.17.21
       minimist: 1.2.6
-      rxjs: 7.6.0
+      rxjs: 7.8.0
     transitivePeerDependencies:
       - debug
     dev: false
