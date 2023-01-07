@@ -14,7 +14,7 @@ specifiers:
   '@nrwl/js': 15.0.0
   '@nrwl/linter': 15.0.0
   '@nrwl/node': 15.0.0
-  '@nrwl/nx-cloud': 14.7.0
+  '@nrwl/nx-cloud': 15.0.2
   '@nrwl/nx-plugin': 15.0.0
   '@nrwl/react': 15.0.0
   '@nrwl/web': 15.0.0
@@ -95,7 +95,7 @@ devDependencies:
   '@nrwl/js': 15.0.0_yhmrgtrip7c3wexh7juigktnn4
   '@nrwl/linter': 15.0.0_nncku72fc6qiliuw7mzk23ckxy
   '@nrwl/node': 15.0.0_yhmrgtrip7c3wexh7juigktnn4
-  '@nrwl/nx-cloud': 14.7.0
+  '@nrwl/nx-cloud': 15.0.2
   '@nrwl/nx-plugin': 15.0.0_yhmrgtrip7c3wexh7juigktnn4
   '@nrwl/react': 15.0.0_yhmrgtrip7c3wexh7juigktnn4
   '@nrwl/web': 15.0.0_yhmrgtrip7c3wexh7juigktnn4
@@ -3661,8 +3661,8 @@ packages:
       - webpack-cli
     dev: true
 
-  /@nrwl/nx-cloud/14.7.0:
-    resolution: {integrity: sha512-sEGK5Ire5DC2liIsT89qR6SzZa46uinmWEAMz8ocMuu7nIMnwV9m15qajxhmYKasYsq9vTeT+x7BlZ4fnxPrNg==}
+  /@nrwl/nx-cloud/15.0.2:
+    resolution: {integrity: sha512-DaTASuXmGyQHMxJuK6y3f7fs+Q0qQCfYDIDVGK9muNwN/QItLeWdRNltLQxbrBeS112kQTu2FPsr0DmRD60+0A==}
     hasBin: true
     dependencies:
       axios: 0.21.4
