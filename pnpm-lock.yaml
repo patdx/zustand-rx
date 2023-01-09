@@ -55,7 +55,7 @@ specifiers:
   react: 18.2.0
   react-dom: 18.2.0
   react-is: 18.2.0
-  react-router-dom: 5.3.3
+  react-router-dom: 6.6.2
   react-test-renderer: 18.2.0
   regenerator-runtime: 0.13.11
   rxjs: 7.8.0
@@ -78,7 +78,7 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-is: 18.2.0
-  react-router-dom: 5.3.3_react@18.2.0
+  react-router-dom: 6.6.2_biqbaboplfbrettd7655fr4n2y
   regenerator-runtime: 0.13.11
   rxjs: 7.8.0
   tslib: 2.4.1
@@ -4208,6 +4208,11 @@ packages:
 
   /@polka/url/1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
+    dev: false
+
+  /@remix-run/router/1.2.1:
+    resolution: {integrity: sha512-XiY0IsyHR+DXYS5vBxpoBe/8veTeoRpMHP+vDosLZxL5bnpetzI0igkxkLZS235ldLzyfkxF+2divEwWHP3vMQ==}
+    engines: {node: '>=14'}
     dev: false
 
   /@rollup/plugin-babel/5.3.0_waiqg35h5wrc2iceop2qgbhfvm:
@@ -13116,6 +13121,19 @@ packages:
       tiny-warning: 1.0.3
     dev: false
 
+  /react-router-dom/6.6.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-6SCDXxRQqW5af8ImOqKza7icmQ47/EMbz572uFjzvcArg3lZ+04PxSPp8qGs+p2Y+q+b+S/AjXv8m8dyLndIIA==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
+    dependencies:
+      '@remix-run/router': 1.2.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-router: 6.6.2_react@18.2.0
+    dev: false
+
   /react-router/5.3.3_react@18.2.0:
     resolution: {integrity: sha512-mzQGUvS3bM84TnbtMYR8ZjKnuPJ71IjSzR+DE6UkUqvN4czWIqEs17yLL8xkAycv4ev0AiN+IGrWu88vJs/p2w==}
     peerDependencies:
@@ -13132,6 +13150,16 @@ packages:
       react-is: 16.13.1
       tiny-invariant: 1.2.0
       tiny-warning: 1.0.3
+    dev: false
+
+  /react-router/6.6.2_react@18.2.0:
+    resolution: {integrity: sha512-uJPG55Pek3orClbURDvfljhqFvMgJRo59Pktywkk8hUUkTY2aRfza8Yhl/vZQXs+TNQyr6tu+uqz/fLxPICOGQ==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8'
+    dependencies:
+      '@remix-run/router': 1.2.1
+      react: 18.2.0
     dev: false
 
   /react-shallow-renderer/16.15.0_react@18.2.0:
