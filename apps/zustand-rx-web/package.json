@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "@zustand-rx/web",
+  "scripts": {
+    "build": "astro build",
+    "dev": "astro dev",
+    "preview": "astro preview",
+    "serve": "astro dev",
+    "start": "astro dev",
+    "typedoc": "typedoc --plugin typedoc-plugin-markdown --entryDocument introduction.md"
+  },
+  "devDependencies": {
+    "astro": "^1.9.1"
+  }
+}

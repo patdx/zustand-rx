@@ -1,11 +1,9 @@
 {
   "version": 2,
   "projects": {
-    "docs-app": "apps/docs-app",
-    "docusaurus": "libs/docusaurus",
     "workspace": ".",
     "zustand-rx": "libs/zustand-rx",
-    "zustand-rx-react": "apps/zustand-rx-react"
+    "zustand-rx-web": "apps/zustand-rx-web"
   },
   "$schema": "./node_modules/nx/schemas/workspace-schema.json"
 }

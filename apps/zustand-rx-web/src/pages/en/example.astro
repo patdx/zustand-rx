@@ -1,0 +1,11 @@
+---
+import { Example } from '../../components/example';
+import exampleSrc from '../../components/example?raw';
+import { Code } from 'astro/components';
+import MainLayout from '../../layouts/MainLayout.astro';
+---
+
+<MainLayout>
+  <Example client:load />
+  <Code code={exampleSrc} lang="ts" />
+</MainLayout>

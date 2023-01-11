@@ -1,0 +1,6 @@
+{
+  // Comments are supported, like tsconfig.json
+  "entryPoints": ["../../libs/zustand-rx/src/index.ts"],
+  "tsconfig": "../../libs/zustand-rx/tsconfig.lib.json",
+  "out": "./src/md-docs"
+}
