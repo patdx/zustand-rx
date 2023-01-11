@@ -5,6 +5,17 @@
   },
   "tasksRunnerOptions": {
     "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ]
+      }
+    },
+    "x-default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
         "cacheableOperations": [
@@ -32,9 +43,19 @@
         "style": "css",
         "linter": "eslint"
       }
+    },
+    "@nrwl/web:application": {
+      "style": "css",
+      "linter": "eslint",
+      "unitTestRunner": "vitest",
+      "e2eTestRunner": "none"
+    },
+    "@nrwl/web:library": {
+      "style": "css",
+      "linter": "eslint",
+      "unitTestRunner": "vitest"
     }
   },
-  "defaultProject": "zustand-rx-react",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
     "build": {

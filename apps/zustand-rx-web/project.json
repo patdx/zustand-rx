@@ -1,0 +1,65 @@
+{
+  "name": "zustand-rx-web",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/zustand-rx-web/src",
+  "tags": [],
+  "targets": {
+    "x-build": {
+      "executor": "@nrwl/vite:build",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/apps/zustand-rx-web"
+      },
+      "configurations": {
+        "development": {
+          "mode": "development"
+        },
+        "production": {
+          "mode": "production"
+        }
+      }
+    },
+    "x-serve": {
+      "executor": "@nrwl/vite:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "zustand-rx-web:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "zustand-rx-web:build:development",
+          "hmr": true
+        },
+        "production": {
+          "buildTarget": "zustand-rx-web:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "test": {
+      "executor": "@nrwl/vite:test",
+      "outputs": [
+        "coverage/apps/zustand-rx-web"
+      ],
+      "options": {
+        "passWithNoTests": true,
+        "reportsDirectory": "../../coverage/apps/zustand-rx-web"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": [
+        "{options.outputFile}"
+      ],
+      "options": {
+        "lintFilePatterns": [
+          "apps/zustand-rx-web/**/*.ts"
+        ]
+      }
+    }
+  }
+}

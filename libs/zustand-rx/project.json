@@ -89,5 +89,6 @@
         "access": "public"
       }
     }
-  }
+  },
+  "name": "zustand-rx"
 }
