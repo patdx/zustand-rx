@@ -11,9 +11,7 @@
   "scripts": {
     "cz": "cz",
     "preinstall": "npx only-allow pnpm",
-    "prepare": "husky install",
-    "start": "nx serve",
-    "test": "nx test"
+    "prepare": "husky install"
   },
   "config": {
     "commitizen": {

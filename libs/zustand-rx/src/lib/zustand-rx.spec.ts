@@ -1,6 +1,6 @@
 import { toStream } from './zustand-rx';
 import { combine } from 'zustand/middleware';
-import create from 'zustand/vanilla';
+import { createStore } from 'zustand/vanilla';
 
 describe('zustand-rx', () => {
   it('can be imported', () => {
@@ -8,7 +8,7 @@ describe('zustand-rx', () => {
   });
 
   it('can be used with zustand', () => {
-    const store = create(
+    const store = createStore(
       combine({ bears: 0 }, (set) => ({
         increase: (by: number) => set((state) => ({ bears: state.bears + by })),
       }))
