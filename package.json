@@ -96,7 +96,7 @@
     "stylus": "^0.59.0",
     "stylus-loader": "^7.1.0",
     "swc-loader": "0.1.15",
-    "ts-jest": "29.0.3",
+    "ts-jest": "29.0.5",
     "tslib": "2.4.1",
     "typedoc": "0.23.24",
     "typedoc-plugin-markdown": "3.14.0",
