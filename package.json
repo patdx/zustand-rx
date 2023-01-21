@@ -68,7 +68,7 @@
     "@vitest/ui": "^0.27.0",
     "astro": "^1.9.1",
     "babel-jest": "29.3.1",
-    "commitizen": "4.2.6",
+    "commitizen": "4.3.0",
     "css-loader": "^6.7.3",
     "cz-conventional-changelog": "3.3.0",
     "dot-json": "1.2.2",
