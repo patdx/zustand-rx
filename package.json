@@ -82,7 +82,7 @@
     "husky": "8.0.3",
     "jest": "29.3.1",
     "jest-environment-jsdom": "29.3.1",
-    "jsdom": "~21.0.0",
+    "jsdom": "~21.1.0",
     "lint-staged": "13.1.0",
     "ngx-deploy-npm": "4.3.10",
     "nx": "15.4.5",
