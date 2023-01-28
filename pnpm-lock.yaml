@@ -56,7 +56,7 @@ importers:
       jest-environment-jsdom: 29.3.1
       jsdom: ~21.1.0
       lint-staged: 13.1.0
-      ngx-deploy-npm: 4.3.10
+      ngx-deploy-npm: 4.3.11
       nx: 15.4.5
       observable-hooks: 4.2.1
       only-allow: 1.1.1
@@ -153,7 +153,7 @@ importers:
       jest-environment-jsdom: 29.3.1
       jsdom: 21.1.0
       lint-staged: 13.1.0
-      ngx-deploy-npm: 4.3.10_nx@15.4.5+typescript@4.9.4
+      ngx-deploy-npm: 4.3.11_nx@15.4.5+typescript@4.9.4
       nx: 15.4.5_nnvjw2u4clp7uvw6gahzvrmwyi
       only-allow: 1.1.1
       prettier: 2.8.3
@@ -3966,21 +3966,6 @@ packages:
       - typescript
     dev: true
 
-  /@nrwl/devkit/15.2.3_nx@15.4.5+typescript@4.9.4:
-    resolution: {integrity: sha512-3IZVahO6vvEFxp0N7mEO34ZnYT+8FaObyYI/2XVYZ0eDCAMihn2IIUMj+M42vAXPOJpctdghSKXovQDuHO031w==}
-    peerDependencies:
-      nx: '>= 14 <= 16'
-    dependencies:
-      '@phenomnomnominal/tsquery': 4.1.1_typescript@4.9.4
-      ejs: 3.1.8
-      ignore: 5.2.4
-      nx: 15.4.5_nnvjw2u4clp7uvw6gahzvrmwyi
-      semver: 7.3.4
-      tslib: 2.4.1
-    transitivePeerDependencies:
-      - typescript
-    dev: true
-
   /@nrwl/devkit/15.4.5_nx@15.4.5+typescript@4.9.4:
     resolution: {integrity: sha512-oag+wJgusKz+rwvgcVy9i8bNtTo7ikbjVVtSOmyVBE0ZrgN1CMFjugBj4FEjKGtd73djjpvW9Mm36uJRujrc2w==}
     peerDependencies:
@@ -3989,6 +3974,21 @@ packages:
       '@phenomnomnominal/tsquery': 4.1.1_typescript@4.9.4
       ejs: 3.1.8
       ignore: 5.2.0
+      nx: 15.4.5_nnvjw2u4clp7uvw6gahzvrmwyi
+      semver: 7.3.4
+      tslib: 2.4.1
+    transitivePeerDependencies:
+      - typescript
+    dev: true
+
+  /@nrwl/devkit/15.6.2_nx@15.4.5+typescript@4.9.4:
+    resolution: {integrity: sha512-RcPwjr1btr16wz/ZTnLeKMLu4zATWoh5E94qrFxw3n8hXbC5cIW0Hs/D3ho7cuJQCtQmItTD21M7akjvgHsniA==}
+    peerDependencies:
+      nx: '>= 14 <= 16'
+    dependencies:
+      '@phenomnomnominal/tsquery': 4.1.1_typescript@4.9.4
+      ejs: 3.1.8
+      ignore: 5.2.4
       nx: 15.4.5_nnvjw2u4clp7uvw6gahzvrmwyi
       semver: 7.3.4
       tslib: 2.4.1
@@ -12759,13 +12759,15 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
-  /ngx-deploy-npm/4.3.10_nx@15.4.5+typescript@4.9.4:
-    resolution: {integrity: sha512-6cLM1z0h6VD5SYH9fJSeslvTSKTkaySsH63k2AouXnAXsHQe4eFrdkmfMAZoVwUZHyaNIBOKMUcTvotgMwQnug==}
+  /ngx-deploy-npm/4.3.11_nx@15.4.5+typescript@4.9.4:
+    resolution: {integrity: sha512-2fvT7+u9iIdzlgkM3iMiQeQyl275RYG7REj7pW/Whve5reoKfkvQn3MLfxAYg/86QZrahHYR4TOhlKr/ccy/VQ==}
     engines: {node: '>=14.0.0'}
+    peerDependencies:
+      nx: 15.6.2
     dependencies:
-      '@nrwl/devkit': 15.2.3_nx@15.4.5+typescript@4.9.4
+      '@nrwl/devkit': 15.6.2_nx@15.4.5+typescript@4.9.4
+      nx: 15.4.5_nnvjw2u4clp7uvw6gahzvrmwyi
     transitivePeerDependencies:
-      - nx
       - typescript
     dev: true
 
