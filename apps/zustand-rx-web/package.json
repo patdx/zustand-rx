@@ -10,6 +10,6 @@
     "typedoc": "typedoc --plugin typedoc-plugin-markdown --entryDocument introduction.md"
   },
   "devDependencies": {
-    "astro": "^1.9.1"
+    "astro": "^2.0.0"
   }
 }
