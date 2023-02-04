@@ -56,7 +56,7 @@ importers:
       jest-environment-jsdom: 29.4.1
       jsdom: ~21.1.0
       lint-staged: 13.1.0
-      ngx-deploy-npm: 4.3.11
+      ngx-deploy-npm: 5.0.0
       nx: 15.4.5
       observable-hooks: 4.2.1
       only-allow: 1.1.1
@@ -153,7 +153,7 @@ importers:
       jest-environment-jsdom: 29.4.1
       jsdom: 21.1.0
       lint-staged: 13.1.0
-      ngx-deploy-npm: 4.3.11_nx@15.4.5+typescript@4.9.5
+      ngx-deploy-npm: 5.0.0_hhhxt4kxmv426ovb7z5v5xnrqm
       nx: 15.4.5_nnvjw2u4clp7uvw6gahzvrmwyi
       only-allow: 1.1.1
       prettier: 2.8.3
@@ -3830,21 +3830,6 @@ packages:
       '@phenomnomnominal/tsquery': 4.1.1_typescript@4.9.5
       ejs: 3.1.8
       ignore: 5.2.0
-      nx: 15.4.5_nnvjw2u4clp7uvw6gahzvrmwyi
-      semver: 7.3.4
-      tslib: 2.5.0
-    transitivePeerDependencies:
-      - typescript
-    dev: true
-
-  /@nrwl/devkit/15.6.2_nx@15.4.5+typescript@4.9.5:
-    resolution: {integrity: sha512-RcPwjr1btr16wz/ZTnLeKMLu4zATWoh5E94qrFxw3n8hXbC5cIW0Hs/D3ho7cuJQCtQmItTD21M7akjvgHsniA==}
-    peerDependencies:
-      nx: '>= 14 <= 16'
-    dependencies:
-      '@phenomnomnominal/tsquery': 4.1.1_typescript@4.9.5
-      ejs: 3.1.8
-      ignore: 5.2.4
       nx: 15.4.5_nnvjw2u4clp7uvw6gahzvrmwyi
       semver: 7.3.4
       tslib: 2.5.0
@@ -12294,16 +12279,17 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
-  /ngx-deploy-npm/4.3.11_nx@15.4.5+typescript@4.9.5:
-    resolution: {integrity: sha512-2fvT7+u9iIdzlgkM3iMiQeQyl275RYG7REj7pW/Whve5reoKfkvQn3MLfxAYg/86QZrahHYR4TOhlKr/ccy/VQ==}
+  /ngx-deploy-npm/5.0.0_hhhxt4kxmv426ovb7z5v5xnrqm:
+    resolution: {integrity: sha512-woaoAalDYiWNQqFNm3hORITEzhtd5xiyA3bImIxFHdgl/DXG/YfGBxP0TAMciGYxhVx5f18IFUfcnz5WRtav8w==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
-      nx: 15.6.2
+      '@nrwl/devkit': ^15.0.0
+      '@nrwl/workspace': ^15.0.0
+      nx: ^15.0.0
     dependencies:
-      '@nrwl/devkit': 15.6.2_nx@15.4.5+typescript@4.9.5
+      '@nrwl/devkit': 15.4.5_nx@15.4.5+typescript@4.9.5
+      '@nrwl/workspace': 15.4.5_noqnsmquuabpd2zr52onuoqtg4
       nx: 15.4.5_nnvjw2u4clp7uvw6gahzvrmwyi
-    transitivePeerDependencies:
-      - typescript
     dev: true
 
   /nlcst-to-string/3.1.0:
