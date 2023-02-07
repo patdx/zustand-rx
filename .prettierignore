@@ -4,3 +4,4 @@
 /coverage
 .docusaurus/
 pnpm-lock.yaml
+/**/dist

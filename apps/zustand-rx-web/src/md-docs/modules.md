@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[lib/zustand-rx.ts:6](https://github.com/patdx/zustand-rx/blob/eaebad4/libs/zustand-rx/src/lib/zustand-rx.ts#L6)
+[lib/zustand-rx.ts:6](https://github.com/patdx/zustand-rx/blob/66d9acd/libs/zustand-rx/src/lib/zustand-rx.ts#L6)
 
 ## Functions
 
@@ -63,4 +63,4 @@ API: https://github.com/mobxjs/mobx-utils#tostream
 
 #### Defined in
 
-[lib/zustand-rx.ts:14](https://github.com/patdx/zustand-rx/blob/eaebad4/libs/zustand-rx/src/lib/zustand-rx.ts#L14)
+[lib/zustand-rx.ts:14](https://github.com/patdx/zustand-rx/blob/66d9acd/libs/zustand-rx/src/lib/zustand-rx.ts#L14)

@@ -4,8 +4,8 @@ This is a tool to subscribe to a Zustand store as an RxJS observable.
 
 # Compatible versions
 
-It has been tested with RxJS v7.x and Zustand v3.x, though other versions may
-work too.
+It has been tested with RxJS v7.x and Zustand v3.x/v4.x, though other versions
+may work too.
 
 ## Install
 
