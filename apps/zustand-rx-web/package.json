@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "@zustand-rx/web",
+  "type": "module",
   "scripts": {
     "build": "astro build",
     "dev": "astro dev",
@@ -8,6 +9,10 @@
     "serve": "astro dev",
     "start": "astro dev",
     "typedoc": "typedoc --plugin typedoc-plugin-markdown --entryDocument introduction.md"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "2.0.1",
+    "svelte": "3.55.1"
   },
   "devDependencies": {
     "astro": "2.0.6"

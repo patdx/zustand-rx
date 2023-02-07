@@ -5,6 +5,9 @@ import viteTsConfigPaths from 'vite-tsconfig-paths';
 import react from '@astrojs/react';
 
 // https://astro.build/config
+import svelte from '@astrojs/svelte';
+
+// https://astro.build/config
 export default defineConfig({
   site: 'https://zustand-rx.vercel.app/',
   output: 'static',
@@ -31,7 +34,6 @@ export default defineConfig({
       include: ['src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     },
   },
-
   // Uncomment this if you are using workers.
   // worker: {
   //  plugins: [
@@ -40,5 +42,5 @@ export default defineConfig({
   //    }),
   //  ],
   // },
-  integrations: [react()],
+  integrations: [react(), svelte()],
 });

@@ -1,26 +1,8 @@
 import { useObservableState } from 'observable-hooks';
 import { useEffect } from 'react';
-import { toStream } from 'zustand-rx';
-import { combine } from 'zustand/middleware';
-import { createStore } from 'zustand/vanilla';
+import { store, bears$, state$ } from './store';
 
-const store = createStore(
-  combine({ bears: 0 }, (set) => ({
-    increase: (by: number) => set((state) => ({ bears: state.bears + by })),
-  }))
-);
-
-const bears$ /* Observable<number> */ = toStream(
-  store,
-  (state) => state.bears,
-  {
-    fireImmediately: true,
-  }
-);
-
-const state$ = toStream(store, undefined, { fireImmediately: true });
-
-export function Example() {
+export function ExampleReact() {
   useEffect(() => {
     console.log(`bears$`, bears$, 'state$', state$);
   }, []);
@@ -32,7 +14,7 @@ export function Example() {
     <>
       <button
         style={{ background: 'gray', border: '1px darkgray solid' }}
-        onClick={() => store.getState().increase(1)}
+        onClick={store.getState().increment}
       >
         Increase
       </button>

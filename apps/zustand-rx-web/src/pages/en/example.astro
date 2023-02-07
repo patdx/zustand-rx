@@ -1,11 +1,19 @@
 ---
-import { Example } from '../../components/example';
-import exampleSrc from '../../components/example?raw';
+import { ExampleReact } from '../../components/example/react';
+import ExampleSvelte from '../../components/example/svelte.svelte';
+import exampleStoreSrc from '../../components/example/store.ts?raw';
+import exampleReactSrc from '../../components/example/react.tsx?raw';
+import exampleSvelteSrc from '../../components/example/svelte.svelte?raw';
 import { Code } from 'astro/components';
 import MainLayout from '../../layouts/MainLayout.astro';
 ---
 
 <MainLayout>
-  <Example client:load />
-  <Code code={exampleSrc} lang="ts" />
+  <Code code={exampleStoreSrc} lang="ts" />
+  <h2>React</h2>
+  <ExampleReact client:load />
+  <Code code={exampleReactSrc} lang="tsx" />
+  <h2>Svelte</h2>
+  <ExampleSvelte client:load />
+  <Code code={exampleSvelteSrc} lang="svelte" />
 </MainLayout>
