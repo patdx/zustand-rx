@@ -35,7 +35,7 @@ importers:
       '@typescript-eslint/parser': 5.51.0
       '@vitest/coverage-c8': 0.28.4
       '@vitest/ui': 0.28.4
-      astro: 2.0.6
+      astro: 2.0.10
       babel-jest: 29.4.2
       clsx: 1.2.1
       commitizen: 4.3.0
@@ -135,7 +135,7 @@ importers:
       '@typescript-eslint/parser': 5.51.0_4vsywjlpuriuw3tl5oq6zy5a64
       '@vitest/coverage-c8': 0.28.4_cz2b3k3jluasahzoooy4ihjd7u
       '@vitest/ui': 0.28.4
-      astro: 2.0.6_kkl37h7jsjgg2nwulrc2lnhuc4
+      astro: 2.0.10_kkl37h7jsjgg2nwulrc2lnhuc4
       babel-jest: 29.4.2
       commitizen: 4.3.0_@swc+core@1.3.35
       css-loader: 6.7.3_webpack@5.75.0
@@ -180,13 +180,13 @@ importers:
   apps/zustand-rx-web:
     specifiers:
       '@astrojs/svelte': 2.0.1
-      astro: 2.0.6
+      astro: 2.0.10
       svelte: 3.55.1
     dependencies:
-      '@astrojs/svelte': 2.0.1_astro@2.0.6+svelte@3.55.1
+      '@astrojs/svelte': 2.0.1_astro@2.0.10+svelte@3.55.1
       svelte: 3.55.1
     devDependencies:
-      astro: 2.0.6
+      astro: 2.0.10
 
 packages:
 
@@ -224,13 +224,13 @@ packages:
       vscode-languageserver-types: 3.17.2
       vscode-uri: 3.0.7
 
-  /@astrojs/markdown-remark/2.0.1_astro@2.0.6:
+  /@astrojs/markdown-remark/2.0.1_astro@2.0.10:
     resolution: {integrity: sha512-xQF1rXGJN18m+zZucwRRtmNehuhPMMhZhi6HWKrtpEAKnHSPk8lqf1GXgKH7/Sypglu8ivdECZ+EGs6kOYVasQ==}
     peerDependencies:
       astro: ^2.0.2
     dependencies:
       '@astrojs/prism': 2.0.0
-      astro: 2.0.6
+      astro: 2.0.10
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.1
       rehype-raw: 6.1.1
@@ -271,7 +271,7 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/svelte/2.0.1_astro@2.0.6+svelte@3.55.1:
+  /@astrojs/svelte/2.0.1_astro@2.0.10+svelte@3.55.1:
     resolution: {integrity: sha512-CEr6tVtyEq10oIiEZ4l4/RxpN6lMjJ3I5B92rhPy5BANiszlFWMajtBmvz6sEdU5TzELGgLJfZtqm3Gl6tpMSQ==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -279,7 +279,7 @@ packages:
       svelte: ^3.54.0
     dependencies:
       '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.1
-      astro: 2.0.6
+      astro: 2.0.10
       svelte: 3.55.1
       svelte2tsx: 0.5.23_svelte@3.55.1
     transitivePeerDependencies:
@@ -3794,7 +3794,7 @@ packages:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
       '@types/eslint': 8.21.0
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
     dev: true
 
   /@types/eslint/8.21.0:
@@ -4667,14 +4667,14 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /astro/2.0.6:
-    resolution: {integrity: sha512-aI8Ijy2EpMyP5SpjmDJpEUdNL6CUAxnja6IeaBC1BokD/mNAnijtmMnTyWVI3UeEZ727wYLISQMyqCfEUq8VNA==}
+  /astro/2.0.10:
+    resolution: {integrity: sha512-Jg2JYPA6Nlip27So1+O0p9VFL98H+LiDLEt+F65e6536LkWE5oiV0fDSbK8aI8hKeCvOQzLiEZiD21eXbug0XQ==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 1.1.0
       '@astrojs/language-server': 0.28.3
-      '@astrojs/markdown-remark': 2.0.1_astro@2.0.6
+      '@astrojs/markdown-remark': 2.0.1_astro@2.0.10
       '@astrojs/telemetry': 2.0.0
       '@astrojs/webapi': 2.0.0
       '@babel/core': 7.20.12
@@ -4733,14 +4733,14 @@ packages:
       - supports-color
       - terser
 
-  /astro/2.0.6_kkl37h7jsjgg2nwulrc2lnhuc4:
-    resolution: {integrity: sha512-aI8Ijy2EpMyP5SpjmDJpEUdNL6CUAxnja6IeaBC1BokD/mNAnijtmMnTyWVI3UeEZ727wYLISQMyqCfEUq8VNA==}
+  /astro/2.0.10_kkl37h7jsjgg2nwulrc2lnhuc4:
+    resolution: {integrity: sha512-Jg2JYPA6Nlip27So1+O0p9VFL98H+LiDLEt+F65e6536LkWE5oiV0fDSbK8aI8hKeCvOQzLiEZiD21eXbug0XQ==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 1.1.0
       '@astrojs/language-server': 0.28.3
-      '@astrojs/markdown-remark': 2.0.1_astro@2.0.6
+      '@astrojs/markdown-remark': 2.0.1_astro@2.0.10
       '@astrojs/telemetry': 2.0.0
       '@astrojs/webapi': 2.0.0
       '@babel/core': 7.20.12
