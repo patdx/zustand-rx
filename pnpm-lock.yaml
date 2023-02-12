@@ -70,7 +70,7 @@ importers:
       react-test-renderer: 18.2.0
       regenerator-runtime: 0.13.11
       rxjs: 7.8.0
-      shiki: 0.14.0
+      shiki: 0.14.1
       shx: 0.3.4
       style-loader: 3.3.1
       stylus: 0.59.0
@@ -100,7 +100,7 @@ importers:
       react-router-dom: 6.8.1_biqbaboplfbrettd7655fr4n2y
       regenerator-runtime: 0.13.11
       rxjs: 7.8.0
-      shiki: 0.14.0
+      shiki: 0.14.1
       tslib: 2.5.0
       zustand: 4.3.2_react@18.2.0
     devDependencies:
@@ -12664,8 +12664,8 @@ packages:
       vscode-textmate: 8.0.0
     dev: true
 
-  /shiki/0.14.0:
-    resolution: {integrity: sha512-fb9Fg1Yx/ElVJcTqPQIEOSfn7mSZlrT1W3CkymY08lL2Jsi+t7jPcZzKO1lCsQwlSDuyNhHvolnyA2OI4EgJNg==}
+  /shiki/0.14.1:
+    resolution: {integrity: sha512-+Jz4nBkCBe0mEDqo1eKRcCdjRtrCjozmcbTUjbPTX7OOJfEbTZzlUWlZtGe3Gb5oV1/jnojhG//YZc3rs9zSEw==}
     dependencies:
       ansi-sequence-parser: 1.1.0
       jsonc-parser: 3.2.0

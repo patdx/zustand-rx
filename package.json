@@ -30,7 +30,7 @@
     "react-router-dom": "6.8.1",
     "regenerator-runtime": "0.13.11",
     "rxjs": "7.8.0",
-    "shiki": "0.14.0",
+    "shiki": "0.14.1",
     "tslib": "2.5.0",
     "zustand": "4.3.2"
   },
