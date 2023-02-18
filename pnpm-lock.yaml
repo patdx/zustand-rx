@@ -55,7 +55,7 @@ importers:
       jest: 29.4.2
       jest-environment-jsdom: 29.4.2
       jsdom: 21.1.0
-      lint-staged: 13.1.1
+      lint-staged: 13.1.2
       ngx-deploy-npm: 5.0.0
       nx: 15.6.3
       observable-hooks: 4.2.1
@@ -152,7 +152,7 @@ importers:
       jest: 29.4.2_@types+node@18.13.0
       jest-environment-jsdom: 29.4.2
       jsdom: 21.1.0
-      lint-staged: 13.1.1
+      lint-staged: 13.1.2
       ngx-deploy-npm: 5.0.0_siuzqxp5bzpjtb4uhnaf3kmxbm
       nx: 15.6.3_bo5uxqmrrqpg5f7gdwmp5jeiem
       only-allow: 1.1.1
@@ -9779,8 +9779,8 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: true
 
-  /lint-staged/13.1.1:
-    resolution: {integrity: sha512-LLJLO0Kdbcv2a+CvSF4p1M7jBZOajKSMpBUvyR8+bXccsqPER0/NxTFQSpNHjqwV9kM3tkHczYerTB5wI+bksQ==}
+  /lint-staged/13.1.2:
+    resolution: {integrity: sha512-K9b4FPbWkpnupvK3WXZLbgu9pchUJ6N7TtVZjbaPsoizkqFUDkUReUL25xdrCljJs7uLUF3tZ7nVPeo/6lp+6w==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
