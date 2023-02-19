@@ -39,7 +39,7 @@ importers:
       babel-jest: 29.4.3
       clsx: 1.2.1
       commitizen: 4.3.0
-      core-js: 3.27.2
+      core-js: 3.28.0
       css-loader: 6.7.3
       cz-conventional-changelog: 3.3.0
       dot-json: 1.2.2
@@ -91,7 +91,7 @@ importers:
       zustand: 4.3.3
     dependencies:
       clsx: 1.2.1
-      core-js: 3.27.2
+      core-js: 3.28.0
       html-escaper: 3.0.3
       observable-hooks: 4.2.1_fxah7doycpmi757jcahkm5msqu
       react: 18.2.0
@@ -6065,8 +6065,8 @@ packages:
     requiresBuild: true
     dev: true
 
-  /core-js/3.27.2:
-    resolution: {integrity: sha512-9ashVQskuh5AZEZ1JdQWp1GqSoC1e1G87MzRqg2gIfVAQ7Qn9K+uFj8EcniUFA4P2NLZfV+TOlX1SzoKfo+s7w==}
+  /core-js/3.28.0:
+    resolution: {integrity: sha512-GiZn9D4Z/rSYvTeg1ljAIsEqFm0LaN9gVtwDCrKL80zHtS31p9BAjmTxVqTQDMpwlMolJZOFntUG2uwyj7DAqw==}
     requiresBuild: true
     dev: false
 
