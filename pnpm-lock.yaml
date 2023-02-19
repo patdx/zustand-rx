@@ -179,11 +179,11 @@ importers:
 
   apps/zustand-rx-web:
     specifiers:
-      '@astrojs/svelte': 2.0.1
+      '@astrojs/svelte': 2.0.2
       astro: 2.0.14
       svelte: 3.55.1
     dependencies:
-      '@astrojs/svelte': 2.0.1_astro@2.0.14+svelte@3.55.1
+      '@astrojs/svelte': 2.0.2_astro@2.0.14+svelte@3.55.1
       svelte: 3.55.1
     devDependencies:
       astro: 2.0.14
@@ -271,11 +271,11 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/svelte/2.0.1_astro@2.0.14+svelte@3.55.1:
-    resolution: {integrity: sha512-CEr6tVtyEq10oIiEZ4l4/RxpN6lMjJ3I5B92rhPy5BANiszlFWMajtBmvz6sEdU5TzELGgLJfZtqm3Gl6tpMSQ==}
+  /@astrojs/svelte/2.0.2_astro@2.0.14+svelte@3.55.1:
+    resolution: {integrity: sha512-EkJT7Roft6v9CkI3/Hga8XQbmmI6kKcpOAx6E0gfepuJuqI68xLqnEl3TSJ9uH3dwJt8ThscB1TGxsc8B4JUdg==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
-      astro: ^2.0.4
+      astro: ^2.0.12
       svelte: ^3.54.0
     dependencies:
       '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.1
