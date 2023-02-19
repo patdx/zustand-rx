@@ -21,7 +21,7 @@
   "sideEffects": false,
   "dependencies": {
     "clsx": "1.2.1",
-    "core-js": "3.27.2",
+    "core-js": "3.28.0",
     "html-escaper": "3.0.3",
     "observable-hooks": "4.2.1",
     "react": "18.2.0",
