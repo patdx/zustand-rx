@@ -82,7 +82,7 @@ importers:
       typedoc-plugin-markdown: 3.14.0
       typescript: 4.9.5
       url-loader: 4.1.1
-      vite: 4.1.2
+      vite: 4.1.4
       vite-plugin-eslint: 1.8.1
       vite-tsconfig-paths: 4.0.5
       vitest: 0.28.5
@@ -119,7 +119,7 @@ importers:
       '@nrwl/nx-cloud': 15.0.3
       '@nrwl/nx-plugin': 15.6.3_mhdfq4rkl3t3iccvylchkzfi2u
       '@nrwl/react': 15.6.3_ghkwmoai32kaw6lpgp3ujqo5o4
-      '@nrwl/vite': 15.6.3_33qqluvvui5337a3fy2vzmnuii
+      '@nrwl/vite': 15.6.3_qlmfof5xbe2kny2mc6kl4ovo6a
       '@nrwl/web': 15.6.3_mhdfq4rkl3t3iccvylchkzfi2u
       '@nrwl/workspace': 15.6.3_ryguucwythl67afz2m5wcwcirq
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.10_xsftmjzvfioxqs4ify53ibh7ay
@@ -170,8 +170,8 @@ importers:
       typedoc-plugin-markdown: 3.14.0_typedoc@0.23.25
       typescript: 4.9.5
       url-loader: 4.1.1_webpack@5.75.0
-      vite: 4.1.2_jxaowtlukhl5m32nal4a5xtlxe
-      vite-plugin-eslint: 1.8.1_eslint@8.34.0+vite@4.1.2
+      vite: 4.1.4_jxaowtlukhl5m32nal4a5xtlxe
+      vite-plugin-eslint: 1.8.1_eslint@8.34.0+vite@4.1.4
       vite-tsconfig-paths: 4.0.5_typescript@4.9.5
       vitest: 0.28.5_3l3llguaj7ukz5l3f7wqpompz4
       webpack: 5.75.0_@swc+core@1.3.36
@@ -3005,7 +3005,7 @@ packages:
       - debug
     dev: true
 
-  /@nrwl/vite/15.6.3_33qqluvvui5337a3fy2vzmnuii:
+  /@nrwl/vite/15.6.3_qlmfof5xbe2kny2mc6kl4ovo6a:
     resolution: {integrity: sha512-vO5JUoS4nhOk42nVyhmU/itX+1GmxoXG3NgTmWtjtLgYwi7eo3lddtMdzgKLKH0Ktwo4kfApiHaU36iDadyS9A==}
     peerDependencies:
       vite: ^4.0.1
@@ -3018,7 +3018,7 @@ packages:
       '@swc/helpers': 0.4.14
       dotenv: 10.0.0
       enquirer: 2.3.6
-      vite: 4.1.2_jxaowtlukhl5m32nal4a5xtlxe
+      vite: 4.1.4_jxaowtlukhl5m32nal4a5xtlxe
       vitest: 0.28.5_3l3llguaj7ukz5l3f7wqpompz4
     transitivePeerDependencies:
       - '@swc-node/register'
@@ -14152,7 +14152,7 @@ packages:
       picocolors: 1.0.0
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 4.1.2_jxaowtlukhl5m32nal4a5xtlxe
+      vite: 4.1.4_jxaowtlukhl5m32nal4a5xtlxe
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -14163,7 +14163,7 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-eslint/1.8.1_eslint@8.34.0+vite@4.1.2:
+  /vite-plugin-eslint/1.8.1_eslint@8.34.0+vite@4.1.4:
     resolution: {integrity: sha512-PqdMf3Y2fLO9FsNPmMX+//2BF5SF8nEWspZdgl4kSt7UvHDRHVVfHvxsD7ULYzZrJDGRxR81Nq7TOFgwMnUang==}
     peerDependencies:
       eslint: '>=7'
@@ -14173,7 +14173,7 @@ packages:
       '@types/eslint': 8.21.0
       eslint: 8.34.0
       rollup: 2.79.1
-      vite: 4.1.2_jxaowtlukhl5m32nal4a5xtlxe
+      vite: 4.1.4_jxaowtlukhl5m32nal4a5xtlxe
     dev: true
 
   /vite-tsconfig-paths/4.0.5_typescript@4.9.5:
@@ -14221,6 +14221,41 @@ packages:
 
   /vite/4.1.2_jxaowtlukhl5m32nal4a5xtlxe:
     resolution: {integrity: sha512-MWDb9Rfy3DI8omDQySbMK93nQqStwbsQWejXRY2EBzEWKmLAXWb1mkI9Yw2IJrc+oCvPCI1Os5xSSIBYY6DEAw==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      '@types/node': 18.14.1
+      esbuild: 0.16.17
+      postcss: 8.4.21
+      resolve: 1.22.1
+      rollup: 3.14.0
+      stylus: 0.59.0
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /vite/4.1.4_jxaowtlukhl5m32nal4a5xtlxe:
+    resolution: {integrity: sha512-3knk/HsbSTKEin43zHu7jTwYWv81f8kgAL99G5NWBcA1LKvtvcVAC4JjBH1arBunO9kQka+1oGbrMKOjk4ZrBg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -14318,7 +14353,7 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.1
       tinyspy: 1.1.1
-      vite: 4.1.2_jxaowtlukhl5m32nal4a5xtlxe
+      vite: 4.1.4_jxaowtlukhl5m32nal4a5xtlxe
       vite-node: 0.28.5_jxaowtlukhl5m32nal4a5xtlxe
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
