@@ -78,7 +78,7 @@ importers:
       swc-loader: 0.2.3
       ts-jest: 29.0.5
       tslib: 2.5.0
-      typedoc: 0.23.25
+      typedoc: 0.23.26
       typedoc-plugin-markdown: 3.14.0
       typescript: 4.9.5
       url-loader: 4.1.1
@@ -166,8 +166,8 @@ importers:
       stylus-loader: 7.1.0_577zv5myo6oqbmxnic7hzxwylm
       swc-loader: 0.2.3_wumblt6f7l27pkvqm54p67bbsa
       ts-jest: 29.0.5_v35vwubekrveng4zrfxhiisbm4
-      typedoc: 0.23.25_typescript@4.9.5
-      typedoc-plugin-markdown: 3.14.0_typedoc@0.23.25
+      typedoc: 0.23.26_typescript@4.9.5
+      typedoc-plugin-markdown: 3.14.0_typedoc@0.23.26
       typescript: 4.9.5
       url-loader: 4.1.1_webpack@5.75.0
       vite: 4.1.4_fk47v66w4ncd3vtr26jyavzm4m
@@ -10704,8 +10704,8 @@ packages:
       brace-expansion: 2.0.1
     dev: true
 
-  /minimatch/6.1.8:
-    resolution: {integrity: sha512-sTvS8Q4mIZiSnMo9192lZMxfeaGCslH5CC7B62hd9DlbifUVrc02ABTeRJINPosxKnvZlrmAaNSo8f4PZqDDdw==}
+  /minimatch/7.2.0:
+    resolution: {integrity: sha512-rMRHmwySzopAQjmWW6TkAKCEDKNaY/HuV/c2YkWWuWnfkTwApt0V4hnYzzPnZ/5Gcd2+8MPncSyuOGPl3xPvcg==}
     engines: {node: '>=10'}
     dependencies:
       brace-expansion: 2.0.1
@@ -13851,17 +13851,17 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: true
 
-  /typedoc-plugin-markdown/3.14.0_typedoc@0.23.25:
+  /typedoc-plugin-markdown/3.14.0_typedoc@0.23.26:
     resolution: {integrity: sha512-UyQLkLRkfTFhLdhSf3RRpA3nNInGn+k6sll2vRXjflaMNwQAAiB61SYbisNZTg16t4K1dt1bPQMMGLrxS0GZ0Q==}
     peerDependencies:
       typedoc: '>=0.23.0'
     dependencies:
       handlebars: 4.7.7
-      typedoc: 0.23.25_typescript@4.9.5
+      typedoc: 0.23.26_typescript@4.9.5
     dev: true
 
-  /typedoc/0.23.25_typescript@4.9.5:
-    resolution: {integrity: sha512-O1he153qVyoCgJYSvIyY3bPP1wAJTegZfa6tL3APinSZhJOf8CSd8F/21M6ex8pUY/fuY6n0jAsT4fIuMGA6sA==}
+  /typedoc/0.23.26_typescript@4.9.5:
+    resolution: {integrity: sha512-5m4KwR5tOLnk0OtMaRn9IdbeRM32uPemN9kur7YK9wFqx8U0CYrvO9aVq6ysdZSV1c824BTm+BuQl2Ze/k1HtA==}
     engines: {node: '>= 14.14'}
     hasBin: true
     peerDependencies:
@@ -13869,7 +13869,7 @@ packages:
     dependencies:
       lunr: 2.3.9
       marked: 4.2.12
-      minimatch: 6.1.8
+      minimatch: 7.2.0
       shiki: 0.14.1
       typescript: 4.9.5
     dev: true
