@@ -32,7 +32,7 @@
     "rxjs": "7.8.0",
     "shiki": "0.14.1",
     "tslib": "2.5.0",
-    "zustand": "4.3.3"
+    "zustand": "4.3.5"
   },
   "devDependencies": {
     "@astrojs/react": "2.0.2",
