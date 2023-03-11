@@ -88,7 +88,7 @@ importers:
       vitest: 0.29.2
       webpack: 5.75.0
       webpack-merge: 5.8.0
-      zustand: 4.3.5
+      zustand: 4.3.6
     dependencies:
       clsx: 1.2.1
       core-js: 3.29.0
@@ -102,7 +102,7 @@ importers:
       rxjs: 7.8.0
       shiki: 0.14.1
       tslib: 2.5.0
-      zustand: 4.3.5_react@18.2.0
+      zustand: 4.3.6_react@18.2.0
     devDependencies:
       '@astrojs/react': 2.0.2_3xleytyzprlgycb2ded54tx72i
       '@babel/preset-react': 7.18.6
@@ -14821,8 +14821,8 @@ packages:
   /zod/3.20.2:
     resolution: {integrity: sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ==}
 
-  /zustand/4.3.5_react@18.2.0:
-    resolution: {integrity: sha512-2iPUzfwx+g3f0PagOMz2vDO9mZzEp2puFpNe7vrAymVPOEIEUjCPkC4/zy84eAscxIWmTU4j9g6upXYkJdzEFQ==}
+  /zustand/4.3.6_react@18.2.0:
+    resolution: {integrity: sha512-6J5zDxjxLE+yukC2XZWf/IyWVKnXT9b9HUv09VJ/bwGCpKNcaTqp7Ws28Xr8jnbvnZcdRaidztAPsXFBIqufiw==}
     engines: {node: '>=12.7.0'}
     peerDependencies:
       immer: '>=9.0'
