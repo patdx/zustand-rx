@@ -106,7 +106,7 @@
     "vite-plugin-eslint": "1.8.1",
     "vite-tsconfig-paths": "4.0.5",
     "vitest": "0.29.2",
-    "webpack": "5.75.0",
+    "webpack": "5.76.1",
     "webpack-merge": "5.8.0"
   },
   "lint-staged": {
