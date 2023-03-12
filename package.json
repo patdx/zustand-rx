@@ -66,7 +66,7 @@
     "@typescript-eslint/parser": "5.54.1",
     "@vitest/coverage-c8": "0.29.2",
     "@vitest/ui": "0.29.2",
-    "astro": "2.0.17",
+    "astro": "2.1.2",
     "babel-jest": "29.4.3",
     "commitizen": "4.3.0",
     "css-loader": "6.7.3",
