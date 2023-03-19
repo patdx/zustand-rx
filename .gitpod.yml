@@ -2,9 +2,19 @@
 # Please adjust to your needs (see https://www.gitpod.io/docs/config-gitpod-file)
 # and commit this file to your remote git repository to share the goodness with others.
 
-tasks:
-  - init: pnpm install && pnpm run build
-    # command: pnpm run start
+image:
+  file: .gitpod.Dockerfile
 vscode:
   extensions:
+    - nrwl.angular-console
+    - esbenp.prettier-vscode
     - dbaeumer.vscode-eslint
+
+# tasks:
+#   - init: |
+#       nvm install 18
+#       pnpm install
+#       npm run configure-database
+#   - init: pnpm install && pnpm run build
+#     # command: pnpm run start
+
