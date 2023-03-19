@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "projects": {
-    "workspace": ".",
-    "zustand-rx": "libs/zustand-rx",
-    "zustand-rx-web": "apps/zustand-rx-web"
-  },
-  "$schema": "./node_modules/nx/schemas/workspace-schema.json"
-}
