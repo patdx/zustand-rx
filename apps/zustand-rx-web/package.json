@@ -11,10 +11,10 @@
     "typedoc": "typedoc --plugin typedoc-plugin-markdown --entryDocument introduction.md"
   },
   "dependencies": {
-    "@astrojs/svelte": "3.0.0",
+    "@astrojs/svelte": "3.1.0",
     "svelte": "4.0.0"
   },
   "devDependencies": {
-    "astro": "2.7.0"
+    "astro": "2.7.2"
   }
 }
