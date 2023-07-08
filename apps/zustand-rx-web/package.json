@@ -15,6 +15,6 @@
     "svelte": "4.0.0"
   },
   "devDependencies": {
-    "astro": "2.7.2"
+    "astro": "2.8.0"
   }
 }
