@@ -20,7 +20,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "clsx": "1.2.1",
+    "clsx": "2.0.0",
     "core-js": "3.29.1",
     "html-escaper": "3.0.3",
     "observable-hooks": "4.2.1",
