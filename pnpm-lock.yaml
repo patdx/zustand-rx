@@ -196,8 +196,8 @@ importers:
         specifier: 13.2.0
         version: 13.2.0
       ngx-deploy-npm:
-        specifier: 6.0.0
-        version: 6.0.0(@nx/devkit@16.1.1)(tslib@2.5.0)
+        specifier: 7.0.0
+        version: 7.0.0(@nx/devkit@16.1.1)(tslib@2.5.0)
       nx:
         specifier: 15.8.7
         version: 15.8.7(@swc-node/register@1.6.2)(@swc/core@1.3.41)
@@ -12791,12 +12791,12 @@ packages:
     dependencies:
       typescript: 4.9.5
 
-  /ngx-deploy-npm@6.0.0(@nx/devkit@16.1.1)(tslib@2.5.0):
-    resolution: {integrity: sha512-gfj4ZIAguZ4JJF/WOIGYktwi1BKtHRYz1TUJV4a5qBwRaBunSu1/oW9K+sApwGfegMtrblDjMoLl10OZWgqx+A==}
-    engines: {node: '>=16.0.0'}
+  /ngx-deploy-npm@7.0.0(@nx/devkit@16.1.1)(tslib@2.5.0):
+    resolution: {integrity: sha512-jl6cyh5w5ia7RLM4OwMcd7sIL0GVg5eIANQmclr9Us4QI/u5Qf4QiB5+vkEqW/loawia966eHkBzdkZA2kJUjw==}
+    engines: {node: '>=18.0.0'}
     peerDependencies:
       '@nx/devkit': ^16.0.0
-      tslib: 2.5.0
+      tslib: 1.14.1
     dependencies:
       '@nx/devkit': 16.1.1(nx@15.8.7)
       tslib: 2.5.0
