@@ -18,7 +18,8 @@
       "zustand-rx": ["libs/zustand-rx/src/index.ts"]
     },
     "strict": true,
-    "importsNotUsedAsValues": "error"
+    "importsNotUsedAsValues": "error",
+    "ignoreDeprecations": "5.0"
   },
   "exclude": ["node_modules", "tmp"]
 }
