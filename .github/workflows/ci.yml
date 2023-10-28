@@ -17,7 +17,7 @@ jobs:
       - name:
           Derive appropriate SHAs for base and head for `nx affected` commands
         uses: nrwl/nx-set-shas@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: '16'
       - name: Cache pnpm modules
@@ -45,7 +45,7 @@ jobs:
       - name:
           Derive appropriate SHAs for base and head for `nx affected` commands
         uses: nrwl/nx-set-shas@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: '16'
       - name: Cache pnpm modules
