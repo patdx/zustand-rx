@@ -12,9 +12,10 @@ export type StateValueOf<TStore> = TStore extends StoreApi<infer TState>
  * by the MobX toStream API: https://github.com/mobxjs/mobx-utils#tostream
  */
 export const toStream = <
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   TStore extends StoreApi<any>,
   TState extends object = StateValueOf<TStore>,
-  TSlice = TState
+  TSlice = TState,
 >(
   store: TStore,
   selector?: (value: TState) => TSlice,
@@ -24,7 +25,7 @@ export const toStream = <
   }: {
     equalityFn?: (previous: TSlice, current: TSlice) => boolean;
     fireImmediately?: boolean;
-  } = {}
+  } = {},
 ): Observable<TSlice> => {
   const state$ = new Observable<TState>((subscriber) => {
     if (fireImmediately) {
@@ -47,7 +48,7 @@ export const toStream = <
             } else {
               return previous === current;
             }
-          })
+          }),
         )
       : mapped$;
 

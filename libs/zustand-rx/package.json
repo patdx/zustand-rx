@@ -10,15 +10,18 @@
   },
   "type": "module",
   "exports": {
-    "import": "./index.mjs",
-    "require": "./index.cjs"
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./index.js",
+      "default": "./index.cjs"
+    }
   },
+  "main": "./index.cjs",
   "sideEffects": false,
   "peerDependencies": {
     "rxjs": "*",
     "zustand": "*"
   },
-  "devDependencies": {
-    "commitizen": "4.3.0"
-  }
+  "devDependencies": {},
+  "modle": "./index.js"
 }

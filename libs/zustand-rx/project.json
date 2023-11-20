@@ -7,14 +7,13 @@
   "targets": {
     "build": {
       "executor": "nx:run-commands",
-      "dependsOn": [
-        {
-          "target": "build-base"
-        }
-      ],
       "options": {
         "commands": [
-          "pnpm shx ls -R dist/libs"
+          "cd libs/zustand-rx && tsup",
+          "pnpm shx cp libs/zustand-rx/README.md dist/libs/zustand-rx/README.md",
+          "pnpm shx cp libs/zustand-rx/package.json dist/libs/zustand-rx/package.json",
+          "pnpm shx ls -R dist/libs",
+          "pnpm attw --pack dist/libs/zustand-rx"
         ],
         "parallel": false
       },
@@ -32,38 +31,7 @@
         "{workspaceRoot}/dist/libs/zustand-rx"
       ]
     },
-    "build-base": {
-      "executor": "@nx/rollup:rollup",
-      "outputs": [
-        "{options.outputPath}"
-      ],
-      "options": {
-        "outputPath": "dist/libs/zustand-rx",
-        "tsConfig": "libs/zustand-rx/tsconfig.lib.json",
-        "project": "libs/zustand-rx/package.json",
-        "entryFile": "libs/zustand-rx/src/index.ts",
-        "external": [
-          "react/jsx-runtime"
-        ],
-        "rollupConfig": "@nx/react/plugins/bundle-rollup",
-        "format": [
-          "esm",
-          "cjs"
-        ],
-        "assets": [
-          {
-            "glob": "libs/zustand-rx/README.md",
-            "input": ".",
-            "output": "."
-          },
-          {
-            "glob": "libs/zustand-rx/cjs",
-            "input": ".",
-            "output": "."
-          }
-        ]
-      }
-    },
+
     "lint": {
       "executor": "@nx/eslint:lint",
       "outputs": [

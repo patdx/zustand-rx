@@ -20,6 +20,7 @@
   },
   "sideEffects": false,
   "dependencies": {
+    "@arethetypeswrong/cli": "0.13.1",
     "clsx": "2.0.0",
     "core-js": "3.33.3",
     "html-escaper": "3.0.3",
@@ -98,6 +99,7 @@
     "swc-loader": "0.2.3",
     "ts-jest": "29.1.1",
     "tslib": "2.6.2",
+    "tsup": "8.0.0",
     "typedoc": "0.25.3",
     "typedoc-plugin-markdown": "3.17.1",
     "typescript": "5.2.2",
