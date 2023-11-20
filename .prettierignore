@@ -5,3 +5,5 @@
 .docusaurus/
 pnpm-lock.yaml
 /**/dist
+
+/.nx/cache

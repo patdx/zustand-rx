@@ -65,7 +65,7 @@
       }
     },
     "lint": {
-      "executor": "@nx/linter:eslint",
+      "executor": "@nx/eslint:lint",
       "outputs": [
         "{options.outputFile}"
       ],
@@ -81,8 +81,7 @@
         "{workspaceRoot}/coverage/libs/zustand-rx"
       ],
       "options": {
-        "jestConfig": "libs/zustand-rx/jest.config.js",
-        "passWithNoTests": true
+        "jestConfig": "libs/zustand-rx/jest.config.js"
       }
     },
     "deploy": {

@@ -45,3 +45,5 @@ Thumbs.db
 
 dist/
 .astro/
+
+.nx/cache
