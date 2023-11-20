@@ -35,7 +35,7 @@
     "zustand": "4.4.6"
   },
   "devDependencies": {
-    "@astrojs/react": "2.3.2",
+    "@astrojs/react": "3.0.5",
     "@babel/core": "^7.23.3",
     "@babel/preset-react": "7.23.3",
     "@commitlint/cli": "18.4.2",
@@ -66,7 +66,7 @@
     "@typescript-eslint/parser": "6.11.0",
     "@vitest/coverage-v8": "0.34.6",
     "@vitest/ui": "0.34.6",
-    "astro": "2.10.14",
+    "astro": "3.5.5",
     "babel-jest": "29.7.0",
     "commitizen": "4.3.0",
     "css-loader": "6.8.1",
