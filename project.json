@@ -5,7 +5,8 @@
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
-        "syncVersions": true
+        "syncVersions": true,
+        "postTargets": ["zustand-rx:deploy"]
       }
     }
   }

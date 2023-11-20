@@ -5,7 +5,7 @@
   "homepage": "https://github.com/patdx/zustand-rx/tree/main/libs/zustand-rx#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/patdx/zustand-rx.git",
+    "url": "git+https://github.com/patdx/zustand-rx.git",
     "directory": "libs/zustand-rx"
   },
   "type": "module",
