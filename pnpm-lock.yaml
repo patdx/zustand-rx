@@ -55,8 +55,8 @@ importers:
         version: 4.4.6(@types/react@18.2.37)(react@18.2.0)
     devDependencies:
       '@astrojs/react':
-        specifier: 3.0.5
-        version: 3.0.5(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(vite@5.0.0)
+        specifier: 3.0.6
+        version: 3.0.6(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(vite@5.0.0)
       '@babel/core':
         specifier: ^7.23.3
         version: 7.23.3
@@ -148,8 +148,8 @@ importers:
         specifier: 0.34.6
         version: 0.34.6(vitest@0.34.6)
       astro:
-        specifier: 3.5.6
-        version: 3.5.6(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2)
+        specifier: 3.5.7
+        version: 3.5.7(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2)
       babel-jest:
         specifier: 29.7.0
         version: 29.7.0(@babel/core@7.23.3)
@@ -277,18 +277,18 @@ importers:
   apps/zustand-rx-web:
     dependencies:
       '@astrojs/react':
-        specifier: 3.0.5
-        version: 3.0.5(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(vite@5.0.0)
+        specifier: 3.0.6
+        version: 3.0.6(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(vite@5.0.0)
       '@astrojs/svelte':
         specifier: 4.0.4
-        version: 4.0.4(astro@3.5.6)(svelte@4.2.7)(typescript@5.3.2)(vite@5.0.0)
+        version: 4.0.4(astro@3.5.7)(svelte@4.2.7)(typescript@5.3.2)(vite@5.0.0)
       svelte:
         specifier: 4.2.7
         version: 4.2.7
     devDependencies:
       astro:
-        specifier: 3.5.6
-        version: 3.5.6(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2)
+        specifier: 3.5.7
+        version: 3.5.7(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2)
 
 packages:
 
@@ -342,13 +342,13 @@ packages:
   /@astrojs/internal-helpers@0.2.1:
     resolution: {integrity: sha512-06DD2ZnItMwUnH81LBLco3tWjcZ1lGU9rLCCBaeUCGYe9cI0wKyY2W3kDyoW1I6GmcWgt1fu+D1CTvz+FIKf8A==}
 
-  /@astrojs/markdown-remark@3.5.0(astro@3.5.6):
+  /@astrojs/markdown-remark@3.5.0(astro@3.5.7):
     resolution: {integrity: sha512-q7vdIqzYhxpsfghg2YmkmSXCfp4w7lBTYP+SSHw89wVhC5Riltr3u8w2otBRxNLSByNi+ht/gGkFC23Shetytw==}
     peerDependencies:
       astro: ^3.0.0
     dependencies:
       '@astrojs/prism': 3.0.0
-      astro: 3.5.6(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2)
+      astro: 3.5.7(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2)
       github-slugger: 2.0.0
       import-meta-resolve: 3.1.1
       mdast-util-definitions: 6.0.0
@@ -371,8 +371,8 @@ packages:
     dependencies:
       prismjs: 1.29.0
 
-  /@astrojs/react@3.0.5(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(vite@5.0.0):
-    resolution: {integrity: sha512-2tqKtSuN7eKlOsBka7RTxOeoSMti6W4IMHYWpAJlg96P49uTg3CCO3BNGIuoxmTXglpRa0O3CmcgXFjB8AlN9g==}
+  /@astrojs/react@3.0.6(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(vite@5.0.0):
+    resolution: {integrity: sha512-hjC02q8cPeyzw+LWe6V2dPTYf8OgfuZwxmH32tkhn3JC/VTz1AdO5rM7dgvbilLnUoL7qMGapODEkSl2mmW+oA==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       '@types/react': ^17.0.50 || ^18.0.21
@@ -390,7 +390,7 @@ packages:
       - supports-color
       - vite
 
-  /@astrojs/svelte@4.0.4(astro@3.5.6)(svelte@4.2.7)(typescript@5.3.2)(vite@5.0.0):
+  /@astrojs/svelte@4.0.4(astro@3.5.7)(svelte@4.2.7)(typescript@5.3.2)(vite@5.0.0):
     resolution: {integrity: sha512-7OIq3YWSq270TrJZhVNzGXB5+eCp1vyNS0+WcGixxtUSz8ciwO+PqZ6GIhvmEjbBPR0x0QS8t0p0B2qlKJu/EA==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -398,7 +398,7 @@ packages:
       svelte: ^3.55.0 || ^4.0.0 || ^5.0.0-next.1
     dependencies:
       '@sveltejs/vite-plugin-svelte': 2.5.2(svelte@4.2.7)(vite@5.0.0)
-      astro: 3.5.6(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2)
+      astro: 3.5.7(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2)
       svelte: 4.2.7
       svelte2tsx: 0.6.25(svelte@4.2.7)(typescript@5.3.2)
     transitivePeerDependencies:
@@ -4847,14 +4847,14 @@ packages:
     resolution: {integrity: sha512-OH/2E5Fg20h2aPrbe+QL8JZQFko0YZaF+j4mnQ7BGhfavO7OpSLa8a0y9sBwomHdSbkhTS8TQNayBfnW5DwbvQ==}
     dev: true
 
-  /astro@3.5.6(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2):
-    resolution: {integrity: sha512-50gKrQl7rlPKeChtZVLRMNQDVKJP2PoGk8ZiDVHt4U4AjJjnLs/XvOBuseoSXvQW5Zbp0IQuDN/uzq8hRhTl6w==}
+  /astro@3.5.7(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2):
+    resolution: {integrity: sha512-sQiblxFOzWuqo6qdpw15AxGyvQfWa6DMlEazp2+6Ra1pK7uiuK/zxf5LZKiOeZ01Wtv4dveXOwPPwf2eN+5Wew==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 2.3.2
       '@astrojs/internal-helpers': 0.2.1
-      '@astrojs/markdown-remark': 3.5.0(astro@3.5.6)
+      '@astrojs/markdown-remark': 3.5.0(astro@3.5.7)
       '@astrojs/telemetry': 3.0.4
       '@babel/core': 7.23.3
       '@babel/generator': 7.23.4
@@ -5468,11 +5468,6 @@ packages:
 
   /cli-spinners@2.6.1:
     resolution: {integrity: sha512-x/5fWmGMnbKQAaNwN+UZlV79qBLM9JFnJuJ03gIi5whrob0xV0ofNVHy9DhwGdsMJQc2OKv0oGmLzvaqvAVv+g==}
-    engines: {node: '>=6'}
-    dev: true
-
-  /cli-spinners@2.9.0:
-    resolution: {integrity: sha512-4/aL9X3Wh0yiMQlE+eeRhWP6vclO3QRtw1JHKIT0FFUs5FjpFmESqtMvYZ0+lbzBw900b95mS0hohy+qn2VK/g==}
     engines: {node: '>=6'}
     dev: true
 
@@ -10552,7 +10547,7 @@ packages:
       bl: 4.1.0
       chalk: 4.1.2
       cli-cursor: 3.1.0
-      cli-spinners: 2.9.0
+      cli-spinners: 2.9.1
       is-interactive: 1.0.0
       log-symbols: 4.1.0
       strip-ansi: 6.0.1
@@ -10566,7 +10561,7 @@ packages:
       bl: 4.1.0
       chalk: 4.1.2
       cli-cursor: 3.1.0
-      cli-spinners: 2.9.0
+      cli-spinners: 2.9.1
       is-interactive: 1.0.0
       is-unicode-supported: 0.1.0
       log-symbols: 4.1.0
