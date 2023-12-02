@@ -52,7 +52,7 @@ importers:
         version: 2.6.2
       zustand:
         specifier: 4.5.0
-        version: 4.5.0(@types/react@18.2.48)(react@18.2.0)
+        version: 4.5.0(@types/react@18.2.48)(immer@10.0.3)(react@18.2.0)
     devDependencies:
       '@babel/core':
         specifier: ^7.23.9
@@ -186,6 +186,9 @@ importers:
       husky:
         specifier: 9.0.6
         version: 9.0.6
+      immer:
+        specifier: 10.0.3
+        version: 10.0.3
       jest:
         specifier: 29.7.0
         version: 29.7.0(@types/node@20.11.7)
@@ -7923,6 +7926,9 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
+  /immer@10.0.3:
+    resolution: {integrity: sha512-pwupu3eWfouuaowscykeckFmVTpqbzW+rXFCX8rQLkZzM9ftBmU/++Ra+o+L27mz03zJTlyV4UUr+fdKNffo4A==}
+
   /import-cwd@3.0.0:
     resolution: {integrity: sha512-4pnzH16plW+hgvRECbDWpQl3cqtvSofHWh44met7ESfZ8UZOWWddm8hEyDTqREJ9RbYHY8gi8DqmaelApoOGMg==}
     engines: {node: '>=8'}
@@ -13943,7 +13949,7 @@ packages:
   /zod@3.22.4:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
 
-  /zustand@4.5.0(@types/react@18.2.48)(react@18.2.0):
+  /zustand@4.5.0(@types/react@18.2.48)(immer@10.0.3)(react@18.2.0):
     resolution: {integrity: sha512-zlVFqS5TQ21nwijjhJlx4f9iGrXSL0o/+Dpy4txAP22miJ8Ti6c1Ol1RLNN98BMib83lmDH/2KmLwaNXpjrO1A==}
     engines: {node: '>=12.7.0'}
     peerDependencies:
@@ -13959,6 +13965,7 @@ packages:
         optional: true
     dependencies:
       '@types/react': 18.2.48
+      immer: 10.0.3
       react: 18.2.0
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
