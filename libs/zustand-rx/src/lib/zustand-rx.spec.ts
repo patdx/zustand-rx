@@ -11,10 +11,10 @@ describe('zustand-rx', () => {
     const store = createStore(
       combine({ bears: 0 }, (set) => ({
         increase: (by: number) => set((state) => ({ bears: state.bears + by })),
-      }))
+      })),
     );
 
-    let bears: any;
+    let bears: number | null = null;
 
     const bears$ = toStream(store, (state) => state.bears, {
       fireImmediately: true,

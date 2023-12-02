@@ -1,11 +1,17 @@
 /* eslint-disable @typescript-eslint/ban-types */
 import { Observable } from 'rxjs';
 import { distinctUntilChanged, map } from 'rxjs/operators';
-import type { StoreApi } from 'zustand/vanilla';
 
-export type StateValueOf<TStore> = TStore extends StoreApi<infer TState>
-  ? TState
-  : never;
+// Based on here: https://github.com/pmndrs/zustand/blob/50a8677dba4acecc1e313dcb08d4cf2ac1ab918c/src/vanilla.ts#L8
+// Inlined the type to fix issue:
+// https://github.com/patdx/zustand-rx/issues/953
+type StoreApi<T> = {
+  getState: () => T;
+  subscribe: (listener: (state: T, prevState: T) => void) => () => void;
+};
+
+export type StateValueOf<TStore> =
+  TStore extends StoreApi<infer TState> ? TState : never;
 
 /**
  * Create a zustand selector as an RxJS observable, inspired
@@ -14,7 +20,7 @@ export type StateValueOf<TStore> = TStore extends StoreApi<infer TState>
 export const toStream = <
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   TStore extends StoreApi<any>,
-  TState extends object = StateValueOf<TStore>,
+  TState = StateValueOf<TStore>,
   TSlice = TState,
 >(
   store: TStore,
