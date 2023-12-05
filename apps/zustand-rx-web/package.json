@@ -12,7 +12,7 @@
     "typedoc": "typedoc --plugin typedoc-plugin-markdown --entryDocument introduction.md"
   },
   "dependencies": {
-    "@astrojs/react": "3.0.6",
+    "@astrojs/react": "3.0.7",
     "@astrojs/svelte": "4.0.4",
     "svelte": "4.2.7"
   },
