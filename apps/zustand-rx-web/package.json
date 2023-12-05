@@ -13,10 +13,10 @@
   },
   "dependencies": {
     "@astrojs/react": "3.0.7",
-    "@astrojs/svelte": "4.0.4",
+    "@astrojs/svelte": "5.0.0",
     "svelte": "4.2.7"
   },
   "devDependencies": {
-    "astro": "3.6.4"
+    "astro": "4.0.1"
   }
 }
