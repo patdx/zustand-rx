@@ -232,8 +232,8 @@ importers:
         specifier: 0.62.0
         version: 0.62.0
       stylus-loader:
-        specifier: 7.1.3
-        version: 7.1.3(stylus@0.62.0)(webpack@5.89.0)
+        specifier: 8.0.0
+        version: 8.0.0(stylus@0.62.0)(webpack@5.89.0)
       swc-loader:
         specifier: 0.2.3
         version: 0.2.3(@swc/core@1.3.96)(webpack@5.89.0)
@@ -12467,9 +12467,9 @@ packages:
       postcss-selector-parser: 6.0.13
     dev: true
 
-  /stylus-loader@7.1.3(stylus@0.62.0)(webpack@5.89.0):
-    resolution: {integrity: sha512-TY0SKwiY7D2kMd3UxaWKSf3xHF0FFN/FAfsSqfrhxRT/koXTwffq2cgEWDkLQz7VojMu7qEEHt5TlMjkPx9UDw==}
-    engines: {node: '>= 14.15.0'}
+  /stylus-loader@8.0.0(stylus@0.62.0)(webpack@5.89.0):
+    resolution: {integrity: sha512-6fJ1a2Pb6q4L8mkWFz8OZYHXX0W8VJSH3U+mNM+L2UW1pK28FHdjmYRgvV1h6TMV+cr/gwvowP7BhrSiI8dJ4g==}
+    engines: {node: '>= 18.12.0'}
     peerDependencies:
       stylus: '>=0.52.4'
       webpack: ^5.0.0
