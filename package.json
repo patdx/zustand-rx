@@ -85,7 +85,7 @@
     "jest-environment-jsdom": "29.7.0",
     "jsdom": "23.0.0",
     "lint-staged": "15.1.0",
-    "ngx-deploy-npm": "7.1.0",
+    "ngx-deploy-npm": "8.0.0",
     "nx": "17.1.2",
     "nx-cloud": "16.5.2",
     "only-allow": "1.2.1",
