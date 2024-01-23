@@ -148,8 +148,8 @@ importers:
         specifier: 1.0.1
         version: 1.0.1(vitest@1.0.1)
       astro:
-        specifier: 4.2.1
-        version: 4.2.1(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2)
+        specifier: 4.2.3
+        version: 4.2.3(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2)
       babel-jest:
         specifier: 29.7.0
         version: 29.7.0(@babel/core@7.23.3)
@@ -281,14 +281,14 @@ importers:
         version: 3.0.9(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(vite@5.0.0)
       '@astrojs/svelte':
         specifier: 5.0.3
-        version: 5.0.3(astro@4.2.1)(svelte@4.2.7)(typescript@5.3.2)(vite@5.0.0)
+        version: 5.0.3(astro@4.2.3)(svelte@4.2.7)(typescript@5.3.2)(vite@5.0.0)
       svelte:
         specifier: 4.2.7
         version: 4.2.7
     devDependencies:
       astro:
-        specifier: 4.2.1
-        version: 4.2.1(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2)
+        specifier: 4.2.3
+        version: 4.2.3(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2)
 
 packages:
 
@@ -336,14 +336,14 @@ packages:
       validate-npm-package-name: 5.0.0
     dev: false
 
-  /@astrojs/compiler@2.3.4:
-    resolution: {integrity: sha512-33/YtWoBCE0cBUNy1kh78FCDXBoBANX87ShgATlAHECYbG2+buNTAgq4Xgz4t5NgnEHPN21GIBC2Mvvwisoutw==}
+  /@astrojs/compiler@2.5.0:
+    resolution: {integrity: sha512-ZDluNgMIJT+z+HJcZ6QEJ/KqaFkTkrb+Za6c6VZs8G/nb1LBErL14/iU5EVJ9yu25i4QCLweuBJ3m5df34gZJg==}
 
   /@astrojs/internal-helpers@0.2.1:
     resolution: {integrity: sha512-06DD2ZnItMwUnH81LBLco3tWjcZ1lGU9rLCCBaeUCGYe9cI0wKyY2W3kDyoW1I6GmcWgt1fu+D1CTvz+FIKf8A==}
 
-  /@astrojs/markdown-remark@4.1.0:
-    resolution: {integrity: sha512-JnIy6zk+6f/SgSVMZecZFxQt0faT1uBckwYCuBxKH1hYYJsal8OOe+tx6JxfnyaV+xViyjUvQ28mmn+p/F5LkQ==}
+  /@astrojs/markdown-remark@4.2.0:
+    resolution: {integrity: sha512-qQB+LoxmIqzkhLXaQAzfzlBxZU1jeQYailsifurz89WeY0Q8ywIj8uQQSyqxb7rPPg3ZfdNdxsN9lF5UaCRn0w==}
     dependencies:
       '@astrojs/prism': 3.0.0
       github-slugger: 2.0.0
@@ -387,7 +387,7 @@ packages:
       - supports-color
       - vite
 
-  /@astrojs/svelte@5.0.3(astro@4.2.1)(svelte@4.2.7)(typescript@5.3.2)(vite@5.0.0):
+  /@astrojs/svelte@5.0.3(astro@4.2.3)(svelte@4.2.7)(typescript@5.3.2)(vite@5.0.0):
     resolution: {integrity: sha512-6TUBRUxmsEczKPBT6oDUAfvzuFCmITuhZfKPT5ZtOOyj9XOVnEnj/Iobd3ajKUbpWNYX7qZVAd1KMkmJc1Nhsg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -395,7 +395,7 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.1
     dependencies:
       '@sveltejs/vite-plugin-svelte': 3.0.1(svelte@4.2.7)(vite@5.0.0)
-      astro: 4.2.1(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2)
+      astro: 4.2.3(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2)
       svelte: 4.2.7
       svelte2tsx: 0.6.25(svelte@4.2.7)(typescript@5.3.2)
     transitivePeerDependencies:
@@ -4832,14 +4832,14 @@ packages:
     resolution: {integrity: sha512-OH/2E5Fg20h2aPrbe+QL8JZQFko0YZaF+j4mnQ7BGhfavO7OpSLa8a0y9sBwomHdSbkhTS8TQNayBfnW5DwbvQ==}
     dev: true
 
-  /astro@4.2.1(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2):
-    resolution: {integrity: sha512-TcrveW2/lohmljrbTUgcDxajEdF1yK+zBvb7SXroloGix/d4jkegO6GANFgvyy0zprMyajW7qgJEFyhWUX86Vw==}
+  /astro@4.2.3(@types/node@20.9.2)(stylus@0.62.0)(typescript@5.3.2):
+    resolution: {integrity: sha512-6bfSogmcwMdaTRAxuhJ7aISGin/T3ovI/69JWPRYOHBkPZxA/EfsNQOI2TiRHFJSF9XtoMnFlgvT+iYapkhOwg==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
-      '@astrojs/compiler': 2.3.4
+      '@astrojs/compiler': 2.5.0
       '@astrojs/internal-helpers': 0.2.1
-      '@astrojs/markdown-remark': 4.1.0
+      '@astrojs/markdown-remark': 4.2.0
       '@astrojs/telemetry': 3.0.4
       '@babel/core': 7.23.3
       '@babel/generator': 7.23.4
