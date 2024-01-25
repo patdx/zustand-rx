@@ -5,41 +5,7 @@
   "sourceRoot": "apps/zustand-rx-web/src",
   "tags": [],
   "targets": {
-    "x-build": {
-      "executor": "@nx/vite:build",
-      "outputs": [
-        "{options.outputPath}"
-      ],
-      "defaultConfiguration": "production",
-      "options": {
-        "outputPath": "dist/apps/zustand-rx-web"
-      },
-      "configurations": {
-        "development": {
-          "mode": "development"
-        },
-        "production": {
-          "mode": "production"
-        }
-      }
-    },
-    "x-serve": {
-      "executor": "@nx/vite:dev-server",
-      "defaultConfiguration": "development",
-      "options": {
-        "buildTarget": "zustand-rx-web:build"
-      },
-      "configurations": {
-        "development": {
-          "buildTarget": "zustand-rx-web:build:development",
-          "hmr": true
-        },
-        "production": {
-          "buildTarget": "zustand-rx-web:build:production",
-          "hmr": false
-        }
-      }
-    },
+
     "test": {
       "executor": "@nx/vite:test",
       "outputs": [
@@ -54,12 +20,7 @@
       "executor": "@nx/eslint:lint",
       "outputs": [
         "{options.outputFile}"
-      ],
-      "options": {
-        "lintFilePatterns": [
-          "apps/zustand-rx-web/**/*.ts"
-        ]
-      }
+      ]
     }
   }
 }
