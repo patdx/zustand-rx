@@ -1,30 +1,29 @@
 import { defineConfig } from 'astro/config';
-import viteTsConfigPaths from 'vite-tsconfig-paths';
+import { nxViteTsPaths } from '@nx/vite/plugins/nx-tsconfig-paths.plugin';
+import react from '@astrojs/react';
+import svelte from '@astrojs/svelte';
+import { fileURLToPath } from 'url';
 
 /// <reference types="vitest" />
-import react from '@astrojs/react';
 
-// https://astro.build/config
-import svelte from '@astrojs/svelte';
+const root = fileURLToPath(new URL('./', import.meta.url));
+
+console.log(`root=${root}`);
 
 // https://astro.build/config
 export default defineConfig({
+  // root,
   site: 'https://zustand-rx.vercel.app/',
+  outDir: '../../dist/apps/zustand-rx-web',
   output: 'static',
-  // build: {
-  //   // Example: Generate `page.html` instead of `page/index.html` during build.
-  //   format: 'file',
-  // },
   server: {
     port: 4200,
     host: 'localhost',
   },
+  cacheDir: '../../node_modules/.vite/zustand-rx-web',
   vite: {
-    plugins: [
-      viteTsConfigPaths({
-        root: '../../',
-      }) as any,
-    ],
+    cacheDir: '../../node_modules/.vite/zustand-rx-web',
+    plugins: [nxViteTsPaths()],
   },
   // Uncomment this if you are using workers.
   // worker: {

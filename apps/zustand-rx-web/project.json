@@ -6,16 +6,7 @@
   "tags": [],
   "targets": {
 
-    "test": {
-      "executor": "@nx/vite:test",
-      "outputs": [
-        "{workspaceRoot}/coverage/apps/zustand-rx-web"
-      ],
-      "options": {
-        "passWithNoTests": true,
-        "reportsDirectory": "../../coverage/apps/zustand-rx-web"
-      }
-    },
+
     "lint": {
       "executor": "@nx/eslint:lint",
       "outputs": [
