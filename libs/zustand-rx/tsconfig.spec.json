@@ -2,16 +2,23 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "../../dist/out-tsc",
-    "module": "commonjs",
-    "types": ["jest", "node"]
+    "types": [
+      "vitest/globals",
+      "vitest/importMeta",
+      "vite/client",
+      "node",
+      "vitest"
+    ]
   },
   "include": [
-    "**/*.spec.ts",
-    "**/*.spec.tsx",
-    "**/*.spec.js",
-    "**/*.spec.jsx",
-    "**/*.d.ts",
-    "src/zustand-rx.ts",
-    "jest.config.js"
-  ]
+    "vite.config.ts",
+    "vitest.config.ts",
+    "src/**/*.test-d.ts",
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "src/**/*.test.js",
+    "src/**/*.test.jsx",
+    "src/**/*.d.ts"
+  ],
+  "files": ["src/lib/zustand-rx.test-d.ts"]
 }
