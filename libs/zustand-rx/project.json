@@ -38,13 +38,11 @@
       ]
     },
     "test": {
-      "executor": "@nx/jest:jest",
+      "executor": "@nx/vite:test",
       "outputs": [
         "{workspaceRoot}/coverage/libs/zustand-rx"
       ],
-      "options": {
-        "jestConfig": "libs/zustand-rx/jest.config.js"
-      }
+      "options": {}
     },
     "deploy": {
       "executor": "ngx-deploy-npm:deploy",
