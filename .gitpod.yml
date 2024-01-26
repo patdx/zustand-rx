@@ -10,11 +10,6 @@ vscode:
     - esbenp.prettier-vscode
     - dbaeumer.vscode-eslint
 
-# tasks:
-#   - init: |
-#       nvm install 18
-#       pnpm install
-#       npm run configure-database
-#   - init: pnpm install && pnpm run build
-#     # command: pnpm run start
-
+tasks:
+  - init: |
+      pnpm install
