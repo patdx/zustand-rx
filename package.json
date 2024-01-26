@@ -6,7 +6,7 @@
   "homepage": "https://github.com/patdx/zustand-rx#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/patdx/zustand-rx.git"
+    "url": "git+https://github.com/patdx/zustand-rx.git"
   },
   "scripts": {
     "clean": "rm -rf node_modules && rm -rf dist && rm -rf apps/zustand-rx-web/node_modules && rm -rf apps/zustand-rx-web/dist && rm -rf .nx",

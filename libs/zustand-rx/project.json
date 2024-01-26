@@ -49,7 +49,10 @@
       "options": {
         "access": "public",
         "distFolderPath": "dist/libs/zustand-rx"
-      }
+      },
+      "dependsOn": [
+        "build"
+      ]
     }
   }
 }
