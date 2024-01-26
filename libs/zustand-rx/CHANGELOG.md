@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# [2.1.0](https://github.com/patdx/zustand-rx/compare/v2.0.0...v2.1.0) (2024-01-26)
+
+### Bug Fixes
+
+- fix deploy scripts ([a24642b](https://github.com/patdx/zustand-rx/commit/a24642b6fc8c9d1f1bcb12d9193acf9e2d1a669e))
+- fix types when used with zustand immer middleware ([715457e](https://github.com/patdx/zustand-rx/commit/715457e4c208be5f5344cb70915c75bde7d47882)), closes [#953](https://github.com/patdx/zustand-rx/issues/953)
+
 # [2.0.0](https://github.com/patdx/zustand-rx/compare/v1.0.0...v2.0.0) (2023-11-20)
 
 ### Bug Fixes

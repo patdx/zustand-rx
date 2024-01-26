@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# [2.1.0](https://github.com/patdx/zustand-rx/compare/v2.0.0...v2.1.0) (2024-01-26)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([bd934c4](https://github.com/patdx/zustand-rx/commit/bd934c4a62a0f340c0e9c2c931644b5882ff45dc))
+- **deps:** update astro ([5fa15c7](https://github.com/patdx/zustand-rx/commit/5fa15c7ded2053354ab5139a60729d72798fe8aa))
+- **deps:** update astro ([e2235a4](https://github.com/patdx/zustand-rx/commit/e2235a4d70bf8187e69945a1c30168787a8f1756))
+- fix types when used with zustand immer middleware ([715457e](https://github.com/patdx/zustand-rx/commit/715457e4c208be5f5344cb70915c75bde7d47882)), closes [#953](https://github.com/patdx/zustand-rx/issues/953)
+
 # [2.0.0](https://github.com/patdx/zustand-rx/compare/v1.0.0...v2.0.0) (2023-11-20)
 
 ### Bug Fixes
