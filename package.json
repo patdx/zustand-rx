@@ -81,7 +81,7 @@
     "lint-staged": "15.2.0",
     "ngx-deploy-npm": "8.0.1",
     "nx": "17.2.8",
-    "nx-cloud": "16.5.2",
+    "nx-cloud": "18.0.0",
     "only-allow": "1.2.1",
     "prettier": "3.2.4",
     "prettier-package-json": "2.8.0",
