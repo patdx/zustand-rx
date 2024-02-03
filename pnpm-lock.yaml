@@ -67,8 +67,8 @@ importers:
         specifier: 18.6.0
         version: 18.6.0
       '@jscutlery/semver':
-        specifier: 4.2.0
-        version: 4.2.0(@nx/devkit@17.2.8)
+        specifier: 5.0.0
+        version: 5.0.0(@nx/devkit@17.2.8)
       '@nx/devkit':
         specifier: 17.2.8
         version: 17.2.8(nx@17.2.8)
@@ -2179,10 +2179,10 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@jscutlery/semver@4.2.0(@nx/devkit@17.2.8):
-    resolution: {integrity: sha512-XaExVbzoIQ5D7k9JOfdqi4IJ2CRNPyiSQu730jbcNtl+D3Ra5qOsg3HVgRtp4BoiMFNLoPsQJMiB8LeAADMfwA==}
+  /@jscutlery/semver@5.0.0(@nx/devkit@17.2.8):
+    resolution: {integrity: sha512-yv7Ve43mZ8v5lBFu8Hj0f43gtcbZtGJXqwCo6lZyZeAXciTAwZrOdZGzPp+fEVrlXG3Jahg+SGTSxiZSTvaycQ==}
     peerDependencies:
-      '@nx/devkit': ^17.0.0
+      '@nx/devkit': ^18.0.0
     dependencies:
       '@nx/devkit': 17.2.8(nx@17.2.8)
       chalk: 4.1.2
