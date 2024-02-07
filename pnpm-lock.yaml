@@ -133,8 +133,8 @@ importers:
         specifier: 1.2.2
         version: 1.2.2(vitest@1.2.2)
       astro:
-        specifier: 4.3.3
-        version: 4.3.3(@types/node@20.11.10)(stylus@0.62.0)(typescript@5.3.3)
+        specifier: 4.3.5
+        version: 4.3.5(@types/node@20.11.10)(stylus@0.62.0)(typescript@5.3.3)
       commitizen:
         specifier: 4.3.0
         version: 4.3.0(@types/node@20.11.10)(typescript@5.3.3)
@@ -253,18 +253,18 @@ importers:
   apps/zustand-rx-web:
     dependencies:
       '@astrojs/react':
-        specifier: 3.0.9
-        version: 3.0.9(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)(vite@5.0.12)
+        specifier: 3.0.10
+        version: 3.0.10(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)(vite@5.0.12)
       '@astrojs/svelte':
         specifier: 5.0.3
-        version: 5.0.3(astro@4.3.3)(svelte@4.2.9)(typescript@5.3.3)(vite@5.0.12)
+        version: 5.0.3(astro@4.3.5)(svelte@4.2.9)(typescript@5.3.3)(vite@5.0.12)
       svelte:
         specifier: 4.2.9
         version: 4.2.9
     devDependencies:
       astro:
-        specifier: 4.3.3
-        version: 4.3.3(@types/node@20.11.10)(stylus@0.62.0)(typescript@5.3.3)
+        specifier: 4.3.5
+        version: 4.3.5(@types/node@20.11.10)(stylus@0.62.0)(typescript@5.3.3)
 
 packages:
 
@@ -345,8 +345,8 @@ packages:
     dependencies:
       prismjs: 1.29.0
 
-  /@astrojs/react@3.0.9(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)(vite@5.0.12):
-    resolution: {integrity: sha512-31J5yF5p9yBFV1axBooLA9PB4B2+MYm7swWhtlezSsJiUNXRFo5Is9qI3teJ7cKgmaCv+ZA593Smskko0NGaDQ==}
+  /@astrojs/react@3.0.10(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)(vite@5.0.12):
+    resolution: {integrity: sha512-uGRIwKMAn7tva2vxXMyoVIGxWFr0rjZ8ZWIlkTG/vIpnAjD2nM8Cz6B8j7yzj176jvl6gZ6xTbTVPm09aeK0Yw==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       '@types/react': ^17.0.50 || ^18.0.21
@@ -365,7 +365,7 @@ packages:
       - vite
     dev: false
 
-  /@astrojs/svelte@5.0.3(astro@4.3.3)(svelte@4.2.9)(typescript@5.3.3)(vite@5.0.12):
+  /@astrojs/svelte@5.0.3(astro@4.3.5)(svelte@4.2.9)(typescript@5.3.3)(vite@5.0.12):
     resolution: {integrity: sha512-6TUBRUxmsEczKPBT6oDUAfvzuFCmITuhZfKPT5ZtOOyj9XOVnEnj/Iobd3ajKUbpWNYX7qZVAd1KMkmJc1Nhsg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -373,7 +373,7 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.1
     dependencies:
       '@sveltejs/vite-plugin-svelte': 3.0.1(svelte@4.2.9)(vite@5.0.12)
-      astro: 4.3.3(@types/node@20.11.10)(stylus@0.62.0)(typescript@5.3.3)
+      astro: 4.3.5(@types/node@20.11.10)(stylus@0.62.0)(typescript@5.3.3)
       svelte: 4.2.9
       svelte2tsx: 0.6.27(svelte@4.2.9)(typescript@5.3.3)
     transitivePeerDependencies:
@@ -4264,8 +4264,8 @@ packages:
     resolution: {integrity: sha512-OH/2E5Fg20h2aPrbe+QL8JZQFko0YZaF+j4mnQ7BGhfavO7OpSLa8a0y9sBwomHdSbkhTS8TQNayBfnW5DwbvQ==}
     dev: true
 
-  /astro@4.3.3(@types/node@20.11.10)(stylus@0.62.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-8Vfcv8LuCfzkLj+NMk7i7pu5o0MPyDkYqUYWELSwKxWf85zJSNU4oLg4DlEZWbVpm5LeTfVrpSGrZGy5n4grBg==}
+  /astro@4.3.5(@types/node@20.11.10)(stylus@0.62.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-7jPffNlcmDO94NlkWe/hUWta/pIjlx1LVD/DZb/fyjT1Jv+7mGhKZBIjkDfeVpequW70mep8cAS5RM7Pxa0Gdg==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
