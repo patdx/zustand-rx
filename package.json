@@ -63,7 +63,7 @@
     "@typescript-eslint/parser": "6.19.1",
     "@vitest/coverage-v8": "1.2.2",
     "@vitest/ui": "1.2.2",
-    "astro": "4.3.3",
+    "astro": "4.3.5",
     "commitizen": "4.3.0",
     "css-loader": "6.9.1",
     "cz-conventional-changelog": "3.3.0",
