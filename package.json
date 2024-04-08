@@ -87,7 +87,7 @@
     "prettier-package-json": "2.8.0",
     "react-refresh": "0.14.0",
     "shx": "0.3.4",
-    "style-loader": "3.3.4",
+    "style-loader": "4.0.0",
     "stylus": "0.62.0",
     "stylus-loader": "8.0.0",
     "swc-loader": "0.2.3",
