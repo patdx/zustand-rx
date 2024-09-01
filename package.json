@@ -77,7 +77,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "husky": "9.0.6",
     "immer": "10.0.3",
-    "jsdom": "24.0.0",
+    "jsdom": "25.0.0",
     "lint-staged": "15.2.0",
     "ngx-deploy-npm": "8.0.1",
     "nx": "17.2.8",
