@@ -47,3 +47,5 @@ dist/
 .astro/
 
 .nx/cache
+.nx/workspace-data
+tsconfig.vitest-temp.json

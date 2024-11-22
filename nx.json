@@ -1,7 +1,4 @@
 {
-  "affected": {
-    "defaultBase": "main"
-  },
   "tasksRunnerOptions": {
     "default": {
       "runner": "nx/tasks-runners/default",
@@ -66,16 +63,17 @@
         "^production"
       ]
     },
-    "lint": {
-      "inputs": [
-        "default",
-        "{workspaceRoot}/.eslintrc.json"
-      ]
-    },
     "@nx/vite:test": {
       "inputs": [
         "default",
         "^production"
+      ],
+      "cache": true
+    },
+    "@nx/eslint:lint": {
+      "inputs": [
+        "default",
+        "{workspaceRoot}/.eslintrc.json"
       ],
       "cache": true
     }
@@ -96,5 +94,7 @@
       "!{projectRoot}/.eslintrc.json",
       "!{projectRoot}/src/test-setup.[jt]s"
     ]
-  }
+  },
+  "useInferencePlugins": false,
+  "defaultBase": "main"
 }
