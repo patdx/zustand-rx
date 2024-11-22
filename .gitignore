@@ -49,3 +49,5 @@ dist/
 .nx/cache
 .nx/workspace-data
 tsconfig.vitest-temp.json
+
+vite.config.*.timestamp*
