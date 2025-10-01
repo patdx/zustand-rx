@@ -133,8 +133,8 @@ importers:
         specifier: 2.1.5
         version: 2.1.5(vitest@2.1.5)
       astro:
-        specifier: 4.16.18
-        version: 4.16.18(@types/node@22.9.1)(rollup@4.27.3)(stylus@0.64.0)(terser@5.36.0)(typescript@5.6.3)
+        specifier: 4.16.19
+        version: 4.16.19(@types/node@22.9.1)(rollup@4.27.3)(stylus@0.64.0)(terser@5.36.0)(typescript@5.6.3)
       commitizen:
         specifier: 4.3.1
         version: 4.3.1(@types/node@22.9.1)(typescript@5.6.3)
@@ -257,14 +257,14 @@ importers:
         version: 3.6.3(@types/node@22.9.1)(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(stylus@0.64.0)(terser@5.36.0)
       '@astrojs/svelte':
         specifier: 5.7.3
-        version: 5.7.3(astro@4.16.18(@types/node@22.9.1)(rollup@4.27.3)(stylus@0.64.0)(terser@5.36.0)(typescript@5.6.3))(svelte@4.2.19)(typescript@5.6.3)(vite@5.4.11(@types/node@22.9.1)(stylus@0.64.0)(terser@5.36.0))
+        version: 5.7.3(astro@4.16.19(@types/node@22.9.1)(rollup@4.27.3)(stylus@0.64.0)(terser@5.36.0)(typescript@5.6.3))(svelte@4.2.19)(typescript@5.6.3)(vite@5.4.11(@types/node@22.9.1)(stylus@0.64.0)(terser@5.36.0))
       svelte:
         specifier: 4.2.19
         version: 4.2.19
     devDependencies:
       astro:
-        specifier: 4.16.18
-        version: 4.16.18(@types/node@22.9.1)(rollup@4.27.3)(stylus@0.64.0)(terser@5.36.0)(typescript@5.6.3)
+        specifier: 4.16.19
+        version: 4.16.19(@types/node@22.9.1)(rollup@4.27.3)(stylus@0.64.0)(terser@5.36.0)(typescript@5.6.3)
 
 packages:
 
@@ -2678,8 +2678,8 @@ packages:
   ast-types-flow@0.0.8:
     resolution: {integrity: sha512-OH/2E5Fg20h2aPrbe+QL8JZQFko0YZaF+j4mnQ7BGhfavO7OpSLa8a0y9sBwomHdSbkhTS8TQNayBfnW5DwbvQ==}
 
-  astro@4.16.18:
-    resolution: {integrity: sha512-G7zfwJt9BDHEZwlaLNvjbInIw2hPryyD654314KV/XT34pJU6SfN1S+mWa8RAkALcZNJnJXCJmT3JXLQStD3Lw==}
+  astro@4.16.19:
+    resolution: {integrity: sha512-baeSswPC5ZYvhGDoj25L2FuzKRWMgx105FetOPQVJFMCAp0o08OonYC7AhwsFdhvp7GapqjnC1Fe3lKb2lupYw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -7373,10 +7373,10 @@ snapshots:
       - supports-color
       - terser
 
-  '@astrojs/svelte@5.7.3(astro@4.16.18(@types/node@22.9.1)(rollup@4.27.3)(stylus@0.64.0)(terser@5.36.0)(typescript@5.6.3))(svelte@4.2.19)(typescript@5.6.3)(vite@5.4.11(@types/node@22.9.1)(stylus@0.64.0)(terser@5.36.0))':
+  '@astrojs/svelte@5.7.3(astro@4.16.19(@types/node@22.9.1)(rollup@4.27.3)(stylus@0.64.0)(terser@5.36.0)(typescript@5.6.3))(svelte@4.2.19)(typescript@5.6.3)(vite@5.4.11(@types/node@22.9.1)(stylus@0.64.0)(terser@5.36.0))':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 3.1.2(svelte@4.2.19)(vite@5.4.11(@types/node@22.9.1)(stylus@0.64.0)(terser@5.36.0))
-      astro: 4.16.18(@types/node@22.9.1)(rollup@4.27.3)(stylus@0.64.0)(terser@5.36.0)(typescript@5.6.3)
+      astro: 4.16.19(@types/node@22.9.1)(rollup@4.27.3)(stylus@0.64.0)(terser@5.36.0)(typescript@5.6.3)
       svelte: 4.2.19
       svelte2tsx: 0.7.26(svelte@4.2.19)(typescript@5.6.3)
       typescript: 5.6.3
@@ -10140,7 +10140,7 @@ snapshots:
 
   ast-types-flow@0.0.8: {}
 
-  astro@4.16.18(@types/node@22.9.1)(rollup@4.27.3)(stylus@0.64.0)(terser@5.36.0)(typescript@5.6.3):
+  astro@4.16.19(@types/node@22.9.1)(rollup@4.27.3)(stylus@0.64.0)(terser@5.36.0)(typescript@5.6.3):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
