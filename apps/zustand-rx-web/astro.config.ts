@@ -13,7 +13,7 @@ console.log(`root=${root}`);
 // https://astro.build/config
 export default defineConfig({
   // root,
-  site: 'https://zustand-rx.vercel.app/',
+  site: 'https://zustand-rx.pmil.workers.dev/',
   outDir: '../../dist/apps/zustand-rx-web',
   output: 'static',
   server: {
