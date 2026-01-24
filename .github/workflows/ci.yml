@@ -14,9 +14,6 @@ jobs:
         name: Checkout [main]
         with:
           fetch-depth: 0
-      - name:
-          Derive appropriate SHAs for base and head for `nx affected` commands
-        uses: nrwl/nx-set-shas@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -31,8 +28,8 @@ jobs:
       - uses: pnpm/action-setup@v4.0.0
         with:
           run_install: true
-      - run: pnpm nx affected --target=build
-      - run: pnpm nx affected --target=test
+      - run: pnpm build
+      - run: pnpm test
   pr:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'pull_request' }}
@@ -41,9 +38,6 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0
-      - name:
-          Derive appropriate SHAs for base and head for `nx affected` commands
-        uses: nrwl/nx-set-shas@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -58,5 +52,5 @@ jobs:
       - uses: pnpm/action-setup@v4.0.0
         with:
           run_install: true
-      - run: npx nx affected --target=build
-      - run: npx nx affected --target=test
+      - run: pnpm build
+      - run: pnpm test
