@@ -46,7 +46,7 @@
     "@babel/preset-react": "7.25.9",
     "@commitlint/cli": "19.6.0",
     "@commitlint/config-conventional": "19.6.0",
-    "@jscutlery/semver": "5.3.1",
+    "@jscutlery/semver": "6.1.2",
     "@pmmmwh/react-refresh-webpack-plugin": "0.5.15",
     "@svgr/webpack": "8.1.0",
     "@swc-node/register": "1.10.9",
