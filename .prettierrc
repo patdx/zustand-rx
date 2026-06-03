@@ -1,12 +1,4 @@
 {
   "singleQuote": true,
-  "proseWrap": "always",
-  "overrides": [
-    {
-      "files": ["project.json", "nx.json"],
-      "options": {
-        "parser": "json-stringify"
-      }
-    }
-  ]
+  "proseWrap": "always"
 }
