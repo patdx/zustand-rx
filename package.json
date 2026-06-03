@@ -97,7 +97,8 @@
     "vitest": "2.1.5",
     "webpack": "5.96.1",
     "webpack-merge": "6.0.1",
-    "wireit": "^0.14.9"
+    "wireit": "^0.14.9",
+    "wrangler": "4.97.0"
   },
   "lint-staged": {
     "*.{js,ts,md}": "prettier --write",

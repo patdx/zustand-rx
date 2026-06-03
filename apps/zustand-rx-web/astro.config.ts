@@ -1,8 +1,8 @@
 import { defineConfig } from 'astro/config';
-import { nxViteTsPaths } from '@nx/vite/plugins/nx-tsconfig-paths.plugin';
 import react from '@astrojs/react';
 import svelte from '@astrojs/svelte';
 import { fileURLToPath } from 'url';
+import viteTsconfigPaths from 'vite-tsconfig-paths';
 
 /// <reference types="vitest" />
 
@@ -23,7 +23,7 @@ export default defineConfig({
   cacheDir: '../../node_modules/.vite/zustand-rx-web',
   vite: {
     cacheDir: '../../node_modules/.vite/zustand-rx-web',
-    plugins: [nxViteTsPaths()],
+    plugins: [viteTsconfigPaths()],
   },
   // Uncomment this if you are using workers.
   // worker: {
