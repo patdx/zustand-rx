@@ -1,2 +1,16 @@
 packages:
   - 'apps/zustand-rx-web'
+
+strict-peer-dependencies: false
+save-prefix: ''
+
+overrides:
+  vite: "$vite"
+  wrangler: "4.96.0"
+  miniflare: "4.20260529.0"
+
+allowBuilds:
+  '@swc/core': true
+  esbuild: true
+  sharp: true
+  workerd: true

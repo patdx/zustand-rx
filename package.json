@@ -74,15 +74,7 @@
     "*.{js,ts,md}": "prettier --write",
     "package.json": "prettier-package-json --write"
   },
-  "packageManager": "pnpm@9.15.9+sha512.68046141893c66fad01c079231128e9afb89ef87e2691d69e4d40eee228988295fd4682181bae55b58418c3a253bde65a505ec7c5f9403ece5cc3cd37dcf2531",
-  "pnpm": {
-    "overrides": {
-      "vite": "$vite"
-    },
-    "onlyBuiltDependencies": [
-      "sharp"
-    ]
-  },
+  "packageManager": "pnpm@11.5.1+sha512.93f7b57422ea7068257235b4c16eb60762eb68e1dc23723199cc739043ea9be2c4143274a399d8c6defa2b1176226d9ca1c4b63482d6200c1a8fbaa78c1d1485",
   "wireit": {
     "build": {
       "command": "cd libs/zustand-rx && tsup && cd ../.. && pnpm shx cp libs/zustand-rx/README.md dist/libs/zustand-rx/README.md && pnpm shx cp libs/zustand-rx/package.json dist/libs/zustand-rx/package.json && pnpm attw --pack dist/libs/zustand-rx",
