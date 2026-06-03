@@ -8,13 +8,13 @@
     "type": "git",
     "url": "git+https://github.com/patdx/zustand-rx.git"
   },
+  "type": "module",
   "scripts": {
     "build": "wireit",
     "clean": "rm -rf node_modules && rm -rf dist && rm -rf apps/zustand-rx-web/node_modules && rm -rf apps/zustand-rx-web/dist",
     "cz": "cz",
     "dev": "wireit",
     "preinstall": "npx only-allow pnpm",
-    "postinstall": "node -e \"require('fs').writeFileSync('apps/zustand-rx-web/node_modules/.eslintrc.json', JSON.stringify({root:true}))\"",
     "lint": "wireit",
     "prepare": "husky",
     "preview": "wireit",
@@ -40,23 +40,17 @@
     "@babel/preset-react": "7.25.9",
     "@commitlint/cli": "19.6.0",
     "@commitlint/config-conventional": "19.6.0",
+    "@eslint/js": "10.0.1",
     "@testing-library/react": "15.0.7",
     "@types/node": "22.9.1",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
-    "@typescript-eslint/eslint-plugin": "8.15.0",
-    "@typescript-eslint/parser": "8.15.0",
     "@vitest/coverage-v8": "2.1.5",
     "@vitest/ui": "2.1.5",
     "astro": "4.16.19",
     "commitizen": "4.3.1",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "9.15.0",
-    "eslint-config-prettier": "10.1.1",
-    "eslint-plugin-import": "2.31.0",
-    "eslint-plugin-jsx-a11y": "6.10.2",
-    "eslint-plugin-react": "7.37.2",
-    "eslint-plugin-react-hooks": "5.0.0",
+    "eslint": "10.4.1",
     "husky": "9.1.7",
     "jsdom": "26.1.0",
     "lint-staged": "15.2.10",
@@ -69,6 +63,7 @@
     "typedoc": "0.26.11",
     "typedoc-plugin-markdown": "4.2.10",
     "typescript": "5.6.3",
+    "typescript-eslint": "8.60.1",
     "vite": "5.4.11",
     "vite-tsconfig-paths": "5.1.3",
     "vitest": "2.1.5",
@@ -116,11 +111,11 @@
       ]
     },
     "lint": {
-      "command": "ESLINT_USE_FLAT_CONFIG=false eslint --ignore-pattern \"public\" --ignore-pattern \"*.d.ts\" --ignore-pattern \"*.config.*\" \"libs/zustand-rx/src/**/*.ts\" \"apps/zustand-rx-web/**/*.{js,ts,jsx,tsx}\"",
+      "command": "eslint",
       "files": [
         "libs/zustand-rx/src/**",
         "apps/zustand-rx-web/**",
-        ".eslintrc.json"
+        "eslint.config.js"
       ]
     },
     "dev": {
