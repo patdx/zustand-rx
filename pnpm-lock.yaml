@@ -74,8 +74,14 @@ importers:
         specifier: 4.97.0
         version: 4.97.0
       zustand:
-        specifier: 4.5.7
-        version: 4.5.7(@types/react@19.2.16)(immer@10.1.1)(react@19.2.7)
+        specifier: 5.0.14
+        version: 5.0.14(@types/react@19.2.16)(immer@10.1.1)(react@19.2.7)(use-sync-external-store@1.2.2(react@19.2.7))
+      zustand3:
+        specifier: npm:zustand@3.7.2
+        version: zustand@3.7.2(react@19.2.7)
+      zustand4:
+        specifier: npm:zustand@4.5.7
+        version: zustand@4.5.7(@types/react@19.2.16)(immer@10.1.1)(react@19.2.7)
 
   apps/zustand-rx-web:
     dependencies:
@@ -3574,6 +3580,15 @@ packages:
   zod@4.4.3:
     resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
 
+  zustand@3.7.2:
+    resolution: {integrity: sha512-PIJDIZKtokhof+9+60cpockVOq05sJzHCriyvaLBmEJixseQ1a5Kdov6fWZfWOu5SK9c+FhH1jU0tntLxRJYMA==}
+    engines: {node: '>=12.7.0'}
+    peerDependencies:
+      react: '>=16.8'
+    peerDependenciesMeta:
+      react:
+        optional: true
+
   zustand@4.5.7:
     resolution: {integrity: sha512-CHOUy7mu3lbD6o6LJLfllpjkzhHXSBlX8B9+qPddUsIfeF5S/UZ5q0kmCsnRqT1UHFQZchNFDDzMbQsuesHWlw==}
     engines: {node: '>=12.7.0'}
@@ -3587,6 +3602,24 @@ packages:
       immer:
         optional: true
       react:
+        optional: true
+
+  zustand@5.0.14:
+    resolution: {integrity: sha512-/8tAspM5LMPr28b3fwLYrtdj77ECpfZviaP75CMTnwO8ISyaE4GDIG/9rDDYq/cH9D2Xw2A2RXglLInmVBQB/g==}
+    engines: {node: '>=12.20.0'}
+    peerDependencies:
+      '@types/react': '>=18.0.0'
+      immer: '>=9.0.6'
+      react: '>=18.0.0'
+      use-sync-external-store: '>=1.2.0'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      immer:
+        optional: true
+      react:
+        optional: true
+      use-sync-external-store:
         optional: true
 
   zwitch@2.0.4:
@@ -7288,6 +7321,10 @@ snapshots:
 
   zod@4.4.3: {}
 
+  zustand@3.7.2(react@19.2.7):
+    optionalDependencies:
+      react: 19.2.7
+
   zustand@4.5.7(@types/react@19.2.16)(immer@10.1.1)(react@19.2.7):
     dependencies:
       use-sync-external-store: 1.2.2(react@19.2.7)
@@ -7295,5 +7332,12 @@ snapshots:
       '@types/react': 19.2.16
       immer: 10.1.1
       react: 19.2.7
+
+  zustand@5.0.14(@types/react@19.2.16)(immer@10.1.1)(react@19.2.7)(use-sync-external-store@1.2.2(react@19.2.7)):
+    optionalDependencies:
+      '@types/react': 19.2.16
+      immer: 10.1.1
+      react: 19.2.7
+      use-sync-external-store: 1.2.2(react@19.2.7)
 
   zwitch@2.0.4: {}

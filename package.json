@@ -41,7 +41,9 @@
     "vitest": "4.1.8",
     "wireit": "^0.14.12",
     "wrangler": "4.97.0",
-    "zustand": "4.5.7"
+    "zustand": "5.0.14",
+    "zustand3": "npm:zustand@3.7.2",
+    "zustand4": "npm:zustand@4.5.7"
   },
   "lint-staged": {
     "*.{js,ts,md}": "prettier --write",
