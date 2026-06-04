@@ -1,4 +1,9 @@
-import { unescape } from 'html-escaper';
+// inline unescape — replaces html-escaper dependency
+const unescape = (text: string): string => {
+  const el = document.createElement('div');
+  el.innerHTML = text;
+  return el.textContent ?? '';
+};
 import type { MarkdownHeading } from 'astro';
 import type { FC } from 'react';
 import { useState, useEffect, useRef } from 'react';

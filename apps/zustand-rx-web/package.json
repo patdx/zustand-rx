@@ -14,9 +14,14 @@
   "dependencies": {
     "@astrojs/react": "5.0.7",
     "@astrojs/svelte": "8.1.2",
+    "observable-hooks": "4.2.4",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
     "svelte": "5.56.1"
   },
   "devDependencies": {
+    "@types/react": "19.2.16",
+    "@types/react-dom": "19.2.3",
     "astro": "6.4.4"
   }
 }
