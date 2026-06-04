@@ -18,7 +18,8 @@
       "zustand-rx": ["libs/zustand-rx/src/index.ts"]
     },
     "strict": true,
-    "verbatimModuleSyntax": true
+    "verbatimModuleSyntax": true,
+    "ignoreDeprecations": "6.0"
   },
   "exclude": ["node_modules", "tmp"]
 }

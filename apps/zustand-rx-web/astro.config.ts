@@ -2,7 +2,6 @@ import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import svelte from '@astrojs/svelte';
 import { fileURLToPath } from 'url';
-import viteTsconfigPaths from 'vite-tsconfig-paths';
 
 /// <reference types="vitest" />
 
@@ -23,7 +22,9 @@ export default defineConfig({
   cacheDir: '../../node_modules/.vite/zustand-rx-web',
   vite: {
     cacheDir: '../../node_modules/.vite/zustand-rx-web',
-    plugins: [viteTsconfigPaths()],
+    resolve: {
+      tsconfigPaths: '../../tsconfig.base.json',
+    },
   },
   // Uncomment this if you are using workers.
   // worker: {

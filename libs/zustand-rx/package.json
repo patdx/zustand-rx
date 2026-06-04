@@ -17,11 +17,11 @@
     }
   },
   "main": "./index.cjs",
+  "module": "./index.js",
   "sideEffects": false,
   "peerDependencies": {
     "rxjs": "*",
     "zustand": "*"
   },
-  "devDependencies": {},
-  "modle": "./index.js"
+  "devDependencies": {}
 }

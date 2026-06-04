@@ -11,7 +11,7 @@
   }
 </style>
 
-<button class="button" on:click={increment}>
+<button class="button" onclick={increment}>
   Increase
 </button>
 

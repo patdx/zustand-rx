@@ -12,11 +12,11 @@
     "typedoc": "typedoc --plugin typedoc-plugin-markdown --entryDocument introduction.md"
   },
   "dependencies": {
-    "@astrojs/react": "3.6.3",
-    "@astrojs/svelte": "5.7.3",
-    "svelte": "4.2.20"
+    "@astrojs/react": "5.0.7",
+    "@astrojs/svelte": "8.1.2",
+    "svelte": "5.56.1"
   },
   "devDependencies": {
-    "astro": "4.16.19"
+    "astro": "6.4.4"
   }
 }
