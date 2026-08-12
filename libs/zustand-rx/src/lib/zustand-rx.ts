@@ -33,11 +33,14 @@ export const toStream = <
   } = {},
 ): Observable<TSlice> => {
   const state$ = new Observable<TState>((subscriber) => {
+    // Subscribe before reading the initial state. Consumers can synchronously
+    // update the store from their `next` handler; attaching the listener first
+    // ensures that reentrant update is not lost.
+    const unsubscribe = store.subscribe((state) => subscriber.next(state));
     if (fireImmediately) {
       subscriber.next(store.getState());
     }
-    const unsubscribe = store.subscribe((state) => subscriber.next(state));
-    return () => unsubscribe();
+    return unsubscribe;
   });
 
   const mapped$: Observable<TSlice> = selector
