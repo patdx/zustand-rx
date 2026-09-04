@@ -6,7 +6,7 @@ save-prefix: ''
 
 overrides:
   vite: "$vite"
-  wrangler: "4.97.0"
+  wrangler: "4.129.0"
   miniflare: "4.20260601.0"
 
 allowBuilds:
