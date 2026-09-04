@@ -40,7 +40,7 @@
     "vite": "7.3.5",
     "vitest": "4.1.8",
     "wireit": "^0.14.12",
-    "wrangler": "4.97.0",
+    "wrangler": "4.129.0",
     "zustand": "4.5.7"
   },
   "lint-staged": {
