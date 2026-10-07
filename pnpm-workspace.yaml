@@ -7,7 +7,7 @@ save-prefix: ''
 overrides:
   vite: "$vite"
   wrangler: "4.97.0"
-  miniflare: "4.20260601.0"
+  miniflare: "4.20260730.0"
 
 allowBuilds:
   '@swc/core': true
